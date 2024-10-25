@@ -47,15 +47,15 @@ const SliderOne = () => {
                                     <div className="text-content flex-columns-between">
                                         <div className="heading2">
                                             <div className="relative overflow-hidden">
-                                                <span className="block relative overflow-hidden">Reliable Financial and</span>
-                                                <span className="block absolute top-0 left-0 w-full h-full">Reliable Financial and</span>
+                                                <span className="block relative overflow-hidden text-[#fff]">Reliable Financial and</span>
+                                                <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">Reliable Financial and</span>
                                             </div>
                                             <div className="relative overflow-hidden">
-                                                <span className="block relative overflow-hidden">Accounting Services </span>
-                                                <span className="block absolute top-0 left-0 w-full h-full">Accounting Services </span>
+                                                <span className="block relative overflow-hidden text-[#fff]">Accounting Services </span>
+                                                <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">Accounting Services </span>
                                             </div>
                                             <div className="relative overflow-hidden">
-                                                <span className=" text-blue block relative overflow-hidden">in India</span>
+                                                <span className=" text-blue block relative overflow-hidden ">in India</span>
                                                 <span className=" text-blue block absolute top-0 left-0 w-full h-full">in India</span>
                                             </div>
                                         </div>
@@ -82,12 +82,12 @@ const SliderOne = () => {
                                     <div className="text-content flex-columns-between">
                                         <div className="heading2">
                                             <div className="relative overflow-hidden">
-                                                <span className="block relative overflow-hidden">India’s IT-Enabled Accounting</span>
-                                                <span className="block absolute top-0 left-0 w-full h-full">India’s IT-Enabled Accounting</span>
+                                                <span className="block relative overflow-hidden text-[#fff]">India’s IT-Enabled Accounting</span>
+                                                <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">India’s IT-Enabled Accounting</span>
                                             </div>
                                             <div className="relative overflow-hidden">
-                                                <span className="block relative overflow-hidden">Bookkeeping, Taxation, </span>
-                                                <span className="block absolute top-0 left-0 w-full h-full">Bookkeeping, Taxation, </span>
+                                                <span className="block relative overflow-hidden text-[#fff]">Bookkeeping, Taxation, </span>
+                                                <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">Bookkeeping, Taxation, </span>
                                             </div>
                                             <div className="relative overflow-hidden">
                                                 <span className=" text-blue block relative overflow-hidden">& Advisory Services! </span>

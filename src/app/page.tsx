@@ -10,6 +10,7 @@ import FaqsOne from "@/components/Section/FAQs/FaqsOne";
 import FormRequestOne from "@/components/Section/FormRequest/FormRequestOne";
 import blogData from '@/data/blog.json'
 import BlogOne from "@/components/Section/Blog/BlogOne";
+import ServiceTwo from "@/components/Section/Service/ServiceTwo";
 import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import Footer from "@/components/Footer/Footer";
 
@@ -25,11 +26,12 @@ export default function Home() {
           <SliderOne />
           <ServiceOne data={serviceData} />
           <PaymentGatewayOneFirst />
-          <CaseStudyOne />
+          {/* <CaseStudyOne /> */}
           <PaymentGatewayOneSecond />
+          <ServiceTwo data={serviceData} />
           <FaqsOne />
-          <FormRequestOne />
-          <BlogOne data={blogData} />
+          {/* <FormRequestOne /> */}
+          {/* <BlogOne data={blogData} /> */}
           <PartnerOne classname='bg-blue lg:mt-[100px] sm:mt-16 mt-10' />
         </main>
         <footer id="footer">

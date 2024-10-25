@@ -13,13 +13,72 @@ const ServiceTwo: React.FC<Props> = ({ data }) => {
                 <div className="container xl:flex items-center justify-center">
                     <div className="xl:w-1/3 w-full flex flex-col gap-4 flex-shrink-0">
                         <div className="text-sub-heading2 text-blue">Services</div>
-                        <h3 className="heading3">A highly trusted wealth management firm</h3>
-                        <div className="body3 text-secondary">We specialize in providing asset management services and solutions for individuals and organizations.</div>
+                        <h3 className="heading3 text-[30px]">Your Reliable Finance and Accounting Services Partner in Indian</h3>
+                        <div className="body3 text-secondary">Accounting and financial reporting are challenging tasks for any business or individual dealing high volume transactionss.</div>
                     </div>
-                    <div className="w-full xl:pl-[72px] list-service grid lg:grid-cols-2 sm:grid-cols-2 gap-8 max-xl:mt-8">
-                        {data.filter(item => item.category === 'financial planning').slice(0, 4).map((item, index) => (
-                            <ServiceItem data={item} style='style-two' number={index} key={index} />
-                        ))}
+                    <div className="w-full xl:pl-[72px] list-service grid lg:grid-cols-4 grid-flow-row grid-cols-1 gap-8 max-xl:mt-8">
+                        <div className='border-[2px] flex justify-start px-5 py-5 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            1
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            2
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5 transition-shadow duration-150 hover:shadow-md border-[#e0e0e0]'>
+                            1
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5   transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            2
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            1
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5   transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            2
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5  transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            1
+                        </div>
+                        <div className='border-[2px] flex justify-start px-5 py-5   transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0]'>
+                            2
+                        </div>
+                        {/* <div className='flex justify-center items-center gap-10 mr-10'>
+                            <div className='flex justify-center items-center gap-10 lg:flex-col'>
+                                <div className='border-[2px] flex justify-center items-center w-[200px] transition-shadow duration-150 hover:shadow-md h-[150px] border-[#e0e0e0]'>
+                                    1
+                                </div>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    2
+                                </div>
+                            </div>
+                            <div className='flex justify-center items-center gap-10 flex-col'>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    3
+                                </div>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    4
+                                </div>
+                            </div>
+
+                        </div> */}
+                        {/* <div className='flex justify-center items-center gap-10'>
+                            <div className='flex justify-center items-center gap-10 flex-col'>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    1
+                                </div>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    2
+                                </div>
+                            </div>
+                            <div className='flex justify-center items-center gap-10 flex-col'>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    3
+                                </div>
+                                <div className='border-[1px] w-[200px] h-[150px] border-[#b5b5b5]'>
+                                    4
+                                </div>
+                            </div>
+
+                        </div> */}
                     </div>
                 </div>
             </section>

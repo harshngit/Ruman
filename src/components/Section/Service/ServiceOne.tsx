@@ -18,7 +18,8 @@ const ServiceOne: React.FC<Props> = ({ data }) => {
         <>
             <section className="service-block lg:mt-[100px] sm:mt-16 mt-10" ref={ref}>
                 <div className="container">
-                    <h3 className="heading3 text-center">Our Services</h3>
+                    <h3 className="heading3 text-center">Accounting, Tax & Advisory Services - Financial Accounting Firm in India</h3>
+                    <p className='text-center text-[#9a9999]'>Ruman Accounting Services LLP, a Mumbai-based firm, provides customized online and offline accounting solutions through a network of experienced professionals with expertise in accounting trends, tax regulations, and technology.</p>
                     <div
                         className="list-service grid lg:grid-cols-3 sm:grid-cols-2 gap-8 md:mt-10 mt-6 gap-y-10"
                         style={{
