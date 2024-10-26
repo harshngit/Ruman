@@ -80,7 +80,7 @@ const ServiceTwo: React.FC<Props> = ({ data }) => {
                                 <div className='border-[2px] lg:w-[330px] w-[280px] lg:h-[240px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
                                     <GiReceiveMoney className='text-6xl text-blue' />
                                     <h4 className='text-[20px] font-semibold mt-2 '>Internal, Statutory & Income Tax Audit </h4>
-                                    <p className='text-secondary text-[10px] mt-1'>Choose us for Internal, Statutory, and Income Tax Audits to ensure accuracy, compliance, and insightful financial guidance tailored to strengthen your business’s financial integrity.</p>
+                                    <p className='text-secondary text-[10px] mt-1'>Choose us for Internal, Statutory, and Income Tax Audits to ensure accuracy, compliance, and insightful financial guidance tailored to strengthen your business's financial integrity.</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
