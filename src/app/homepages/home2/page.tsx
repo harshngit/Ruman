@@ -29,7 +29,7 @@ export default function HomeTwo() {
                     <AboutTwo />
                     <CounterTwo classname='lg:py-10 py-7 border-t border-line' />
                     <ProjectTwo />
-                    <ServiceTwo data={serviceData} />
+                    <ServiceTwo />
                     <TestimonialTwo />
                     <FormRequestTwo classname="style-two" bgImg="/images/banner/form-benefit-two.png" />
                     <BlogOne data={blogData} />
