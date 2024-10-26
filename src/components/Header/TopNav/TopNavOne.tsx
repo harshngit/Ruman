@@ -11,11 +11,11 @@ const TopNavOne = () => {
                     <div className="left-block flex items-center">
                         <div className="location flex items-center max-lg:hidden">
                             <Icon.MapPin className="text-white text-xl" />
-                            <span className="ml-2 caption1 text-white">160 Broadway 15th floor, New York</span>
+                            <span className="ml-2 caption1 text-white">301, SHANTADEEP CHS LTD., CTS NO.264, Ville Parle (E), Mumbai-57</span>
                         </div>
                         <div className="mail lg:ml-7 flex items-center">
                             <Icon.Envelope className="text-white text-xl" />
-                            <span className="ml-2 caption1 text-white">hi.avitex@gmail.com</span>
+                            <span className="ml-2 caption1 text-white">info@rumanaccountingservices.com</span>
                         </div>
                     </div>
                     <div className="right-block flex items-center gap-5">

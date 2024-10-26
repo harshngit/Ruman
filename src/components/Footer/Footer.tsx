@@ -37,13 +37,13 @@ const Footer = () => {
                                 <div className="footer-nav-item">
                                     <div className="item-heading text-button-sm text-white">Quick Links</div>
                                     <ul className="list-nav mt-1">
-                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/about/about-one">About us</Link></li>
-                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/service/service-one">Services</Link></li>
-                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/case-studies/case-studies-one">Case Studies</Link></li>
-                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/contact/contact-two">Contact</Link></li>
+                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/about">About us</Link></li>
+                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/service">Services</Link></li>
+                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/contact">Contact</Link></li>
+                                        <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/career">Career</Link></li>
                                     </ul>
                                 </div>
-                                <div className="footer-nav-item max-sm:hidden">
+                                {/* <div className="footer-nav-item max-sm:hidden">
                                     <div className="item-heading text-button-sm text-white">Pages</div>
                                     <ul className="list-nav mt-1">
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/pages/faqs">FAQs</Link></li>
@@ -51,8 +51,8 @@ const Footer = () => {
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/pages/partners">Partners</Link></li>
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/contact/contact-two">Support Center</Link></li>
                                     </ul>
-                                </div>
-                                <div className="footer-nav-item">
+                                </div> */}
+                                {/* <div className="footer-nav-item">
                                     <div className="item-heading text-button-sm text-white">Blog</div>
                                     <ul className="list-nav mt-1">
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/blog/blog-list-one">Blog List</Link></li>
@@ -60,7 +60,7 @@ const Footer = () => {
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/blog/blog-masonry">Masonry</Link></li>
                                         <li className="mt-3"><Link className="caption1 has-line-before line-white text-surface hover-underline" href="/blog/blog-detail-one">Blog Detail</Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="lg:w-1/4">
@@ -79,8 +79,8 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="locate mt-3 flex items-center">
-                                    <Icon.MapPin weight="light" className="text-surface" />
-                                    <div className="caption1 text-surface ml-2">101 E 129th St, East Chicago, IN 46312, US</div>
+                                    <Icon.MapPin weight="light" className="text-surface text-6xl" />
+                                    <div className="caption1 text-surface ml-2">301, SHANTADEEP CHS LTD., CTS NO.264, Ville Parle (E), Mumbai-57</div>
                                 </div>
                                 <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
                                     <input className="caption1 text-secondary h-full w-full pr-4 pl-3" type="text" placeholder="Your email address" required />
@@ -92,17 +92,11 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="border-line"></div>
-                    <div className="footer-bottom flex items-center justify-between pt-3 pb-3">
+                    <div className="footer-bottom bg-[] flex items-center justify-between pt-3 pb-3">
                         <div className="left-block flex items-center">
-                            <div className="copy-right text-surface caption1">©2023 Finatex. All Rights Reserved.</div>
+                            <div className="copy-right text-surface caption1">©2024 Ruman. All Rights Reserved.</div>
                         </div>
-                        <div className="nav-link flex items-center gap-2.5">
-                            <a className="text-surface caption1 hover-underline" href="#!">Terms Of Services</a>
-                            <span className="text-surface caption1">|</span>
-                            <a className="text-surface caption1 hover-underline" href="#!">Privacy Policy</a>
-                            <span className="text-surface caption1">|</span>
-                            <a className="text-surface caption1 hover-underline" href="#!">Cookie Policy</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
