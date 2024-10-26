@@ -28,7 +28,7 @@ export default function Home() {
           <PaymentGatewayOneFirst />
           {/* <CaseStudyOne /> */}
           <PaymentGatewayOneSecond />
-          <ServiceTwo data={serviceData} />
+          <ServiceTwo />
           <FaqsOne />
           {/* <FormRequestOne /> */}
           {/* <BlogOne data={blogData} /> */}

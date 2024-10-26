@@ -17,11 +17,9 @@ import { RiSpeakLine } from "react-icons/ri";
 import { FaShoppingCart } from "react-icons/fa";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { CiShop } from 'react-icons/ci'
-interface Props {
-    data: Array<ServiceType>
-}
 
-const ServiceTwo: React.FC<Props> = ({ data }) => {
+
+const ServiceTwo = () => {
     return (
         <>
             <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 bg-[#9ac6ff] p-5">
