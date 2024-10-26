@@ -26,7 +26,7 @@ const PaymentGatewayOneFirst = () => {
                     >
                         <div className="heading flex items-center gap-4 max-lg:flex-wrap">
 
-                            <div className="text-button text-secondary">About Us
+                            <div className="text-button text-secondary text-2xl">About Us
                             </div>
                         </div>
                         <div className="text lg:mt-5 mt-5">
