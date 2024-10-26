@@ -22,7 +22,7 @@ import { CiShop } from 'react-icons/ci'
 const ServiceTwo = () => {
     return (
         <>
-            <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 bg-[#9ac6ff] p-5">
+            {/* <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 bg-[#9ac6ff] p-5">
                 <div className=" xl:flex flex-col items-center justify-center">
                     <div className="w-full flex justify-center items-center mb-5 flex-col gap-4 flex-shrink-0">
                         <div className="text-sub-heading2 text-blue">Why to Chose Us </div>
@@ -133,7 +133,61 @@ const ServiceTwo = () => {
                     </div>
 
                 </div>
+            </section> */}
+            <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 bg-[#9ac6ff] p-5">
+                <div className="container xl:flex items-center justify-center">
+                    <div className="xl:w-1/3 w-full flex flex-col gap-4 flex-shrink-0">
+                        <div className="text-sub-heading2 lg:text-left text-center text-blue">Why to Chose Us </div>
+                        <h3 className="heading3 text-[30px] lg:text-left text-center  text-white leading-8">Your Reliable Finance and Accounting Services Partner in Indian</h3>
+                        <div className="body3 lg:text-left text-center  text-black">Accounting and financial reporting are challenging tasks for any business or individual dealing high volume transactionss.</div>
+                    </div>
+                    <div className="w-full lg:p-5 list-service grid grid-flow-row lg:grid-cols-4 grid-cols-1 gap-3 max-xl:mt-8">
+                        <div className='border-[2px]  rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <FaShoppingCart className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>E-commerce accounting</h4>
+                            <p className='text-secondary text-[10px] mt-1'>E-commerce accounting manages financial transactions, taxes, and inventory for online businesses, ensuring accurate reporting and compliance across digital sales channels.</p>
+                        </div>
+                        <div className='border-[2px]  rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <GiReceiveMoney className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>Internal, Statutory & Income Tax Audit </h4>
+                            <p className='text-secondary text-[10px] mt-1'>Choose us for Internal, Statutory, and Income Tax Audits to ensure accuracy, compliance, and insightful financial guidance tailored to strengthen your business&apos;s financial integrity.</p>
+                        </div>
+                        <div className='border-[2px]  rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <MdOutlineSecurity className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>Company Secretarial Services</h4>
+                            <p className='text-secondary text-[10px] mt-1'>End to End Services from Company formation to filing of returns by professional & well experienced Company Secretary</p>
+                        </div>
+                        <div className='border-[2px]  rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-lg   border-[#e0e0e0] bg-[#fff]'>
+                            <FaTrademark className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>Trade mark & Pattern registration</h4>
+                            <p className='text-secondary text-[10px] mt-1'>Secure your brand with our expert trademark and patent registration services, ensuring legal protection and exclusive rights for your business innovations.</p>
+                        </div>
+                        <div className='border-[2px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <CiShop className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>PF, ESIC & Shop & Establishment </h4>
+                            <p className='text-secondary text-[10px] mt-1'>We offer comprehensive services for PF, ESIC, and Shop & Establishment registration, ensuring your business complies with essential labor and regulatory standards.</p>
+                        </div>
+                        <div className='border-[2px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <SiAccusoft className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>HR Management Software </h4>
+                            <p className='text-secondary text-[10px] mt-1'>Streamline your operations with our HR management software, designed to simplify payroll, attendance, compliance, and employee management.</p>
+                        </div>
+                        <div className='border-[2px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <GiTakeMyMoney className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>Investment Advisory</h4>
+                            <p className='text-secondary text-[10px] mt-1'>
+                                Get expert guidance with our investment advisory services, tailored to help you achieve your financial goals and optimize your portfolio.</p>
+                        </div>
+                        <div className='border-[2px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
+                            <RiSpeakLine className='text-6xl text-blue' />
+                            <h4 className='text-[15px] font-semibold mt-2 leading-6 '>Financing – Advisory & Availment</h4>
+                            <p className='text-secondary text-[10px] mt-1'>Our financing services provide expert advisory and assistance in securing funding, tailored to meet your busines&apos;s unique financial needs.</p>
+                        </div>
+                    </div>
+
+                </div>
             </section>
+
         </>
     )
 }

@@ -13,7 +13,7 @@ const FaqsOne = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="payment-gateway-one style-second lg:mt-[100px] sm:mt-16 mt-10 " ref={ref}>
+    <section className="payment-gateway-one style-second lg:mt-[100px] sm:mt-16 mt-10 mb-10 " ref={ref}>
       <div className="container">
         <div className="content flex items-center gap-8">
           <div className="w-full xl:w-5/12 flex flex-col gap-y-6">
