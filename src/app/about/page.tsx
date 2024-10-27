@@ -23,7 +23,7 @@ export default function AboutStyleOne() {
           <MenuOne />
         </header>
         <main className="content">
-          <BreadcrumbItem link="About Us" img="/images/banner/AboutBanner.png" title="About Us" desc="Ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
+          <BreadcrumbItem link="About Us" img="/images/banner/AboutBanner.png" title="About Us" desc="ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
           <AboutTwo />
           <CounterTwo classname="lg:pb-[100px] sm:pb-16 pb-10" />
           <ServiceAboutOne data={serviceData} />
