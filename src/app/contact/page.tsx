@@ -16,7 +16,7 @@ export default function ContactStyleOne() {
         <main className="content">
           <BreadcrumbItem
             link="Contact us"
-            img="/images/banner/about1.png"
+            img="/images/banner/ContactBanner.png"
             title="Contact us"
             desc="Explore our Contact Us page for prompt assistance from our dedicated team."
           />

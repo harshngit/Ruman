@@ -15,10 +15,10 @@ export default function ContactStyleTwo() {
         </header>
         <main className="content">
           <BreadcrumbItem
-            link="Contact us"
-            img="/images/banner/about1.png"
-            title="Contact us"
-            desc="Explore our Contact Us page for prompt assistance from our dedicated team."
+            link="Career"
+            img="/images/banner/CareerBanner.png"
+            title="Career"
+            desc="Join our team at Ruman Accounting Services LLP and be part of a dynamic, innovative environment where experienced professionals and aspiring talent come together to shape the future of accounting and financial services"
           />
           <div className="form-contact style-one lg:py-[100px] sm:py-16 py-10">
             <div className="container flex max-xl:flex-col xl:items-center justify-between gap-y-8">

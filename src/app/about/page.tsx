@@ -9,6 +9,10 @@ import OurTeam from "@/components/Section/OurTeam/OurTeam"
 import PartnerAbout from "@/components/Section/Partner/PartnerAbout"
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
+import FormRequestFour from "@/components/Section/FormRequest/FormRequestFour"
+import FormRequestTwo from "@/components/Section/FormRequest/FormRequestTwo"
+import FaqsOne from "@/components/Section/FAQs/FaqsOne"
+import ServiceTwo from "@/components/Section/Service/ServiceTwo"
 
 export default function AboutStyleOne() {
   return (
@@ -19,13 +23,13 @@ export default function AboutStyleOne() {
           <MenuOne />
         </header>
         <main className="content">
-          <BreadcrumbItem link="About Us" img="/images/banner/about1.png" title="About Us" desc="We perform a full analysis of the client’s website and collect information about all the competitors to formulate a proper strategy." />
+          <BreadcrumbItem link="About Us" img="/images/banner/AboutBanner.png" title="About Us" desc="Ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
           <AboutTwo />
           <CounterTwo classname="lg:pb-[100px] sm:pb-16 pb-10" />
           <ServiceAboutOne data={serviceData} />
-          <OurTeam />
-          <PartnerAbout />
-          <CtaOne />
+          <FormRequestTwo classname="style-two style-about" bgImg="/images/banner/form.png" />
+          <FaqsOne />
+          <ServiceTwo />
         </main>
         <footer id="footer">
           <Footer />
