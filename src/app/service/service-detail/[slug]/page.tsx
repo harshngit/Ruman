@@ -46,7 +46,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                         <div className="list-feature mt-8">
                                             <div className="flex flex-col gap-y-3">
                                                 {foundPost?.points?.map((item, index) => (
-                                                    <div className="w-full flex flex-col ">
+                                                    <div key={index} className="w-full flex flex-col ">
                                                         <div key={index} className="item flex items-center gap-4">
                                                             <Icon.CheckCircle weight="fill" className="text-xl text-blue flex-shrink-0" />
                                                             <div className="text-button">{item}</div>
@@ -59,7 +59,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                             </div>
                                         </div>
                                         <div className="bg-img mt-8 mb-8">
-                                            <img width={5000} height={5000} className="w-full h-full rounded-xl" src={foundPost?.serviceimg} alt="" />
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={foundPost?.serviceimg} alt="" />
                                         </div>
 
                                         {/* <div className="list-question lg:mt-[60px] mt-8">
@@ -91,8 +91,8 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                         <div className="heading6">The best our Services</div>
                                         <div className="body3 text-secondary mt-2">Whether you have a team of 2 or 200, our shared team inboxes </div>
                                         {
-                                            serviceData?.map((item) => (
-                                                <div className="list-nav mt-1">
+                                            serviceData?.map((item, index) => (
+                                                <div key={index} className="list-nav mt-1">
                                                     <Link className="nav-item rounded-lg "
                                                         href={"/service/service-detail/[slug]"}
                                                         as={`/service/service-detail/${item.title.toLowerCase().replace(/ /g, '-')}`}
