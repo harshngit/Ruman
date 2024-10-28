@@ -1,11 +1,42 @@
+"use client"
+
 import TopNavOne from "@/components/Header/TopNav/TopNavOne";
 import MenuOne from "@/components/Header/Menu/MenuOne";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Footer from "@/components/Footer/Footer";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import { useState } from "react";
+import { client } from "@/client";
+import { useRouter } from "next/router";
 
 export default function ContactStyleOne() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [subject, setSubject] = useState('');
+  // const router = useRouter();
+
+  const sendMessage = async () => {
+    const doc = {
+      _type: "contact",
+      name: name,
+      email: email,
+      message: message,
+      subject: subject,
+    };
+
+    try {
+      await client.create(doc);
+      alert("Message Sent");
+      // router.push('/');
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("Failed to send message. Please try again.");
+    }
+  };
+
+
   return (
     <>
       <div className="overflow-x-hidden">
@@ -133,55 +164,54 @@ export default function ContactStyleOne() {
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="text"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
                           placeholder="Name"
+                          name="name"
                           required
+                          id="name"
                         />
                       </div>
                       <div className="w-full">
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="text"
+                          value={subject}
+                          onChange={(e) => setSubject(e.target.value)}
                           placeholder="Subject"
+                          name="subject"
                           required
+                          id="subject"
                         />
                       </div>
                       <div className="col-span-2">
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="text"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
                           placeholder="Email"
+                          name="email"
+                          id="email"
                           required
                         />
                       </div>
-                      <div className="col-span-2">
-                        <select
-                          className="w-full bg-surface text-secondary caption1 pl-3 py-3 rounded-lg"
-                          name="form"
-                        >
-                          <option value="Financial Planning">
-                            Financial Planning
-                          </option>
-                          <option value="Business Planning">
-                            Business Planning
-                          </option>
-                          <option value="Development Planning">
-                            Development Planning
-                          </option>
-                        </select>
-                        <i className="ph ph-caret-down"></i>
-                      </div>
+
                       <div className="col-span-2 w-full">
                         <textarea
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           name="message"
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
                           rows={4}
+                          id="message"
                           placeholder="Your Message"
                           required
                         ></textarea>
                       </div>
                     </div>
                     <div className="button-block">
-                      <button className="button-main hover:border-blue bg-blue text-white text-button rounded-full">
+                      <button onSubmit={sendMessage} className="button-main hover:border-blue bg-blue text-white text-button rounded-full">
                         Submit request
                       </button>
                     </div>
@@ -190,7 +220,7 @@ export default function ContactStyleOne() {
               </div>
             </div>
           </div>
-          <CtaOne />
+          {/* <CtaOne /> */}
         </main>
         <footer id="footer">
           <Footer />
