@@ -1,37 +1,85 @@
 [
     {
+        "serviceimg": "/images/component/serviceimg1.png",
+        "banner": "service1.png",
         "icon": "icon-books",
         "category": "payment solution",
-        "title": "At site & Online accounting & Book Keeping",
+        "title": "Online accounting and Book Keeping",
         "desc": "Find the experts to outsource your accounting and bookkeeping services in India and save time & cost.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "shortDesc": "Get personalized financial advice to help reach your financial goals.",
+        "Description": "Find the experts to outsource your accounting and bookkeeping services in India and save time & cost. We help you streamline your accounting processes and get precise reports on bookkeeping, tax returns, and MIS applying our vast experience and current accounting technology solutions.",
+        "points": [
+            "We facilitate our accountant’s visit your office, ",
+            "Recruit experienced and skilled personal/corporate accountants to manage A to Z accounting tasks.",
+            "Track your assets periodically and estimate their value at various stages of development and production to plan your budget from a precise inventory report of financial position.",
+            "Manage accounting and bookkeeping services for all the branches of your organization individually and merge branch accounts with the firm’s HO account.",
+            "Generate accurate GST, TDS, Income Tax & import purchase accounting reports to stay in compliance with the Tax Authorities of INDIA.  ",
+            "Migrate accounting & bookkeeping processes from one digital platform to another without disrupting the workflow."
+        ]
     },
     {
+        "serviceimg": "/images/component/serviceimg2.png",
+        "banner": "service2.png",
         "icon": "icon-hand-tick",
         "category": "payment solution",
         "title": "Accounting for Start-ups",
         "desc": "A team of professionals offers ready-to-go startup kits covering essential accounting, tax compliance, government initiatives, HR, and company secretarial guidance.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "shortDesc": "Get personalized financial advice to help reach your financial goals.",
+        "Description": "Team of professionals have specially designed ready to go start up kits of accounting & tax compliances with complete guideline on most required information for accounting, tax compliances, various government initiatives & schemes for start-ups, HR & company secretarial matters.",
+        "points": [
+            "We provide detailed information on accounting process, data & documents that will be required for maintaining a complete set of accounts.",
+            "Experts in field of accounting software will be training to staff for Accounting Software – Tally, Marg, Busy, Quickbook, Zoho, Etc.",
+            "A complete plan of action for & strategy for setting up compnay in India by a foreign national or entrepreneurs.",
+            "Our team of professional would provide end to end consultation on expansion, new verticals, upcountry business & joint ventures.",
+            "Group of advisors would provide most reliable & trusted advise on banking, investment, expansion, bank loans & renewals, new business ventures etc."
+        ]
     },
     {
+        "serviceimg": "/images/component/serviceimg3.png",
+        "banner": "service3.png",
         "icon": "icon-hand-house",
         "category": "payment solution",
         "title": "Implementation of Accounting System ",
         "desc": "Our experienced professionals specialize in implementing complex accounting, inventory, and MIS processes across diverse software platforms and industries throughout India.",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "shortDesc": "Get personalized financial advice to help reach your financial goals.",
+        "Description": "We have professionals having years of hardcore experience in implementing accounting process in various software & have been entrusted to implement most complex accounting, inventory & MIS in many verticals across different geographical limit of India.",
+        "points": [
+            "Merge your branch accounts with ease & present correct data in Profit and Loss account & Balance Sheet for the year.",
+            "Take help of our experts to account your various projects under single accounting window & get best data of each project with details cost centres & assess profitability of each project as profit centre. ",
+            "Our most efficient professionals will guide you to manage inventory with many items, groups, category & locations. We help to meticulously implement inventory of up your manufacturing processes in accounting software with  ",
+            "Improve quality of accounts by appointing qualified & experienced accounting staff. We help to get most efficient strff through our recruitment process of finding, screening, hiring and eventually onboarding best eligible job candidates.",
+            "As a part of implementing process, we do supervision of accounting staff on day-to-day basis to get best financial reports & results.",
+            "Any accounting implementation process requires in-depth software knowledge & optimum usage of the same. Regular updates & upgrades of accounting software help us update our clients with best available software applicable according to their nature & size. "
+        ]
     },
     {
+        "serviceimg": "/images/component/serviceimg4.png",
+        "banner": "service4.png",
         "icon": "icon-gear-warning",
         "category": "payment solution",
         "title": "Tax services",
         "desc": "GST registration is essential for a business/individual in India under the eligibility criteria like selling taxable goods and financial transactions exceeding the limits to avoid penalties. ",
-        "shortDesc": "Get personalized financial advice to help reach your financial goals."
+        "shortDesc": "Get personalized financial advice to help reach your financial goals.",
+        "Description": "GST registration is essential for a business/individual in India under the eligibility criteria like selling taxable goods and financial transactions exceeding the limits to avoid penalties. However, it is good to register for GST even if it doesn’t apply, considering the scalability of a business, benefits like access to claim GST refunds, and avoiding consequences of oblivious failure to file GST returns in a time frame specified by the Tax Authorities.",
+        "points": [
+            "Just submit the required documents and relax Company will take care of all the paper/online work with GST registration, TDS registration, and Income Tax returns filing.",
+            "Prevent penalties and other implications in the roots where it originates. We train your staff on accounting standards and procedures.",
+            "Make the knowledge sharing agile and on a central platform. Leverage from our staff training programs of various accounting platforms like Tally, Quickbook, Zoho, Sage, etc."
+        ]
     },
     {
+        "serviceimg": "/images/component/serviveimg5.png",
+        "banner": "service5.png",
         "icon": "icon-text-search",
         "category": "payment solution",
         "title": "MIS",
         "desc": "We offer efficient MIS reporting and performance analysis for the management to build a perfect working structure pattern for various internal operations in an organization. ",
-        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions."
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions.",
+        "Description": "We offer efficient MIS reporting and performance analysis for the management to build a perfect working structure pattern for various internal operations in an organization. With our industry-focused approach and functionality-oriented reporting formats, the administration can easily track the quality of performance and space for improvements to make the right decisions.",
+        "points": [
+            "Streamline MIS reporting processes. Get detailed MIS statements and project-wise performance reports.",
+            "Measure actual performance on different parameters with efficient Performance Analysis and Variances Evaluation.",
+            "Systematic cash flow and fund flow management, daily cash flow report, fund flow statements, analysis of financial position, funds evaluation."
+        ]
     }
 ]

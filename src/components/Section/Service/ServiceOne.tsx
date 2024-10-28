@@ -16,7 +16,7 @@ const ServiceOne: React.FC<Props> = ({ data }) => {
 
     return (
         <>
-            <section className="service-block lg:mt-[100px] sm:mt-16 mt-10" ref={ref}>
+            <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 mb-10" ref={ref}>
                 <div className="container">
                     <h3 className="heading3 text-center">Accounting, Tax & Advisory Services</h3>
                     <p className='text-center text-[#9a9999] mt-2'>Financial Accounting Firm in India</p>
