@@ -59,7 +59,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                             </div>
                                         </div>
                                         <div className="bg-img mt-8 mb-8">
-                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={foundPost?.serviceimg} alt="" />
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
                                         </div>
 
                                         {/* <div className="list-question lg:mt-[60px] mt-8">

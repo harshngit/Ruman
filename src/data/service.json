@@ -1,6 +1,6 @@
 [
     {
-        "serviceimg": "/images/component/serviceimg1.png",
+        "serviceimg": "serviceimg1.png",
         "banner": "service1.png",
         "icon": "icon-books",
         "category": "payment solution",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "serviceimg": "/images/component/serviceimg2.png",
+        "serviceimg": "serviceimg2.png",
         "banner": "service2.png",
         "icon": "icon-hand-tick",
         "category": "payment solution",
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "serviceimg": "/images/component/serviceimg3.png",
+        "serviceimg": "serviceimg3.png",
         "banner": "service3.png",
         "icon": "icon-hand-house",
         "category": "payment solution",
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "serviceimg": "/images/component/serviceimg4.png",
+        "serviceimg": "serviceimg4.png",
         "banner": "service4.png",
         "icon": "icon-gear-warning",
         "category": "payment solution",
@@ -68,7 +68,7 @@
         ]
     },
     {
-        "serviceimg": "/images/component/serviveimg5.png",
+        "serviceimg": "serviveimg5.png",
         "banner": "service5.png",
         "icon": "icon-text-search",
         "category": "payment solution",
