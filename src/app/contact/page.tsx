@@ -11,29 +11,32 @@ import { client } from "@/client";
 import { useRouter } from "next/router";
 
 export default function ContactStyleOne() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [subject, setSubject] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [subject, setSubject] = useState("");
   // const router = useRouter();
 
   const sendMessage = async () => {
+    console.log("Hii")
     const doc = {
       _type: "contact",
       name: name,
       email: email,
-      message: message,
       subject: subject,
+      message: message,
+
     };
 
-    try {
-      await client.create(doc);
-      alert("Message Sent");
-      // router.push('/');
-    } catch (error) {
-      console.error("Error sending message:", error);
-      alert("Failed to send message. Please try again.");
-    }
+    client.create(doc).then((res) => {
+      alert("Message Sent")
+    })
+    setName("")
+    setEmail("");
+    setMessage("");
+    setSubject("");
+    // router.push('/')
+
   };
 
 
@@ -132,7 +135,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          hi.avitex@gmail.com
+                          info@rumanaccountingservices.com
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -144,14 +147,14 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          4140 Rd. Allentown, New Mexico 31134
+                          301, SHANTADEEP CHS LTD., CTS NO.264, Ville Parle (E), Mumbai-57
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="w-full xl:w-3/5 xl:pl-20">
-                  <form className="form-block flex flex-col justify-between gap-5">
+                  <div className="form-block flex flex-col justify-between gap-5">
                     <div className="heading">
                       <div className="heading5">Request a quote</div>
                       <div className="body3 text-secondary mt-2">
@@ -211,15 +214,17 @@ export default function ContactStyleOne() {
                       </div>
                     </div>
                     <div className="button-block">
-                      <button onSubmit={sendMessage} className="button-main hover:border-blue bg-blue text-white text-button rounded-full">
+                      <button onClick={sendMessage} className="button-main hover:border-blue bg-blue text-white text-button rounded-full">
                         Submit request
                       </button>
                     </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <iframe
+            className="h-[500px] w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9891324769487!2d72.84667267520616!3d19.10813268210299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c92d55cac7bd%3A0x80eef891a93aad2d!2sShantadeep%20CHS!5e0!3m2!1sen!2sin!4v1730189283635!5m2!1sen!2sin" width="600" height="450" loading="lazy" ></iframe>
           {/* <CtaOne /> */}
         </main>
         <footer id="footer">
