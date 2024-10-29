@@ -9,7 +9,8 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useState } from "react";
 import { client } from "@/client";
 import { useRouter } from "next/router";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export default function ContactStyleOne() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -29,7 +30,7 @@ export default function ContactStyleOne() {
     };
 
     client.create(doc).then((res) => {
-      alert("Message Sent")
+      toast.success("Message Sent")
     })
     setName("")
     setEmail("");
@@ -42,6 +43,7 @@ export default function ContactStyleOne() {
 
   return (
     <>
+      <ToastContainer />
       <div className="overflow-x-hidden">
         <header id="header">
           <TopNavOne />

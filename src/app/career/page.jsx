@@ -9,6 +9,8 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useState } from "react";
 import { client } from "@/client";
 import { useRouter } from "next/navigation";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function ContactStyleTwo() {
@@ -35,12 +37,15 @@ export default function ContactStyleTwo() {
         },
       }
     }
-    client.create(doc).then((res) => {
-      alert("Message Sent")
-    })
-
-    window.location.reload()
-
+    client.create(doc)
+      .then((res) => {
+        toast.success("Message Sent");
+        // setTimeout(() => window.location.reload(), 2000); // Add a delay before reload to allow the toast to display
+      })
+      .catch((error) => {
+        toast.error("Failed to send message");
+        console.error(error);
+      });
   };
   const handleupload = (e) => {
     const { type, name } = e.target.files[0];
@@ -60,6 +65,7 @@ export default function ContactStyleTwo() {
 
   return (
     <>
+      <ToastContainer />
       <div className="overflow-x-hidden">
         <header id="header">
           <TopNavOne />
@@ -140,12 +146,13 @@ export default function ContactStyleTwo() {
                       Submit request
                     </button>
                   </div>
+
                 </div>
               </div>
             </div>
           </div>
           {/* <CtaOne /> */}
-        </main >
+        </main>
         <footer id="footer">
           <Footer />
         </footer>
