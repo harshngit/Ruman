@@ -86,7 +86,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                         </div> */}
                                     </div>
                                 </div>
-                                <div className="w-full xl:w-1/4">
+                                {/* <div className="w-full xl:w-1/4">
                                     <div className="more-infor border border-line rounded-xl py-8 px-6">
                                         <div className="heading6">The best our Services</div>
                                         <div className="body3 text-secondary mt-2">Whether you have a team of 2 or 200, our shared team inboxes </div>
@@ -107,7 +107,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                             ))
                                         }
                                     </div>
-                                    {/* <div className="ads-block rounded-lg md:mt-10 mt-6 relative">
+                                    <div className="ads-block rounded-lg md:mt-10 mt-6 relative">
                                         <div className="bg-img"> <Image width={5000} height={5000} src="/images/component/ads.png" alt="" /></div>
                                         <div className="text flex flex-col justify-between absolute left-0 top-0 w-full h-full p-8">
                                             <div className="title">
@@ -117,8 +117,8 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                             <div className="button-block md:mt-10 mt-6"> <a className="button-main hover:bg-black hover:text-white inline-block bg-white text-button" href="contact-style-one.html">Learn now</a>
                                             </div>
                                         </div>
-                                    </div> */}
-                                </div>
+                                    </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
