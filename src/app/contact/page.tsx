@@ -29,14 +29,15 @@ export default function ContactStyleOne() {
 
     };
 
-    client.create(doc).then((res) => {
-      toast.success("Message Sent")
-    })
-    setName("")
-    setEmail("");
-    setMessage("");
-    setSubject("");
-    // router.push('/')
+    client.create(doc)
+      .then((res) => {
+        toast.success("Message Sent");
+        setTimeout(() => window.location.reload(), 5000); // Add a delay before reload to allow the toast to display
+      })
+      .catch((error) => {
+        toast.error("Failed to send message");
+        console.error(error);
+      });
 
   };
 
