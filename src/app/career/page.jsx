@@ -6,7 +6,7 @@ import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Footer from "@/components/Footer/Footer";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { client } from "@/client";
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from 'react-toastify';
@@ -20,6 +20,19 @@ export default function ContactStyleTwo() {
   const [message, setMessage] = useState("")
   const [resume, setResume] = useState("")
   // const router = useRouter()
+
+  const [careerEntries, setCareerEntries] = useState([]);
+
+  useEffect(() => {
+    client
+      .fetch(`*[_type == "careerEntry"]{ position, experience, form }`)
+      .then((data) => setCareerEntries(data))
+      .catch(console.error);
+  }, []);
+
+
+
+
 
   const sendMessage = async () => {
     console.log(resume)
@@ -78,6 +91,38 @@ export default function ContactStyleTwo() {
             title="Career"
             desc="Join our team at Ruman Accounting Services LLP and be part of a dynamic, innovative environment where experienced professionals and aspiring talent come together to shape the future of accounting and financial services"
           />
+          {careerEntries.length !== 0 && <div className="mt-16">
+            <div className="flex justify-center flex-col gap-5 items-center mb-2">
+              <div className="heading3 text-3xl">Explore Career Opportunities</div>
+              <div className="text-xl lg:mr-0 lg:ml-0 text-center mr-5 ml-5">We’re looking for talent that’s ready to make an impact.</div>
+            </div>
+            <div className="lg:grid lg:grid-cols-3 mt-5 lg:mr-[150px] mr-5 ml-5 lg:ml-[150px] flex justify-center">
+              <div className="flex justify-center lg:w-[100%] w-[33.3%]  items-center bg-blue py-3 px-3">
+                <p className="lg:text-xl text-md text-white font-medium ">Position</p>
+              </div>
+              <div className="flex justify-center  lg:w-[100%] w-[33.3%] items-center bg-blue py-3 px-3">
+                <p className="lg:text-xl text-md text-white font-medium ">Experience</p>
+              </div>
+              <div className="flex justify-center  lg:w-[100%] w-[33.3%] items-center bg-blue py-3 px-3">
+                <p className="lg:text-xl text-md text-white font-medium ">Apply Now</p>
+              </div>
+            </div>
+            {careerEntries?.map((item, index) => (
+              <div key={index} className="lg:grid lg:grid-cols-3  lg:mr-[150px] mr-5 ml-5 lg:ml-[150px] flex justify-center">
+                <div className="flex justify-center lg:w-[100%] w-[33.3%] items-center border-[1px] border-[#ccc]  py-3 px-3">
+                  <p className="lg:text-xl text-md text-black font-medium text-center ">{item?.position}</p>
+                </div>
+                <div className="flex justify-center lg:w-[100%] w-[33.3%] items-center border-[1px] border-[#ccc]  py-3 px-3">
+                  <p className="lg:text-xl text-md text-black font-medium  text-center s ">{item?.experience}</p>
+                </div>
+                <div className="flex justify-center lg:w-[100%] w-[33.3%] items-center border-[1px] border-[#ccc]  py-3 px-3">
+                  <a href={item?.form} target="_blank" className="lg:px-4 px-2 lg:py-3 py-2 text-center bg-blue text-white rounded-md hover:text-blue hover:bg-white border-[1px]  border-blue cursor-pointer"> Apply Now</a>
+                </div>
+
+
+              </div>
+            ))}
+          </div>}
           <div className="form-contact style-one lg:py-[100px] sm:py-16 py-10">
             <div className="container flex max-xl:flex-col xl:items-center justify-between gap-y-8">
               <div className="w-full xl:w-1/2">
@@ -156,7 +201,7 @@ export default function ContactStyleTwo() {
         <footer id="footer">
           <Footer />
         </footer>
-      </div >
+      </div>
     </>
   );
 }
