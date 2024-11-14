@@ -16,7 +16,7 @@ export default function ServiceStyleOne() {
         <>
             <div className="overflow-x-hidden">
                 <header id="header">
-                    <TopNavOne />
+
                     <MenuOne />
                 </header>
                 <main className="content">

@@ -25,7 +25,7 @@ const PaymentGatewayOneSecond = () => {
                             }}
                         >
                             <div className="bg-img">
-                                <Image width={5000} height={5000} className="w-full" src="/images/component/3.png" alt="" />
+                                <Image width={5000} height={5000} className="w-full" src="/images/component/6.png" alt="" />
                             </div>
 
                         </div>

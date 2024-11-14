@@ -81,5 +81,20 @@
             "Measure actual performance on different parameters with efficient Performance Analysis and Variances Evaluation.",
             "Systematic cash flow and fund flow management, daily cash flow report, fund flow statements, analysis of financial position, funds evaluation."
         ]
+    },
+    {
+        "serviceimg": "serviveimg5.png",
+        "banner": "service5.png",
+        "icon": "icon-chart-blue",
+        "category": "payment solution",
+        "title": "E-commerce accounting",
+        "desc": "E-commerce accounting manages financial transactions, taxes, and inventory for online businesses, ensuring accurate reporting and compliance across digital sales channels. ",
+        "shortDesc": "We provide timely reports, market updates, and data-driven insights to help you make informed trading decisions.",
+        "Description": "We offer efficient MIS reporting and performance analysis for the management to build a perfect working structure pattern for various internal operations in an organization. With our industry-focused approach and functionality-oriented reporting formats, the administration can easily track the quality of performance and space for improvements to make the right decisions.",
+        "points": [
+            "Streamline MIS reporting processes. Get detailed MIS statements and project-wise performance reports.",
+            "Measure actual performance on different parameters with efficient Performance Analysis and Variances Evaluation.",
+            "Systematic cash flow and fund flow management, daily cash flow report, fund flow statements, analysis of financial position, funds evaluation."
+        ]
     }
 ]

@@ -81,7 +81,7 @@ export default function ContactStyleTwo() {
       <ToastContainer />
       <div className="overflow-x-hidden">
         <header id="header">
-          <TopNavOne />
+
           <MenuOne />
         </header>
         <main className="content">

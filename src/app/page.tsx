@@ -13,26 +13,28 @@ import BlogOne from "@/components/Section/Blog/BlogOne";
 import ServiceTwo from "@/components/Section/Service/ServiceTwo";
 import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import Footer from "@/components/Footer/Footer";
+import ProjectFive from "@/components/Section/Project/ProjectFive";
 
 export default function Home() {
   return (
     <>
       <div className="overflow-x-hidden">
         <header id="header">
-          <TopNavOne />
+          {/* <TopNavOne /> */}
           <MenuOne />
         </header>
         <main className="content">
           <SliderOne />
           <ServiceOne data={serviceData} />
-          <PaymentGatewayOneFirst />
+          {/* <PaymentGatewayOneFirst /> */}
+          <ProjectFive />
           {/* <CaseStudyOne /> */}
           <PaymentGatewayOneSecond />
           <ServiceTwo />
-          <FaqsOne />
+          {/* <FaqsOne /> */}
           {/* <FormRequestOne /> */}
           {/* <BlogOne data={blogData} /> */}
-          <PartnerOne classname='bg-blue lg:mt-[100px] sm:mt-16 mt-10' />
+          <PartnerOne classname='bg-blue sm:mt-0 mt-0' />
         </main>
         <footer id="footer">
           <Footer />

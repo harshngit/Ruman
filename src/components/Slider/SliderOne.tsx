@@ -24,7 +24,7 @@ const SliderOne = () => {
                         }}
                         loop={true}
                         pagination={{ clickable: true }}
-                        speed={400}
+                        speed={600}
                         modules={[Pagination, Autoplay, Navigation]}
                         className='h-full relative'
                         autoplay={{
@@ -55,12 +55,12 @@ const SliderOne = () => {
                                                 <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">Accounting Services </span>
                                             </div>
                                             <div className="relative overflow-hidden">
-                                                <span className=" text-blue block relative overflow-hidden ">in India</span>
-                                                <span className=" text-blue block absolute top-0 left-0 w-full h-full">in India</span>
+                                                <span className=" text-white block relative overflow-hidden ">in India</span>
+                                                <span className=" text-white block absolute top-0 left-0 w-full h-full">in India</span>
                                             </div>
                                         </div>
                                         <div className="body2 mt-3 text-[#fff]">Ruman Accounting Services LLP, based in Mumbai, <br /> offers customized accounting solutions through a network of experienced professionals.</div>
-                                        <div className="button-block md:mt-10 mt-6"><Link className="button-main bg-blue text-white" href="/service">Discovery now</Link>
+                                        <div className="button-block md:mt-10 mt-6"><Link className="button-main bg-blue text-white" href="/contact">Contact Us</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -90,12 +90,12 @@ const SliderOne = () => {
                                                 <span className="block absolute top-0 left-0 w-full h-full text-[#fff]">Bookkeeping, Taxation, </span>
                                             </div>
                                             <div className="relative overflow-hidden">
-                                                <span className=" text-blue block relative overflow-hidden">& Advisory Services! </span>
-                                                <span className=" text-blue block absolute top-0 left-0 w-full h-full">& Advisory Services! </span>
+                                                <span className=" text-white block relative overflow-hidden">& Advisory Services! </span>
+                                                <span className=" text-white block absolute top-0 left-0 w-full h-full">& Advisory Services! </span>
                                             </div>
                                         </div>
                                         <div className="body2 mt-3 text-[#fff]">We specialize in current accounting trends, <br /> tax regulations, and technology, providing both offline and online services.</div>
-                                        <div className="button-block md:mt-10 mt-6"><Link className="button-main bg-blue text-white" href="/service">Discovery now</Link>
+                                        <div className="button-block md:mt-10 mt-6"><Link className="button-main bg-blue text-white" href="/contact">Contact us</Link>
                                         </div>
                                     </div>
                                 </div>

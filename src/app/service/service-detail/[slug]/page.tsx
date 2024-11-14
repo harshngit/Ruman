@@ -31,7 +31,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
         <>
             <div className="overflow-x-hidden">
                 <header id="header">
-                    <TopNavOne />
+
                     <MenuOne />
                 </header>
                 <main className="content">
