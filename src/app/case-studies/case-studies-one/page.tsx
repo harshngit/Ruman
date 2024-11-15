@@ -16,7 +16,7 @@ export default function CaseStudyStyleOne() {
                 </header>
                 <main className="content">
                     <BreadcrumbItem link="Case Studies" img="/images/banner/about1.png" title="Case Studies" desc="Discover our collection of compelling Case Studies showcasing our successful projects and the positive impact we've made for our clients." />
-                    <CaseStudyOne data={caseStudyData} />
+                    {/* <CaseStudyOne data={caseStudyData} /> */}
                     <CtaOne />
                 </main>
                 <footer id="footer">

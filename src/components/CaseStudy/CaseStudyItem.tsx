@@ -13,22 +13,20 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
     return (
         <>
             {style === 'style-one' &&
-                <div className="case-study-item item-filter">
-                    <Link
-                        className="item-main"
-                        href={"/case-studies/detail/[slug]"}
-                        as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
-                    >
-                        <div className="bg-img rounded-xl overflow-hidden">
-                            <Image width={5000} height={5000} className="w-full h-full rounded-xl block duration-700" src={data.img} alt="" />
+                <div className="">
+                    <div className="flex justify-center items-start w-full gap-5 mt-10 ">
+                        <div className="w-full lg:w-1/2">
+                            <Image width={5000} height={5000} className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
                         </div>
-                        <div className="infor px-10 text-center -mt-6 relative z-[1]">
-                            <div className="main-infor bg-white rounded-lg px-6 py-4 box-shadow-sm">
-                                <div className="category text-center text-button-uppercase text-secondary">{data.subTitle}</div>
-                                <div className="heading6 text-center mt-2">{data.title}</div>
+                        <div className="w-full lg:w-1/2">
+                            <div className="title text-secondary mt-4">
+                                {data.shortDesc}
+                            </div>
+                            <div className="title text-secondary mt-4">
+                                {data.desc}
                             </div>
                         </div>
-                    </Link>
+                    </div>
                 </div>
             }
             {style === 'style-two' &&
@@ -37,7 +35,7 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                         <div className="bg-img rounded-xl overflow-hidden">
                             <Image width={5000} height={5000} className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
                             <Link
-                                className="flex flex-col items-center py-8 px-5 bg-white rounded-full text-center"
+                                className="flex flex-col items-center justify-center py-8 px-5 bg-white rounded-full text-center"
                                 href={"/case-studies/detail/[slug]"}
                                 as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
                             >
@@ -53,27 +51,19 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                 </div>
             }
             {style === 'style-three' &&
-                <div className="case-study-item style-two style-three item-filter">
-                    <div className="item-main">
-                        <div className="bg-img rounded-xl overflow-hidden">
-                            <Image width={5000} height={5000} className="w-full h-full block" src={data.img} alt={data.title} />
-                            <Link
-                                className="flex flex-col items-center py-8 px-5 bg-white rounded-full text-center"
-                                href={"/case-studies/detail/[slug]"}
-                                as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
-                            >
-                                <div className="text-button-sm text-gradient">Discovery</div>
-                                <Icon.ArrowUpRight weight="bold" className="text-gradient text-xl" />
-                            </Link>
+                <div className="">
+                    <div className="flex justify-center items-center w-full gap-5 mt-10 ">
+                        <div className="w-full lg:w-1/2 flex items-center justify-center">
+                            <Image width={5000} height={5000} className="w-[400px] h-[220px] rounded-xl display-block" src={data.img} alt="" />
                         </div>
-                        <Link
-                            className="infor bg-white rounded-lg pt-6 block"
-                            href={"/case-studies/detail/[slug]"}
-                            as={"/case-studies/detail/" + data.title.toLowerCase().replace(/ /g, '-')}
-                        >
-                            <div className="heading6">{data.title}</div>
-                            <div className="body2 text-secondary capitalize mt-2">{data.subTitle}</div>
-                        </Link>
+                        <div className="w-full lg:w-1/2">
+                            <div className="title text-secondary mt-4">
+                                {data.shortDesc}
+                            </div>
+                            <div className="title text-secondary mt-4">
+                                {data.desc}
+                            </div>
+                        </div>
                     </div>
                 </div>
             }

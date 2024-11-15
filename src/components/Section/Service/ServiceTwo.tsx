@@ -23,7 +23,7 @@ import styled from 'styled-components'
 const ServiceTwo = () => {
   return (
     <>
-      <section className="service-block lg:mt-[100px] sm:mt-16 mt-10 bg-[#2a77ffcf] p-5">
+      <section className="service-block lg:mt-[0px] sm:mt-16  bg-[#2a77ffcf] p-5">
         <div className="container xl:flex items-center justify-center">
           <div className="xl:w-1/3 w-full flex flex-col gap-4 flex-shrink-0">
             <div className="text-sub-heading2 lg:text-left text-center text-[#0f1748]"> Our associate Services</div>

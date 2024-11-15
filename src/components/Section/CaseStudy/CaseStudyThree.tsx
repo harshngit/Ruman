@@ -16,7 +16,7 @@ interface Props {
 }
 
 const CaseStudyThree: React.FC<Props> = ({ data }) => {
-    const [activeTab, setActiveTab] = useState<string>('fintech')
+    const [activeTab, setActiveTab] = useState<string>('Our Service')
 
     const handleTabClick = (item: string) => {
         setActiveTab(item)
@@ -26,17 +26,17 @@ const CaseStudyThree: React.FC<Props> = ({ data }) => {
         <>
             <div className="case-study-block style-three lg:py-[100px] sm:py-16 py-10">
                 <div className="container">
-                    <div className="heading flex items-center justify-between flex-wrap gap-8 gap-y-5">
-                        <div className="heading3">Case Study</div>
+                    <div className="heading flex items-center justify-end flex-wrap gap-8 gap-y-5">
+                        {/* <div className="heading3">Case Study</div> */}
                         <div className="menu-tab flex items-center gap-2">
-                            {['investing', 'fintech', 'crypto', 'blockchain', 'planning'].map((item, index) => (
+                            {['Our Service', 'Our Mission', 'Our Vision'].map((item, index) => (
                                 <div
                                     key={index}
-                                    className={`tab-item relative text-secondary text-button-sm py-2 px-5 cursor-pointer duration-500 rounded-2xl ${activeTab === item ? 'active text-white' : 'hover:text-gradient'}`}
+                                    className={`tab-item relative text-secondary text-button-sm py-2 px-5 cursor-pointer duration-500 rounded-2xl ${activeTab === item ? 'active text-white' : 'hover:text-[#4e6eff]'}`}
                                     onClick={() => handleTabClick(item)}
                                 >
                                     {activeTab === item && (
-                                        <motion.div layoutId='active-pill' className='absolute inset-0 rounded-2xl bg-gradient'></motion.div>
+                                        <motion.div layoutId='active-pill' className='absolute inset-0 rounded-2xl bg-blue'></motion.div>
                                     )}
                                     <span className='relative text-button-sm white-space-nowrap capitalize z-[1]'>
                                         {item}
@@ -46,32 +46,11 @@ const CaseStudyThree: React.FC<Props> = ({ data }) => {
                         </div>
                     </div>
                     <div className="list md:mt-10 mt-6">
-                        <Swiper
-                            spaceBetween={16}
-                            slidesPerView={1}
-                            speed={400}
-                            className='h-full relative'
-                            breakpoints={{
-                                640: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                1024: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 32,
-                                },
-                                1410: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 32,
-                                }
-                            }}
-                        >
-                            {data.filter(item => item.category === activeTab).slice(0, 4).map((item, index) => (
-                                <SwiperSlide key={index}>
-                                    <CaseStudyItem data={item} style='style-three' />
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
+                        {data.filter(item => item.category === activeTab).slice(0, 4).map((item, index) => (
+
+                            <CaseStudyItem data={item} style='style-three' />
+
+                        ))}
                     </div>
                 </div>
             </div>
