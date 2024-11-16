@@ -13,7 +13,7 @@ const PaymentGatewayOneSecond = () => {
     return (
         <section className="payment-gateway-one style-second lg:mt-[100px] sm:mt-16 mt-10" ref={ref}>
             <div className="container">
-                <div className="content flex items-center gap-8">
+                <div className="content flex items-center gap-8 mb-2">
 
                     <div className="w-11/12 xl:w-7/12">
                         <div
@@ -56,7 +56,10 @@ const PaymentGatewayOneSecond = () => {
                             </div>
                         </div>
                         <div className="button-block">
-                            <Link className="button-main hover:bg-blue text-white bg-black rounded-full" href="/service">Read More</Link>
+                            <Link className="button-main inline-flex justify-center items-center hover:bg-black text-white bg-blue rounded-md gap-2" href="/service">
+                                <Icon.ArrowRight weight='bold' className="text-white text-xl" />
+                                Read More
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ const SliderOne = () => {
                             <div className="slider-item slider-first">
                                 <div className="bg-img ">
                                     <Image
-                                        src={'/images/slider/1.png'}
+                                        src={'/images/slider/Bannerimg1.png'}
                                         width={4000}
                                         height={3000}
                                         alt="bgslider"
@@ -70,7 +70,7 @@ const SliderOne = () => {
                             <div className="slider-item slider-second">
                                 <div className="bg-img">
                                     <Image
-                                        src={'/images/slider/2.png'}
+                                        src={'/images/slider/Bannerimg2.png'}
                                         width={4000}
                                         height={3000}
                                         alt="bgslider"
