@@ -10,12 +10,14 @@
         "id": 2,
         "category": "Our Mission",
         "desc": "Quality-commitment-client satisfaction is our driving force. We understand the nuances of each client business and create value, loyalty, and long-term partnership with a result-driven approach. We are committed to following high ethical standards in all our services & innovative solutions and helping our clients achieve their business goals. ",
+        "shortDesc": "",
         "img": "/images/component/Missionimg.png"
     },
     {
         "id": 3,
         "category": "Our Vision",
         "desc": "Our aim is to consistently reinvent our professional abilities, set new goals for competencies to be market-ready, and harmonize our employee skills and hard work to exceed customer expectations. We work towards becoming the leader in offering dynamic solutions in international standards across the borders as a most trusted destination to avail exceptional services. ",
+        "shortDesc": "",
         "img": "/images/component/Visionimg.png"
     }
 ]
