@@ -48,7 +48,7 @@ const CaseStudyThree: React.FC<Props> = ({ data }) => {
                     <div className="list md:mt-10 mt-6">
                         {data.filter(item => item.category === activeTab).slice(0, 4).map((item, index) => (
 
-                            <CaseStudyItem data={item} style='style-three' />
+                            <CaseStudyItem data={item} key={index} style='style-three' />
 
                         ))}
                     </div>
