@@ -4,6 +4,8 @@
         "category": "Our Service",
         "desc": "At Company, we believe a business that periodically monitors its finances and makes informed decisions would grow and sustain despite the market volatility. Our highly qualified professionals with domain cross-functional experience and up-to-date knowledge in multi-industry accounting standards and Indian tax compliance design unique methodologies, delivery framework, and report formats. Hence, our accounting solutions and tax-related services bring merits, scale growth and help the business prosper.",
         "shortDesc": "We offer end-to-end solutions from accounting and tax compliances till the finalization of accounts as audit-ready.",
+        "subTitle": "",
+        "title": "",
         "img": "/images/component/Serviceimgabout.png"
     },
     {
@@ -11,6 +13,8 @@
         "category": "Our Mission",
         "desc": "Quality-commitment-client satisfaction is our driving force. We understand the nuances of each client business and create value, loyalty, and long-term partnership with a result-driven approach. We are committed to following high ethical standards in all our services & innovative solutions and helping our clients achieve their business goals. ",
         "shortDesc": "",
+        "subTitle": "",
+        "title": "",
         "img": "/images/component/Missionimg.png"
     },
     {
@@ -18,6 +22,8 @@
         "category": "Our Vision",
         "desc": "Our aim is to consistently reinvent our professional abilities, set new goals for competencies to be market-ready, and harmonize our employee skills and hard work to exceed customer expectations. We work towards becoming the leader in offering dynamic solutions in international standards across the borders as a most trusted destination to avail exceptional services. ",
         "shortDesc": "",
+        "subTitle": "",
+        "title": "",
         "img": "/images/component/Visionimg.png"
     }
 ]
