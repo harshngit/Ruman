@@ -29,7 +29,7 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                     </div>
                 </div>
             }
-            {style === 'style-two' &&
+            {/* {style === 'style-two' &&
                 <div className="case-study-item style-two item-filter">
                     <div className="item-main">
                         <div className="bg-img rounded-xl overflow-hidden">
@@ -49,7 +49,7 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                         </div>
                     </div>
                 </div>
-            }
+            } */}
             {style === 'style-three' &&
                 <div className="">
                     <div className="flex justify-center items-center w-full gap-5 mt-10 ">
