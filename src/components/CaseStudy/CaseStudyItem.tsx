@@ -52,9 +52,9 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
             } */}
             {style === 'style-three' &&
                 <div className="">
-                    <div className="flex justify-center items-center w-full gap-5 mt-10 ">
+                    <div className="flex justify-center flex-col lg:flex-row items-center w-full gap-5 mt-10 ">
                         <div className="w-full lg:w-1/2 flex items-center justify-center">
-                            <Image width={5000} height={5000} className="w-[400px] h-[220px] rounded-xl display-block" src={data.img} alt="" />
+                            <Image width={5000} height={5000} className=" w-[400px] rounded-xl display-block shadow-md" src={data.img} alt="" />
                         </div>
                         <div className="w-full lg:w-1/2">
                             <div className="title text-secondary mt-4">

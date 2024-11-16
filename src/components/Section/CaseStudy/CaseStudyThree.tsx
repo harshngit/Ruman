@@ -16,7 +16,7 @@ interface Props {
 }
 
 const CaseStudyThree: React.FC<Props> = ({ data }) => {
-    const [activeTab, setActiveTab] = useState<string>('Our Service')
+    const [activeTab, setActiveTab] = useState<string>('Our Mission')
 
     const handleTabClick = (item: string) => {
         setActiveTab(item)
@@ -26,13 +26,13 @@ const CaseStudyThree: React.FC<Props> = ({ data }) => {
         <>
             <div className="case-study-block style-three lg:py-[100px] sm:py-16 py-10">
                 <div className="container">
-                    <div className="heading flex items-center justify-end flex-wrap gap-8 gap-y-5">
-                        {/* <div className="heading3">Case Study</div> */}
-                        <div className="menu-tab flex items-center gap-2">
-                            {['Our Service', 'Our Mission', 'Our Vision'].map((item, index) => (
+                    <div className="heading flex items-center justify-center flex-wrap gap-8 gap-y-5">
+
+                        <div className="menu-tab flex items-center gap-2 bg-[#f5f5f5f1] rounded-md">
+                            {['Our Mission', 'Our Vision'].map((item, index) => (
                                 <div
                                     key={index}
-                                    className={`tab-item relative text-secondary text-button-sm py-2 px-5 cursor-pointer duration-500 rounded-2xl ${activeTab === item ? 'active text-white' : 'hover:text-[#4e6eff]'}`}
+                                    className={`tab-item relative text-secondary text-button-sm py-2 px-5 cursor-pointer duration-500  rounded-2xl ${activeTab === item ? 'active text-white' : 'hover:text-[#4e6eff]'}`}
                                     onClick={() => handleTabClick(item)}
                                 >
                                     {activeTab === item && (

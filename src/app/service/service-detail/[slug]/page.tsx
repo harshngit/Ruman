@@ -39,28 +39,18 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                     <div className="content-detail-block lg:py-[100px] sm:py-16 py-10">
                         <div className="container">
                             <div className="flex max-xl:flex-col gap-y-8">
-                                <div className="w-full xl:w-3/4">
-                                    <div className="content-para xl:pr-[80px]">
-                                        <div className="heading3">{foundPost?.title}</div>
-                                        <div className="body2 text-secondary mt-4">{foundPost?.Description}</div>
-                                        <div className="list-feature mt-8">
-                                            <div className="flex flex-col gap-y-3">
-                                                {foundPost?.points?.map((item, index) => (
-                                                    <div key={index} className="w-full flex flex-col ">
-                                                        <div key={index} className="item flex items-center gap-4">
-                                                            <Icon.CheckCircle weight="fill" className="text-xl text-blue flex-shrink-0" />
-                                                            <div className="text-button">{item}</div>
-                                                        </div>
-
-                                                    </div>
-                                                ))
-                                                }
-
-                                            </div>
+                                <div className="w-full">
+                                    <div className="content-para flex lg:flex-row flex-col justify-center items-center xl:pr-[80px]">
+                                        <div className="w-full lg:w-1/2">
+                                            <div className="heading3">{foundPost?.title}</div>
+                                            <div className="body2 text-secondary mt-4">{foundPost?.Description}</div>
+                                            <div className="body2 text-secondary mt-4">{foundPost?.desc}</div>
                                         </div>
-                                        <div className="bg-img mt-8 mb-8">
+                                        <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
                                             <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
                                         </div>
+
+
 
                                         {/* <div className="list-question lg:mt-[60px] mt-8">
                                             <div className="heading6">Questions about service</div>
@@ -84,6 +74,30 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                                 </div>
                                             ))}
                                         </div> */}
+                                    </div>
+
+                                    <div className="lg:mt-10 mt-5 flex justify-center lg:flex-row flex-col">
+                                        <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
+                                        </div>
+                                        <div className="w-full lg:w-1/2 pl-5 pt-5 ">
+                                            <div className="heading3"> Some Key Points</div>
+                                            <div className="list-feature mt-5">
+                                                <div className="flex flex-col gap-y-3">
+                                                    {foundPost?.points?.map((item, index) => (
+                                                        <div key={index} className="w-full flex flex-col ">
+                                                            <div key={index} className="item flex items-center gap-4">
+                                                                <Icon.CheckCircle weight="fill" className="text-xl text-blue flex-shrink-0" />
+                                                                <div className="text-button">{item}</div>
+                                                            </div>
+
+                                                        </div>
+                                                    ))
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 {/* <div className="w-full xl:w-1/4">

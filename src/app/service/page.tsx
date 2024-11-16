@@ -28,7 +28,7 @@ export default function ServiceStyleOne() {
                                     <div className="heading3 text-3xl">Full-Range Expert Accounting Services and Tax Advisory in, INDIA</div>
                                     <div className="body2 text-secondary">Financial reporting and accounting services have changed over the years due to the transformation in processing, evolved standards, tax changes, and digital transformation so does the financial advisory. Company offers highly professional accounting services by deploying experienced accountants with high knowledge in current accounting trends and proper industry-wise training in each accounting domain, and tax advisory with compliance to accounting standards in INDIA. </div>
                                     <div className="button-block">
-                                        <a className="button-main hover:bg-black text-white bg-blue text-button inline-block py-3 px-9 rounded-full" href="/contact">Contact</a>
+                                        <a className="button-main hover:bg-black text-white bg-blue text-button inline-block py-3 px-9 rounded-full" href="/contact">Contact Us</a>
                                     </div>
                                 </div>
                                 <div className="w-full lg:w-1/2">
