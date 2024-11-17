@@ -43,7 +43,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                     <div className="content-para flex lg:flex-row flex-col justify-center items-center xl:pr-[80px]">
                                         <div className="w-full lg:w-1/2">
                                             <div className="heading3">{foundPost?.title}</div>
-                                            <div className="body2 text-secondary mt-4">{foundPost?.Description}</div>
+                                            {/* <div className="body2 text-secondary mt-4">{foundPost?.Description}</div> */}
                                             <div className="body2 text-secondary mt-4">{foundPost?.desc}</div>
                                         </div>
                                         <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
@@ -76,13 +76,14 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                         </div> */}
                                     </div>
 
-                                    <div className="lg:mt-10 mt-5 flex justify-center lg:flex-row flex-col-reverse">
+                                    {foundPost?.Description && <div className="lg:mt-10 mt-5 flex justify-center lg:flex-row flex-col-reverse">
                                         <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
                                             <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
                                         </div>
                                         <div className="w-full lg:w-1/2 pl-5 pt-5 ">
-                                            <div className="heading3"> Some Key Points</div>
-                                            <div className="list-feature mt-5">
+                                            {/* <div className="heading3"> Some Key Points</div> */}
+                                            <div className="list-feature mt-2">
+                                                <div className="body2 text-secondary mb-2">{foundPost?.Description}</div>
                                                 <div className="flex flex-col gap-y-3">
                                                     {foundPost?.points?.map((item, index) => (
                                                         <div key={index} className="w-full flex flex-col ">
@@ -98,7 +99,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>}
                                 </div>
                                 {/* <div className="w-full xl:w-1/4">
                                     <div className="more-infor border border-line rounded-xl py-8 px-6">
