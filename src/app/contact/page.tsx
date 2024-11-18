@@ -11,6 +11,7 @@ import { client } from "@/client";
 import { useRouter } from "next/router";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaPhone } from "react-icons/fa";
 export default function ContactStyleOne() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -44,6 +45,7 @@ export default function ContactStyleOne() {
 
   return (
     <>
+
       <ToastContainer />
       <div className="overflow-x-hidden">
         <header id="header">
@@ -51,9 +53,10 @@ export default function ContactStyleOne() {
           <MenuOne />
         </header>
         <main className="content">
+
           <BreadcrumbItem
             link="Contact us"
-            img="/images/banner/ContactBanner.png"
+            img="/images/banner/contact.png"
             title="Contact us"
             desc="Explore our Contact Us page for prompt assistance from our dedicated team."
           />

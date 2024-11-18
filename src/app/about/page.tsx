@@ -18,16 +18,24 @@ import caseStudyData from '@/data/case-study.json'
 import CaseStudyThree from "@/components/Section/CaseStudy/CaseStudyThree"
 import AboutSix from "@/components/Section/About/AboutSix"
 import AboutFive from "@/components/Section/About/AboutFive"
+import Link from "next/link"
+import { FaPhone } from "react-icons/fa"
 export default function AboutStyleOne() {
   return (
     <>
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden relative">
         <header id="header">
-
+          <Link href="/contact">
+            <div className="relative">
+              <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
+                <FaPhone className="text-white text-xl" />
+              </div>
+            </div>
+          </Link>
           <MenuOne />
         </header>
         <main className="content">
-          <BreadcrumbItem link="About Us" img="/images/banner/AboutBanner.png" title="About Us" desc="Ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
+          <BreadcrumbItem link="About Us" img="/images/banner/about.png" title="About Us" desc="Ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
           <AboutTwo />
           <AboutFive />
 

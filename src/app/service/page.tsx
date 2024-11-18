@@ -10,17 +10,26 @@ import Image from "next/image"
 import ServiceOne from "@/components/Section/Service/ServiceOne"
 import ServiceTwo from "@/components/Section/Service/ServiceTwo"
 import FormRequestTwo from "@/components/Section/FormRequest/FormRequestTwo"
+import Link from "next/link"
+import { FaPhone } from "react-icons/fa"
 
 export default function ServiceStyleOne() {
     return (
         <>
-            <div className="overflow-x-hidden">
+            <div className="overflow-x-hidden relative">
+                <Link href="/contact">
+                    <div className="relative">
+                        <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
+                            <FaPhone className="text-white text-xl" />
+                        </div>
+                    </div>
+                </Link>
                 <header id="header">
 
                     <MenuOne />
                 </header>
                 <main className="content">
-                    <BreadcrumbItem link="Our Services" img="/images/banner/ServiceBanner.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />
+                    <BreadcrumbItem link="Our Services" img="/images/banner/service.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />
                     <div className="mt-[100px]">
                         <div className="container">
                             <div className="flex gap-8 max-lg:flex-col-reverse">
@@ -33,7 +42,7 @@ export default function ServiceStyleOne() {
                                 </div>
                                 <div className="w-full lg:w-1/2">
                                     <div className="bg-img w-full overflow-hidden rounded-xl">
-                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/serviceimg.png" alt="" />
+                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/servicesec.png" alt="" />
                                     </div>
                                 </div>
                             </div>

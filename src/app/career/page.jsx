@@ -11,6 +11,9 @@ import { client } from "@/client";
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Image from "next/image"
+import { FaPhone } from "react-icons/fa";
+import Link from "next/link";
 
 
 export default function ContactStyleTwo() {
@@ -79,7 +82,14 @@ export default function ContactStyleTwo() {
   return (
     <>
       <ToastContainer />
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden relative">
+        <Link href="/contact">
+          <div className="relative">
+            <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
+              <FaPhone className="text-white text-xl" />
+            </div>
+          </div>
+        </Link>
         <header id="header">
 
           <MenuOne />
@@ -126,7 +136,7 @@ export default function ContactStyleTwo() {
           <div className="form-contact style-one lg:py-[100px] sm:py-16 py-10">
             <div className="container flex max-xl:flex-col xl:items-center justify-between gap-y-8">
               <div className="w-full xl:w-1/2">
-                <img className="w-[600px]" src="images/component/careerInfo (1).png" alt="" />
+                <Image width={630} height={400} src="/images/component/careersec.png" alt="" />
               </div>
               <div className="w-full xl:w-5/12 bg-white sm:p-10 p-8 rounded-2xl box-shadow">
                 <div className="form-block flex flex-col justify-between gap-5">

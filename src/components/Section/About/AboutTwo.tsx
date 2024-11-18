@@ -19,7 +19,7 @@ const AboutTwo = () => {
           <div className="w-full lg:w-1/2">
             <div className="bg-img w-full overflow-hidden rounded-3xl lg:mb-10">
               <Image
-                src="/images/component/aboutimg (2).png"
+                src="/images/component/aboutsec.png"
                 width={4000}
                 height={4000}
                 alt=""

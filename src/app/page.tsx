@@ -14,16 +14,27 @@ import ServiceTwo from "@/components/Section/Service/ServiceTwo";
 import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import Footer from "@/components/Footer/Footer";
 import ProjectFive from "@/components/Section/Project/ProjectFive";
+import { FaPhone } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="overflow-x-hidden">
+
+      <div className="overflow-x-hidden relative">
+        <Link href="/contact">
+          <div className="relative">
+            <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
+              <FaPhone className="text-white text-xl" />
+            </div>
+          </div>
+        </Link>
         <header id="header">
           {/* <TopNavOne /> */}
           <MenuOne />
         </header>
-        <main className="content">
+        <main className="content ">
+
           <SliderOne />
           <ServiceOne data={serviceData} />
           {/* <PaymentGatewayOneFirst /> */}
