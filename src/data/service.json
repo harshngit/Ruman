@@ -1,6 +1,7 @@
 [
     {
-        "serviceimg": "serviceimg1.png",
+        "serviceimg": "service1,1.png",
+        "serviceimg2": "service1,2.png",
         "banner": "service1.png",
         "icon": "icon-books",
         "category": "payment solution",
@@ -18,7 +19,8 @@
         ]
     },
     {
-        "serviceimg": "serviceimg2.png",
+        "serviceimg": "service2,1.png",
+        "serviceimg2": "service2,2.png",
         "banner": "service2.png",
         "icon": "icon-hand-tick",
         "category": "payment solution",
@@ -35,7 +37,8 @@
         ]
     },
     {
-        "serviceimg": "serviceimg3.png",
+        "serviceimg": "service3,1.png",
+        "serviceimg2": "service3,2.png",
         "banner": "service3.png",
         "icon": "icon-hand-house",
         "category": "payment solution",
@@ -53,7 +56,8 @@
         ]
     },
     {
-        "serviceimg": "serviceimg4.png",
+        "serviceimg": "service4,1.png",
+        "serviceimg2": "service4,2.png",
         "banner": "service4.png",
         "icon": "icon-gear-warning",
         "category": "payment solution",
@@ -68,7 +72,8 @@
         ]
     },
     {
-        "serviceimg": "serviveimg5.png",
+        "serviceimg": "service5,1.png",
+        "serviceimg2": "service5,2.png",
         "banner": "service5.png",
         "icon": "icon-text-search",
         "category": "payment solution",

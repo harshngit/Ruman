@@ -78,7 +78,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
 
                                     {foundPost?.Description && <div className="lg:mt-10 mt-5 flex justify-center lg:flex-row flex-col-reverse">
                                         <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
-                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg2}`} alt="" />
                                         </div>
                                         <div className="w-full lg:w-1/2 pl-5 pt-5 ">
                                             {/* <div className="heading3"> Some Key Points</div> */}

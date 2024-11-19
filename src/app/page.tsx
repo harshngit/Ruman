@@ -16,7 +16,12 @@ import Footer from "@/components/Footer/Footer";
 import ProjectFive from "@/components/Section/Project/ProjectFive";
 import { FaPhone } from "react-icons/fa";
 import Link from "next/link";
-
+import TestimonialFive from "@/components/Section/Testimonial/TestimonialFive";
+import testimonialData from '@/data/testimonial.json'
+import TestimonialFour from "@/components/Section/Testimonial/TestimonialFour";
+import TestimonialSix from "@/components/Section/Testimonial/TestimonialSix";
+import TestimonialThree from "@/components/Section/Testimonial/TestimonialThree";
+import TestimonialTwo from "@/components/Section/Testimonial/TestimonialTwo";
 export default function Home() {
   return (
     <>
@@ -45,6 +50,7 @@ export default function Home() {
           {/* <FaqsOne /> */}
           {/* <FormRequestOne /> */}
           {/* <BlogOne data={blogData} /> */}
+          <TestimonialTwo />
           <PartnerOne classname='bg-blue sm:mt-0 mt-0' />
         </main>
         <footer id="footer">
