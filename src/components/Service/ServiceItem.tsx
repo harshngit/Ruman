@@ -118,8 +118,8 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 <div className="service-item py-8 px-7 bg-white rounded-lg hover-box-shadow">
                     <Link
                         className="service-item-main flex flex-col justify-between h-full"
-                        href={"/service/service-detail/[slug]"}
-                        as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
+                        // href={"/service/service-detail/[slug]"}
+                        href={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
                         <div className="heading flex items-center gap-4">
                             <i className={`${data.icon} text-blue md:text-5xl text-4xl`}></i>

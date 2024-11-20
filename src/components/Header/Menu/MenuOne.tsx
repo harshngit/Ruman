@@ -93,16 +93,16 @@ const MenuOne = () => {
                             </Link>
 
                             </li>
-                            {/* <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
-                                <span>Pages</span>
-                                <span><Icon.CaretDown className="text-sm" /></span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
+                                <span>Accounting Intelligence</span>
+                                {/* <span><Icon.CaretDown className="text-sm" /></span> */}
                             </Link>
-                                <ul className="sub-nav">
+                                {/* <ul className="sub-nav">
                                     <li className={`sub-nav-item ${pathname === '/pages/faqs' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/faqs">FAQs</Link></li>
                                     <li className={`sub-nav-item ${pathname === '/pages/pricing' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/pricing">Pricing</Link></li>
                                     <li className={`sub-nav-item ${pathname === '/pages/partners' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/partners">Partners</Link></li>
-                                </ul>
-                            </li> */}
+                                </ul> */}
+                            </li>
                             {/* <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/blog/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
                                 <span>Blog</span>
                                 <span><Icon.CaretDown className="text-sm" /></span>
