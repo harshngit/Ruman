@@ -19,11 +19,11 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
       <div className="container h-full py-[60px]">
         <div className="flex max-lg:flex-col lg:items-center justify-between gap-8 h-full">
           <div className="lg:w-1/2">
-            <div className="heading2 text-white">Trusted Accounting Experts</div>
-            <div className="caption1 text-surface mt-4">Dedicated to Your Financial Growth <br className="max-sm:hidden" /> and Stability</div>
+            <div className="heading2 text-white lg:text-left text-center">Trusted Accounting Experts</div>
+            <div className="caption1 text-surface  lg:text-left text-center mt-4">Dedicated to Your Financial Growth <br className="max-sm:hidden" /> and Stability</div>
           </div>
           <div className="lg:w-1/2">
-            <div className="grid lg:grid-cols-2 grid-cols-1">
+            <div className="grid lg:grid-cols-2 grid-cols-1 lg:items-start items-center ">
               <StyledWrapper>
                 <div className="card">
                   <p className="card-title">Reliable Accounting, Tax, and Advisory Services</p>

@@ -174,7 +174,7 @@ const MenuOne = () => {
                                 </li>
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ${openSubNavMobile === 4 ? 'active' : ''}`}
                                     onClick={() => handleOpenSubNavMobile(4)}
-                                ><a className="nav-link-mobile flex items-center justify-between" href="/contect">
+                                ><a className="nav-link-mobile flex items-center justify-between" href="/contact">
                                         <span className="body2 font-semibold">Contact </span>
                                         {/* <Icon.CaretRight className="text-base" /> */}
                                     </a>
@@ -188,6 +188,18 @@ const MenuOne = () => {
                                     onClick={() => handleOpenSubNavMobile(5)}
                                 ><a className="nav-link-mobile flex items-center justify-between" href="/career">
                                         <span className="body2 font-semibold">Career </span>
+
+                                    </a>
+                                    {/* <ul className={`sub-nav-mobile ${openSubNavMobile === 5 ? 'open' : ''}`}>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/pages/faqs">FAQs</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/pages/pricing">Pricing</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/pages/partners">Partners</Link></li>
+                                    </ul> */}
+                                </li>
+                                <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer pages ${openSubNavMobile === 5 ? 'active' : ''}`}
+                                    onClick={() => handleOpenSubNavMobile(6)}
+                                ><a className="nav-link-mobile flex items-center justify-between" href="/#!">
+                                        <span className="body2 font-semibold">Accounting Intelligence </span>
 
                                     </a>
                                     {/* <ul className={`sub-nav-mobile ${openSubNavMobile === 5 ? 'open' : ''}`}>
