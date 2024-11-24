@@ -17,7 +17,7 @@ const PaymentGatewayOneSecond = () => {
 
                     <div className="">
                         <div
-                            className="right pl-10"
+                            className="right "
                             style={{
                                 transform: isInView ? "none" : "translateX(60px)",
                                 opacity: isInView ? 1 : 0,

@@ -17,40 +17,40 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
       style={bgImg ? { backgroundImage: `url('${bgImg}')` } : { backgroundColor: `var(--surface)` }}
     >
       <div className="container h-full py-8 px-4 lg:py-[60px] lg:px-16">
-       
-          <div >
-            <div className="grid lg:grid-cols-2 gap-12 grid-cols-1 lg:items-start items-center ">
-              <StyledWrapper>
-                <div className="card w-full">
-                  <p className="card-title">Reliable Accounting, Tax, and Advisory Services</p>
-                  <p className="small-desc">
-                    India is a perfect place for varied type of businesses and trade and having presence for many International Brands and Large size MNCs. India is the perfect example of growth and access to more technological advantages. However, reaping the highest demography benefits depends on how effectively you use the course of events in the market and your business.
-                  </p>
-                  <p className="small-desc">
-                    Making your business sustainable not only relies on market research and operational improvement but saving your time and cost by outsourcing some of the internal processes puts the quality of the outcome at its best. Company offers the best-outsourced Accounting, Taxation, and Advisory services for the businesses need expert governance in their financial operations.
-                  </p>
-                  <div className="go-corner">
-                    <div className="go-arrow">→</div>
-                  </div>
+
+        <div >
+          <div className="grid lg:grid-cols-2 gap-12 grid-cols-1 lg:items-start items-center ">
+            <StyledWrapper>
+              <div className="card w-full h-full lg:h-[220px]">
+                <p className="card-title">Reliable Accounting, Tax, and Advisory Services</p>
+                <p className="small-desc">
+                  India is a perfect place for varied type of businesses and trade and having presence for many International Brands and Large size MNCs. India is the perfect example of growth and access to more technological advantages. However, reaping the highest demography benefits depends on how effectively you use the course of events in the market and your business.
+                </p>
+                <p className="small-desc">
+                  Making your business sustainable not only relies on market research and operational improvement but saving your time and cost by outsourcing some of the internal processes puts the quality of the outcome at its best. Company offers the best-outsourced Accounting, Taxation, and Advisory services for the businesses need expert governance in their financial operations.
+                </p>
+                <div className="go-corner">
+                  <div className="go-arrow">→</div>
                 </div>
-              </StyledWrapper>
-              <StyledWrapper>
-                <div className="card w-full">
-                  <p className="card-title">The Company Advantage</p>
-                  <p className="small-desc">
-                    As an authorized accounting and tax consultancy, we offer a wide range of online and onsite services, including accounting, advisory, bookkeeping, budgeting, forecasting, tax services, MIS, data management, and employee training, all within a friendly budget.
-                  </p>
-                  <p className="small-desc">
-                    Our company as your accounting and advisory partner, you can identify your financial position with precise and flawless reports, improve the productivity of your employees by adopting the industry&apos;s advanced solutions, and set elevated financial and business goals with confidence.
-                  </p>
-                  <div className="go-corner">
-                    <div className="go-arrow">→</div>
-                  </div>
+              </div>
+            </StyledWrapper>
+            <StyledWrapper>
+              <div className="card w-full h-full lg:h-[220px]">
+                <p className="card-title">The Company Advantage</p>
+                <p className="small-desc">
+                  As an authorized accounting and tax consultancy, we offer a wide range of online and onsite services, including accounting, advisory, bookkeeping, budgeting, forecasting, tax services, MIS, data management, and employee training, all within a friendly budget.
+                </p>
+                <p className="small-desc">
+                  Our company as your accounting and advisory partner, you can identify your financial position with precise and flawless reports, improve the productivity of your employees by adopting the industry&apos;s advanced solutions, and set elevated financial and business goals with confidence.
+                </p>
+                <div className="go-corner">
+                  <div className="go-arrow">→</div>
                 </div>
-              </StyledWrapper>
-            </div>
+              </div>
+            </StyledWrapper>
           </div>
-       
+        </div>
+
       </div>
     </div>
   )
@@ -99,12 +99,9 @@ const StyledWrapper = styled.div`
   .card {
     display: block;
     position: relative;
-   height:220px;
-   
     background-color: #f2f8f9;
     border-radius: 10px;
     padding: 2em 1.2em;
-    margin: 12px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
