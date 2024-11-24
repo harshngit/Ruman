@@ -28,23 +28,23 @@ export default function AboutStyleOne() {
           <Link href="/contact">
             <div className="relative">
               <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
-                <FaPhone className="text-white text-xl" />
+                <FaPhone className="text-white rotate-90 text-xl" />
               </div>
             </div>
           </Link>
           <MenuOne />
         </header>
         <main className="content">
-          <BreadcrumbItem link="About Us" img="/images/banner/about.png" title="About Us" desc="Ruman Accounting Services LLP, an accounting, tax services, and advisory firm, has operated in Mumbai and across India since 1996, offering outsourced services for corporates and high-net-worth individuals." />
+          <BreadcrumbItem link="About Us" img="/images/banner/about.png" title="About Us" desc="" />
           <AboutTwo />
           <AboutFive />
 
           {/* <CaseStudyOne data={caseStudyData} /> */}
           <CaseStudyThree data={caseStudyData} />
-          <ServiceAboutOne data={serviceData} />
+          {/* <ServiceAboutOne data={serviceData} /> */}
           <FormRequestTwo classname="style-two style-about" bgImg="/images/banner/form.png" />
           {/* <FaqsOne /> */}
-          <ServiceTwo />
+          {/* <ServiceTwo /> */}
         </main>
         <footer id="footer">
           <Footer />

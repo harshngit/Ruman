@@ -20,7 +20,7 @@ export default function ServiceStyleOne() {
                 <Link href="/contact">
                     <div className="relative">
                         <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
-                            <FaPhone className="text-white text-xl" />
+                            <FaPhone className="text-white rotate-90 text-xl" />
                         </div>
                     </div>
                 </Link>
@@ -29,27 +29,27 @@ export default function ServiceStyleOne() {
                     <MenuOne />
                 </header>
                 <main className="content">
-                    <BreadcrumbItem link="Our Services" img="/images/banner/service.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />
-                    <div className="mt-[100px]">
+                    <BreadcrumbItem link="Our Services" img="/images/banner/service.png" title="Our Services" desc="" />
+                    <div className="lg:mt-[100px] my-16 mx-4 lg:mx-16">
                         <div className="container">
-                            <div className="flex gap-8 max-lg:flex-col-reverse">
-                                <div className="w-full lg:w-1/2 flex flex-col justify-between gap-5 pr-10">
-                                    <div className="heading3 text-3xl">Full-Range Expert Accounting Services and Tax Advisory in, INDIA</div>
-                                    <div className="body2 text-secondary">Financial reporting and accounting services have changed over the years due to the transformation in processing, evolved standards, tax changes, and digital transformation so does the financial advisory. Company offers highly professional accounting services by deploying experienced accountants with high knowledge in current accounting trends and proper industry-wise training in each accounting domain, and tax advisory with compliance to accounting standards in INDIA. </div>
+                            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 ">
+                                <div className="">
+                                    <div className="heading3 text-[1.8rem] lg:text-[2.2rem]">Full-Range Expert Accounting Services and Tax Advisory in, INDIA</div>
+                                    <div className="lg:text-[.9rem] text-[.8rem] my-3 text-secondary">Financial reporting and accounting services have changed over the years due to the transformation in processing, evolved standards, tax changes, and digital transformation so does the financial advisory. Company offers highly professional accounting services by deploying experienced accountants with high knowledge in current accounting trends and proper industry-wise training in each accounting domain, and tax advisory with compliance to accounting standards in INDIA. </div>
                                     <div className="button-block">
                                         <a className="button-main hover:bg-black text-white bg-blue text-button inline-block py-3 px-9 rounded-full" href="/contact">Contact Us</a>
                                     </div>
                                 </div>
-                                <div className="w-full lg:w-1/2">
+                                <div className="">
                                     <div className="bg-img w-full overflow-hidden rounded-xl">
-                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/servicesec.png" alt="" />
+                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/servicecontent.png" alt="" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <ServiceOne data={serviceData} />
-                    <FormRequestTwo classname="style-two style-about" bgImg="/images/banner/form.png" />
+                    {/* <FormRequestTwo classname="style-two style-about" bgImg="/images/banner/form.png" /> */}
                 </main>
                 <footer id="footer">
                     <Footer />

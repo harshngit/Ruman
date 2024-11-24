@@ -23,11 +23,11 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
                         <div className="heading flex items-center justify-between">
-                            <i className={`${data.icon} text-blue md:text-6xl text-5xl`}></i>
+                            <i className={`${data.icon} text-[#021a43cf] md:text-6xl text-5xl`}></i>
 
                         </div>
                         <div className="heading6 hover:text-blue duration-300 mt-6">{data.title}</div>
-                        <div className="text-secondary mt-2">{data.desc}</div>
+                        <div className="text-secondary text-[.8rem] mt-2">{data.desc}</div>
                     </Link>
                 </div>
             }
@@ -39,14 +39,14 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
                         <div className="icon">
-                            <i className={`${data.icon} text-blue md:text-5xl text-4xl`}></i>
+                            <i className={`${data.icon} text-[#021a43cf] md:text-5xl text-4xl`}></i>
                         </div>
                         <div className="infor">
                             <div className="heading7 hover:text-blue duration-300">{data.title}</div>
                             <div className="text-secondary mt-2">{data.shortDesc}</div>
                             <div className="read-more flex items-center gap-1 mt-2">
                                 <div className="text-button-sm">Explore Plan</div>
-                                <Icon.CaretRight weight="bold" className="text-blue text-sm duration-300" />
+                                <Icon.CaretRight weight="bold" className="text-[#021a43cf] text-sm duration-300" />
                             </div>
                         </div>
                     </Link>
@@ -87,7 +87,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
                         <div className="heading flex items-center justify-between">
-                            <i className={`${data.icon} text-blue md:text-6xl text-5xl`}></i>
+                            <i className={`${data.icon} text-[#021a43cf] md:text-6xl text-5xl`}></i>
                             <div className="number heading3 text-placehover">{number + 1}</div>
                         </div>
                         <div className="heading7 hover:text-blue duration-300 mt-6">{data.title}</div>
@@ -122,7 +122,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         href={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
                         <div className="heading flex items-center gap-4">
-                            <i className={`${data.icon} text-blue md:text-5xl text-4xl`}></i>
+                            <i className={`${data.icon} text-[#021a43cf] md:text-5xl text-4xl`}></i>
                             <div className="heading7 hover:text-blue duration-300">{data.title}</div>
                         </div>
                         <div className="text-secondary mt-4">{data.desc}</div>
@@ -140,7 +140,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         href={"/service/service-detail/[slug]"}
                         as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
                     >
-                        <i className={`${data.icon} text-blue md:text-6xl text-5xl`}></i>
+                        <i className={`${data.icon} text-[#021a43cf] md:text-6xl text-5xl`}></i>
                         <div className="heading7 text-center hover:text-blue duration-300 mt-6">{data.title}</div>
                         <div className="caption1 text-secondary text-center mt-1.5">{data.desc}</div>
                     </Link>

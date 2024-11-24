@@ -14,11 +14,11 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
         <>
             {style === 'style-one' &&
                 <div className="">
-                    <div className="flex justify-center items-start w-full gap-5 mt-10 ">
-                        <div className="w-full lg:w-1/2">
-                            <Image width={5000} height={5000} className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
+                    <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-start w-full gap-5 mt-10 ">
+                        <div className="">
+                            <Image  className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
                         </div>
-                        <div className="w-full lg:w-1/2">
+                        <div className="">
                             <div className="title text-secondary mt-4">
                                 {data.shortDesc}
                             </div>
@@ -51,12 +51,13 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                 </div>
             } */}
             {style === 'style-three' &&
-                <div className="">
-                    <div className="flex justify-center flex-col lg:flex-row items-center w-full gap-5 mt-10 ">
-                        <div className="w-full lg:w-1/2 flex items-center justify-center">
-                            <Image width={5000} height={5000} className=" w-[400px] rounded-xl display-block shadow-md" src={data.img} alt="" />
+                <div className="mt-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full gap-5 mt-10">
+                        <div className="">
+                            <Image width={5000} height={5000} className=" w-full rounded-xl display-block shadow-md" src={data.img} alt="" />
                         </div>
-                        <div className="w-full lg:w-1/2">
+                        <div className="">
+                            <h3 className="lg:text-[2.5rem] text-[2rem] font-[700]" >{data.category}</h3>
                             <div className="title text-secondary mt-4">
                                 {data.shortDesc}
                             </div>

@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const AboutFive = () => {
     return (
-        <div className="about-five lg:mt-[100px] sm:mt-16 mt-10">
+        <div className="about-five lg:my-[40px] px-4 lg:px-16 sm:my-16 my-10">
             <div className="container">
-                <div className="main flex max-lg:flex-col-reverse items-center justify-between max-lg:justify-center gap-8">
-                    <div className="w-full lg:w-1/2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-x-12 gap-y-6">
+                    <div className="lg:order-1 order-2">
                         <div className="text-about">
 
                             <div className="heading3 mt-6">Our Service</div>
@@ -16,14 +16,11 @@ const AboutFive = () => {
 
                         </div>
                     </div>
-                    <div className="w-full lg:w-5/12 sm:w-2/3">
+                    <div className="lg:order-2 order-1">
                         <div className="bg-img w-full">
                             <Image width={5000} height={5000} className="w-full rounded-md shadow-lg" src="/images/component/Serviceimgabout.png" alt="" />
                         </div>
-                        <div className="sub-img">
-                            <Image width={5000} height={5000} className='w-[50px]' src="/images/component/sub-about5-left.png" alt="" />
-                            <Image width={5000} height={5000} className='w-[50px]' src="/images/component/sub-about5.png" alt="" />
-                        </div>
+                         
                     </div>
                 </div>
             </div>

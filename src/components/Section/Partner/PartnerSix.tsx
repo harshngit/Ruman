@@ -15,62 +15,62 @@ interface Props {
 const PartnerSix: React.FC<Props> = ({ classname }) => {
     return (
         <>
-            <div className={`brand-block py-9 ${classname}`}>
+            <div className={`bg-surface py-6 ${classname}`}>
                 <div className="container">
                     <div className="list-brand">
                         <Marquee>
-                            <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
+                            <div className="brand-item relative flex items-center justify-center md:h-[80px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo-1.png'}
+                                    src={'/images/clients/1.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                             <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo-2.png'}
+                                    src={'/images/clients/2.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                             <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo-3.png'}
+                                    src={'/images/clients/3.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                             <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo-4.png'}
+                                    src={'/images/clients/4.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                             <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo-5.png'}
+                                    src={'/images/clients/5.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                             <div className="brand-item relative flex items-center justify-center md:h-[34px] h-[30px] md:mx-14 mx-10">
                                 <Image
-                                    src={'/images/partner/Logo.png'}
+                                    src={'/images/clients/6.png'}
                                     width={300}
                                     height={300}
                                     alt='1'
-                                    className='h-full w-auto duration-500 relative object-cover'
+                                    className=' w-[150px] duration-500 relative object-cover'
                                 />
                             </div>
                         </Marquee>

@@ -16,16 +16,12 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
       className={`form-request-block ${classname} relative`}
       style={bgImg ? { backgroundImage: `url('${bgImg}')` } : { backgroundColor: `var(--surface)` }}
     >
-      <div className="container h-full py-[60px]">
-        <div className="flex max-lg:flex-col lg:items-center justify-between gap-8 h-full">
-          <div className="lg:w-1/2">
-            <div className="heading2 text-white lg:text-left text-center">Trusted Accounting Experts</div>
-            <div className="caption1 text-surface  lg:text-left text-center mt-4">Dedicated to Your Financial Growth <br className="max-sm:hidden" /> and Stability</div>
-          </div>
-          <div className="lg:w-1/2">
-            <div className="grid lg:grid-cols-2 grid-cols-1 lg:items-start items-center ">
+      <div className="container h-full py-8 px-4 lg:py-[60px] lg:px-16">
+       
+          <div >
+            <div className="grid lg:grid-cols-2 gap-12 grid-cols-1 lg:items-start items-center ">
               <StyledWrapper>
-                <div className="card">
+                <div className="card w-full">
                   <p className="card-title">Reliable Accounting, Tax, and Advisory Services</p>
                   <p className="small-desc">
                     India is a perfect place for varied type of businesses and trade and having presence for many International Brands and Large size MNCs. India is the perfect example of growth and access to more technological advantages. However, reaping the highest demography benefits depends on how effectively you use the course of events in the market and your business.
@@ -39,7 +35,7 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
                 </div>
               </StyledWrapper>
               <StyledWrapper>
-                <div className="card">
+                <div className="card w-full">
                   <p className="card-title">The Company Advantage</p>
                   <p className="small-desc">
                     As an authorized accounting and tax consultancy, we offer a wide range of online and onsite services, including accounting, advisory, bookkeeping, budgeting, forecasting, tax services, MIS, data management, and employee training, all within a friendly budget.
@@ -54,7 +50,7 @@ const FormRequestTwo: React.FC<Props> = ({ bgImg, classname }) => {
               </StyledWrapper>
             </div>
           </div>
-        </div>
+       
       </div>
     </div>
   )
@@ -103,7 +99,7 @@ const StyledWrapper = styled.div`
   .card {
     display: block;
     position: relative;
-    max-width: 300px;
+   height:220px;
    
     background-color: #f2f8f9;
     border-radius: 10px;
@@ -132,7 +128,7 @@ const StyledWrapper = styled.div`
   }
 
   .card:hover:before {
-    transform: scale(28);
+    transform: scale(48);
   }
 
   .card:hover .small-desc {

@@ -47,7 +47,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/clients/1.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -58,7 +58,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/clients/2.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -69,7 +69,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/clients/3.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -80,7 +80,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/clients/4.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -91,7 +91,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/clients/5.png'}
                                         width={300}
                                         height={300}
                                         alt='1'
@@ -102,7 +102,7 @@ const PartnerOne: React.FC<Props> = ({ classname }) => {
                             <SwiperSlide>
                                 <div className="brand-item relative flex items-center justify-center h-[34px]">
                                     <Image
-                                        src={'/images/partner/203x44.png'}
+                                        src={'/images/partner/'}
                                         width={300}
                                         height={300}
                                         alt='1'

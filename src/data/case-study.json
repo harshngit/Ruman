@@ -1,13 +1,5 @@
 [
-    {
-        "id": 1,
-        "category": "Our Service",
-        "desc": "At Company, we believe a business that periodically monitors its finances and makes informed decisions would grow and sustain despite the market volatility. Our highly qualified professionals with domain cross-functional experience and up-to-date knowledge in multi-industry accounting standards and Indian tax compliance design unique methodologies, delivery framework, and report formats. Hence, our accounting solutions and tax-related services bring merits, scale growth and help the business prosper.",
-        "shortDesc": "We offer end-to-end solutions from accounting and tax compliances till the finalization of accounts as audit-ready.",
-        "subTitle": "",
-        "title": "",
-        "img": "/images/component/Serviceimgabout.png"
-    },
+ 
     {
         "id": 2,
         "category": "Our Mission",
@@ -15,7 +7,7 @@
         "shortDesc": "",
         "subTitle": "",
         "title": "",
-        "img": "/images/component/Missionimg.png"
+        "img": "/images/component/mission.png"
     },
     {
         "id": 3,
@@ -24,6 +16,6 @@
         "shortDesc": "",
         "subTitle": "",
         "title": "",
-        "img": "/images/component/Visionimg.png"
+        "img": "/images/component/vision.png"
     }
 ]

@@ -36,60 +36,36 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                 </header>
                 <main className="content">
                     <BreadcrumbItem link="Our Services" title={foundPost?.title || 'Our Services'} desc={foundPost?.shortDesc || "Expand your knowledge and skills in cryptocurrency trading through our educational resources."} img={`/images/component/${foundPost?.banner}`} />
-                    <div className="content-detail-block lg:py-[100px] sm:py-16 py-10">
+                    <div className="content-detail-block ">
                         <div className="container">
                             <div className="flex max-xl:flex-col gap-y-8">
                                 <div className="w-full">
-                                    <div className="content-para flex lg:flex-row flex-col justify-center items-center xl:pr-[80px]">
-                                        <div className="w-full lg:w-1/2">
+                                    <div className="content-para px-4 lg:px-16 lg:my-16 my-6 grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-4 lg:gap-12">
+                                        <div className="">
                                             <div className="heading3">{foundPost?.title}</div>
                                             {/* <div className="body2 text-secondary mt-4">{foundPost?.Description}</div> */}
                                             <div className="body2 text-secondary mt-4">{foundPost?.desc}</div>
                                         </div>
-                                        <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
+                                        <div className=" bg-img mt-8 mb-8 flex justify-center items-center">
                                             <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
                                         </div>
 
-
-
-                                        {/* <div className="list-question lg:mt-[60px] mt-8">
-                                            <div className="heading6">Questions about service</div>
-                                            {faqData.slice(0, 4).map(item => (
-                                                <div
-                                                    key={item.id}
-                                                    className={`question-item hover-box-shadow pointer mt-5 px-7 rounded-lg border border-line cursor-pointer ${faq === item.id ? 'open' : ''}`}
-                                                    onClick={() => handleFaq(item.id)}
-                                                >
-                                                    <div className="question-item-main flex items-center justify-between py-4 heading7">{item.title}
-                                                        {faq === item.id ? (
-                                                            <Icon.Minus weight="bold" className="text-xl" />
-                                                        ) : (
-                                                            <Icon.Plus weight="bold" className="text-xl" />
-                                                        )}
-                                                    </div>
-                                                    <div className="content-question">
-                                                        <div className="border-line w-full"></div>
-                                                        <div className="body3 text-secondary pb-4">{item.desc}</div>
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div> */}
                                     </div>
 
-                                    {foundPost?.Description && <div className="lg:mt-10 mt-5 flex justify-center lg:flex-row flex-col-reverse">
-                                        <div className="w-full lg:w-1/2 bg-img mt-8 mb-8 flex justify-center items-center">
+                                    {foundPost?.Description && <div className="lg:my-16 my-6 gap-4 lg:gap-12 px-4 lg:px-16 mt-5 grid grid-cols-1 lg:grid-cols-2 ">
+                                        <div className=" bg-img  flex justify-center items-center">
                                             <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg2}`} alt="" />
                                         </div>
-                                        <div className="w-full lg:w-1/2 pl-5 pt-5 ">
+                                        <div className=" ">
                                             {/* <div className="heading3"> Some Key Points</div> */}
                                             <div className="list-feature mt-2">
-                                                <div className="body2 text-secondary mb-2">{foundPost?.Description}</div>
-                                                <div className="flex flex-col gap-y-3">
+                                                <div className="body2 text-secondary text-[.9rem] mb-2">{foundPost?.Description}</div>
+                                                <div className="flex flex-col gap-y-2">
                                                     {foundPost?.points?.map((item, index) => (
                                                         <div key={index} className="w-full flex flex-col ">
-                                                            <div key={index} className="item flex items-center gap-4">
+                                                            <div key={index} className="item flex items-center gap-2">
                                                                 <Icon.CheckCircle weight="fill" className="text-xl text-blue flex-shrink-0" />
-                                                                <div className="text-button">{item}</div>
+                                                                <div className="text-button text-[.8rem]">{item}</div>
                                                             </div>
 
                                                         </div>

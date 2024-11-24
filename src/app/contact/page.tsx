@@ -15,6 +15,7 @@ import { FaPhone } from "react-icons/fa";
 export default function ContactStyleOne() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [subject, setSubject] = useState("");
   // const router = useRouter();
@@ -27,7 +28,7 @@ export default function ContactStyleOne() {
       email: email,
       subject: subject,
       message: message,
-
+      phone:phone
     };
 
     client.create(doc)
@@ -67,8 +68,7 @@ export default function ContactStyleOne() {
                   <div className="infor bg-blue rounded-xl p-10">
                     <div className="heading5 text-white">Get it touch</div>
                     <div className="body3 text-white mt-2">
-                      We will get back to you within 24 hours, or call us
-                      everyday
+                      We will get back to you within 24 hours
                     </div>
                     <div className="list-social flex flex-wrap items-center gap-3 md:mt-10 mt-6">
                       <a
@@ -162,10 +162,9 @@ export default function ContactStyleOne() {
                 <div className="w-full xl:w-3/5 xl:pl-20">
                   <div className="form-block flex flex-col justify-between gap-5">
                     <div className="heading">
-                      <div className="heading5">Request a quote</div>
+                      <div className="heading5">Reach Out to Us</div>
                       <div className="body3 text-secondary mt-2">
-                        We will get back to you within 24 hours, or call us
-                        everyday
+                       Our Team with Get Back to You
                       </div>
                     </div>
                     <div className="grid sm:grid-cols-2 gap-5">
@@ -184,13 +183,13 @@ export default function ContactStyleOne() {
                       <div className="w-full">
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
-                          type="text"
-                          value={subject}
-                          onChange={(e) => setSubject(e.target.value)}
-                          placeholder="Subject"
-                          name="subject"
+                          type="number"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          placeholder="Phone"
+                          name="phone"
                           required
-                          id="subject"
+                          id="phone"
                         />
                       </div>
                       <div className="col-span-2">
@@ -205,7 +204,18 @@ export default function ContactStyleOne() {
                           required
                         />
                       </div>
-
+                      <div className="w-full col-span-2">
+                        <input
+                          className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
+                          type="text"
+                          value={subject}
+                          onChange={(e) => setSubject(e.target.value)}
+                          placeholder="Subject"
+                          name="subject"
+                          required
+                          id="subject"
+                        />
+                      </div>
                       <div className="col-span-2 w-full">
                         <textarea
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"

@@ -19,7 +19,7 @@ import Link from "next/link";
 export default function ContactStyleTwo() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
-  const [company, setCompany] = useState("")
+  const [phone, setPhone] = useState("")
   const [message, setMessage] = useState("")
   const [resume, setResume] = useState("")
   // const router = useRouter()
@@ -43,7 +43,7 @@ export default function ContactStyleTwo() {
       _type: "career",
       name: name,
       email: email,
-      company: company,
+      phone: phone,
       message: message,
       resume: {
         _type: "file",
@@ -86,7 +86,7 @@ export default function ContactStyleTwo() {
         <Link href="/contact">
           <div className="relative">
             <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
-              <FaPhone className="text-white text-xl" />
+              <FaPhone className="text-white rotate-90 text-xl" />
             </div>
           </div>
         </Link>
@@ -97,7 +97,7 @@ export default function ContactStyleTwo() {
         <main className="content">
           <BreadcrumbItem
             link="Career"
-            img="/images/banner/CareerBanner.png"
+            img="/images/banner/career.png"
             title="Career"
             desc="Join our team at Ruman Accounting Services LLP and be part of a dynamic, innovative environment where experienced professionals and aspiring talent come together to shape the future of accounting and financial services"
           />
@@ -141,13 +141,24 @@ export default function ContactStyleTwo() {
               <div className="w-full xl:w-5/12 bg-white sm:p-10 p-8 rounded-2xl box-shadow">
                 <div className="form-block flex flex-col justify-between gap-5">
                   <div className="grid sm:grid-cols-2 gap-5">
-                    <div className="w-full max-sm:col-span-2">
+                    <div className="col-span-2">
                       <input
                         className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                         type="text"
                         placeholder="Name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div className="w-full max-sm:col-span-2">
+                      <input
+                        className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
+                        type="number"
+                        placeholder="Phone"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                         name="name"
                         required
                       />
@@ -163,17 +174,7 @@ export default function ContactStyleTwo() {
                         required
                       />
                     </div>
-                    <div className="col-span-2">
-                      <input
-                        className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
-                        type="text"
-                        value={company}
-                        onChange={(e) => setCompany(e.target.value)}
-                        placeholder="Current Company"
-                        name="company"
-                        required
-                      />
-                    </div>
+                    
                     <div className="col-span-2 w-full">
                       <textarea
                         className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
