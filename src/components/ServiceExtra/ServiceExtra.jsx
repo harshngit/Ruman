@@ -12,7 +12,7 @@ const ServiceExtra = () => {
 					{reason.map((reason) => (
 						<div key={reason.id} className="text-left">
 							<div className='flex justify-start items-center'>
-								<h3 className="text-[#021a43cf] text-6xl font-bold mb-4">{reason.id}</h3>
+								<h3 className="text-[#021a43cf] text-4xl font-bold mb-4">{reason.id}</h3>
 								<hr className='w-full border-t-[3px]  text-[#021a43cf]' />
 							</div>
 							<h4 className="text-[25px] font-semibold text-gray-800 mb-2">{reason.title}</h4>
