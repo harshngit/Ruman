@@ -36,7 +36,7 @@ const MenuOne = () => {
     return (
         <>
             <div className={`header-menu style-one bg-white ${fixedHeader ? 'fixed' : ''}`}>
-                <div className="container flex items-center justify-between h-20">
+                <div className="container flex items-center justify-between h-24">
                     <Link className="menu-left-block" href="/">
                         <Image
                             src={'/images/rumanLogochangebg.png'}
@@ -44,7 +44,7 @@ const MenuOne = () => {
                             height={1000}
                             alt="logo"
                             priority={true}
-                            className="w-[200px] max-sm:w-[160px]"
+                            className="w-[230px] max-sm:w-[160px]"
                         />
                     </Link>
                     <div className="menu-center-block h-full">
@@ -162,15 +162,15 @@ const MenuOne = () => {
                                 </li>
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer services ${openSubNavMobile === 3 ? 'active' : ''}`}
                                     onClick={() => handleOpenSubNavMobile(3)}
-                                ><a className="nav-link-mobile flex items-center justify-between" href="/service">
+                                ><a className="nav-link-mobile flex items-center justify-between">
                                         <span className="body2 font-semibold">Services </span>
 
                                     </a>
-                                    {/* <ul className={`sub-nav-mobile ${openSubNavMobile === 3 ? 'open' : ''}`}>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service/service-one">Service Style 1</Link></li>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-two">Service Style 2</Link></li>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-detail">Services Detail</Link></li>
-                                    </ul> */}
+                                    <ul className={`sub-nav-mobile ${openSubNavMobile === 3 ? 'open' : ''}`}>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service/service-one">Our Service</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-two">Ancillary Service</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-asscoiate">Asscoiate Service</Link></li>
+                                    </ul>
                                 </li>
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ${openSubNavMobile === 4 ? 'active' : ''}`}
                                     onClick={() => handleOpenSubNavMobile(4)}
