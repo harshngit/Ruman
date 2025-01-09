@@ -28,12 +28,12 @@ export default function ContactStyleOne() {
       email: email,
       subject: subject,
       message: message,
-      phone:phone
+      phone: phone
     };
 
     client.create(doc)
       .then((res) => {
-        toast.success("Message Sent");
+        alert("MSG SENT")
         setTimeout(() => window.location.reload(), 5000); // Add a delay before reload to allow the toast to display
       })
       .catch((error) => {
@@ -164,7 +164,7 @@ export default function ContactStyleOne() {
                     <div className="heading">
                       <div className="heading5">Reach Out to Us</div>
                       <div className="body3 text-secondary mt-2">
-                       Our Team with Get Back to You
+                        Our Team with Get Back to You
                       </div>
                     </div>
                     <div className="grid sm:grid-cols-2 gap-5">

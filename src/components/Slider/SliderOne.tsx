@@ -26,9 +26,10 @@ const SliderOne = () => {
                         pagination={{ clickable: true }}
                         speed={600}
                         modules={[Pagination, Autoplay, Navigation]}
-                        className='h-full relative'
+                        className="h-full relative"
                         autoplay={{
-                            delay: 4000,
+                            delay: 15000,
+                            disableOnInteraction: true, // Ensure autoplay can resume after interaction
                         }}
                     >
                         <SwiperSlide>

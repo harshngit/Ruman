@@ -75,12 +75,12 @@ const Footer = () => {
                                     </svg>
                                     <div className="text ml-16">
                                         <div className="caption2 text-surface">Need help? 24/7 </div>
-                                        <div className="fw-700 text-white mt-1">001-1234-88888</div>
+                                        <div className="fw-700 text-white mt-1">98216 14306</div>
                                     </div>
                                 </div>
                                 <div className="locate mt-3 flex items-center">
                                     <Icon.MapPin weight="light" className="text-surface text-6xl" />
-                                    <div className="caption1 text-surface ml-2">301, SHANTADEEP CHS LTD., CTS NO.264, Ville Parle (E), Mumbai-57</div>
+                                    <div className="caption1 text-surface ml-2">301, SHANTADEEP CHS LTD., Tejalpal Scheme No.2 , Ville Parle (E), Mumbai-57</div>
                                 </div>
                                 <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
                                     <input className="caption1 text-secondary h-full w-full pr-4 pl-3" type="text" placeholder="Your email address" required />

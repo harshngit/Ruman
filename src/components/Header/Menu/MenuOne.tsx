@@ -39,12 +39,12 @@ const MenuOne = () => {
                 <div className="container flex items-center justify-between h-20">
                     <Link className="menu-left-block" href="/">
                         <Image
-                            src={'/images/rumanLogo (1).png'}
+                            src={'/images/rumanLogochangebg.png'}
                             width={2000}
                             height={1000}
                             alt="logo"
                             priority={true}
-                            className="w-[149px] max-sm:w-[132px]"
+                            className="w-[200px] max-sm:w-[160px]"
                         />
                     </Link>
                     <div className="menu-center-block h-full">
@@ -71,15 +71,15 @@ const MenuOne = () => {
                                     <li className={`sub-nav-item ${pathname === '/about/about-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/about/about-two">About Style 2</Link></li>
                                 </ul> */}
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/service') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/service">
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('#') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#">
                                 <span>Services</span>
-                                {/* <span><Icon.CaretDown className="text-sm" /></span> */}
+                                <span><Icon.CaretDown className="text-sm" /></span>
                             </Link>
-                                {/* <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/service/service-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-one">Service Style 1</Link></li>
-                                    <li className={`sub-nav-item ${pathname === '/service/service-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-two">Service Style 2</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/service/service-detail') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-detail">Services Detail</Link></li>
-                                </ul> */}
+                                <ul className="sub-nav">
+                                    <li className={`sub-nav-item ${pathname === '/service/service-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service">Our Service</Link></li>
+                                    <li className={`sub-nav-item ${pathname === '/service/service-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-two">Ancillary Services.</Link></li>
+                                    <li className={`sub-nav-item ${pathname.includes('/service/service-asscoiate') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-asscoiate">Associate Service</Link></li>
+                                </ul>
                             </li>
                             <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/contact/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/contact">
                                 <span>Contact</span>

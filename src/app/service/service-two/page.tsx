@@ -5,19 +5,20 @@ import ServiceFilter from "@/components/Section/Service/ServiceFilter"
 import serviceData from '@/data/service.json'
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
+import ServiceExtra from "@/components/ServiceExtra/ServiceExtra"
 
 export default function ServiceStyleTwo() {
     return (
         <>
             <div className="overflow-x-hidden">
                 <header id="header">
-                    <TopNavOne />
                     <MenuOne />
                 </header>
                 <main className="content">
-                    <BreadcrumbItem link="Our Services" img="/images/banner/about1.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />
-                    <ServiceFilter data={serviceData} />
-                    <CtaOne />
+                    <BreadcrumbItem link="Ancillary Services" img="/images/banner/extraService.png" title="Ancillary Services" desc="We offer payroll management, tax filing, compliance, financial advisory, audit support, secretarial services, and data management to enhance core accounting functions.." />
+
+                    <ServiceExtra />
+
                 </main>
                 <footer id="footer">
                     <Footer />
