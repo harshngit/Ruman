@@ -22,7 +22,7 @@ const ProjectFive = () => {
                             <div className="col-span-1">
                                 <div className="text-infor">
                                     <div className="heading4">India’s Certified, Industry-Focused, Custom Accounting Consultation and Tax Services</div>
-                                    <div className=" text-secondary mt-4">We offer a spectrum of accounting and financial services not limited to Accounts Payable (AP), Accounts Receivable (AR), and payroll processing but also tax processing and related corporate services in compliance with new regulations and standards across many industry verticals, including automotive, construction, IT, transport, pharma, logistics, commercial and supply service, eCommerce, retail to name a few</div>
+                                    <div className=" text-secondary mt-4">We provide a wide range of accounting and financial services, including Accounts Payable (AP), Accounts Receivable (AR), payroll processing, tax processing, and corporate services. Our solutions comply with the latest regulations and standards and cater to diverse industries such as automotive, construction, IT, transport, pharmaceuticals, logistics, commercial and supply services, eCommerce, and retail.</div>
                                     <div className="button-block mt-8">
                                         <Link className="button-main hover:bg-black text-white bg-[#021a43cf] inline-flex py-3 px-7 rounded-lg items-center gap-2" href="/about">
                                             <Icon.ArrowRight weight='bold' className="text-white text-[1.1rem]" />
@@ -38,7 +38,7 @@ const ProjectFive = () => {
                             <div className="col-span-1 order-2 lg:order-1">
                                 <div className="text-infor">
                                     <div className="heading4">Accounting Solutions and Services Tailor-made for Client Requirement </div>
-                                    <div className=" text-secondary mt-4">Company has hands-on experience in offering systemized accounting & financial services, tax registration, and returns filing to Startups, SMEs, and MNCs in India. Our special services include record digitization and employee training for accounting solutions like Tally, Quickbook, Zoho, Sage, etc.,</div>
+                                    <div className=" text-secondary mt-4">The company has hands-on experience in delivering systemized accounting and financial services, tax registration, and return filing for Startups, SMEs, and MNCs in India. Our specialized services include record digitization and employee training for accounting solutions such as Tally, QuickBooks, Zoho, Sage, and more.</div>
                                     <div className="button-block mt-8">
                                         <Link className="button-main hover:bg-black text-white bg-[#021a43cf] inline-flex py-3 px-7 rounded-lg items-center gap-2" href="/about">
                                             <Icon.ArrowRight weight='bold' className="text-white text-xl" />
