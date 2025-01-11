@@ -9,6 +9,9 @@ import Link from "next/link";
 import TestimonialTwo from "@/components/Section/Testimonial/TestimonialTwo";
 import PartnerSix from "@/components/Section/Partner/PartnerSix";
 import ServiceBanner from "@/components/Section/PaymentGateway/ServiceBanner"
+import HomeBanner from "@/components/Home/HomeBanner";
+
+
 export default function Home() {
   return (
     <>
@@ -22,15 +25,12 @@ export default function Home() {
           </div>
         </Link>
         <header id="header">
-          {/* <TopNavOne /> */}
           <MenuOne />
         </header>
         <main className="content ">
           <SliderOne />
           <ServiceBanner />
-          {/* <ServiceOne data={serviceData} />
-           */}
-          {/* <PaymentGatewayOneFirst /> */}
+          <HomeBanner />
           <ProjectFive />
           <PaymentGatewayOneSecond />
           <ServiceTwo />
