@@ -14,6 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Image from "next/image"
 import { FaPhone } from "react-icons/fa";
 import Link from "next/link";
+import emailjs from "emailjs-com";
 
 
 export default function ContactStyleTwo() {
@@ -22,6 +23,7 @@ export default function ContactStyleTwo() {
   const [phone, setPhone] = useState("")
   const [message, setMessage] = useState("")
   const [resume, setResume] = useState("")
+  const [position, setPosition] = useState("")
   // const router = useRouter()
 
   const [careerEntries, setCareerEntries] = useState([]);
@@ -44,6 +46,7 @@ export default function ContactStyleTwo() {
       name: name,
       email: email,
       phone: phone,
+      position: position,
       message: message,
       resume: {
         _type: "file",
@@ -54,14 +57,41 @@ export default function ContactStyleTwo() {
       }
     }
     client.create(doc)
+    // .then((res) => {
+    //   toast.success("Message Sent");
+    //   // setTimeout(() => window.location.reload(), 2000); // Add a delay before reload to allow the toast to display
+    // })
+    // .catch((error) => {
+    //   toast.error("Failed to send message");
+    //   console.error(error);
+    // });
+
+
+    // Email Js 
+
+    const emailParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+      from_phn: phone,
+      position: position,
+    };
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_1 || "",
+        emailParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
+      )
       .then((res) => {
-        toast.success("Message Sent");
-        // setTimeout(() => window.location.reload(), 2000); // Add a delay before reload to allow the toast to display
+        toast.success("Message Sent")
+        setTimeout(() => window.location.reload(), 5000); // Add a delay before reload to allow the toast to display
       })
       .catch((error) => {
         toast.error("Failed to send message");
         console.error(error);
       });
+
   };
   const handleupload = (e) => {
     const { type, name } = e.target.files[0];
@@ -171,6 +201,17 @@ export default function ContactStyleTwo() {
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="Email"
                         name="email"
+                        required
+                      />
+                    </div>
+                    <div className="col-span-2">
+                      <input
+                        className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
+                        type="text"
+                        placeholder="Position"
+                        value={position}
+                        onChange={(e) => setPosition(e.target.value)}
+                        name="position"
                         required
                       />
                     </div>

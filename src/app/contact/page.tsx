@@ -20,10 +20,10 @@ export default function ContactStyleOne() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [subject, setSubject] = useState("");
+
   // const router = useRouter();
 
   const sendMessage = async () => {
-    console.log("Hii")
     const doc = {
       _type: "contact",
       name: name,
@@ -144,7 +144,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"></div>
                         <div className="text-button normal-case text-white">
-                          8AM - 6PM, Mon - sun
+                          8AM - 6PM, Mon - Sun
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -156,7 +156,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          123 456 7890
+                          98216 14306
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -168,7 +168,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          info@rumanaccountingservices.com
+                          info@rumanaccounting.com
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -180,7 +180,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          301, SHANTADEEP CHS LTD., CTS NO.264, Ville Parle (E), Mumbai-57
+                          301, SHANTADEEP CHS LTD.,TEJPAL SCHEME NO.2, VILLE PARLE (E), MUMBAI-400057
                         </div>
                       </div>
                     </div>

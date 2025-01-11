@@ -14,8 +14,13 @@ export default {
 			type: 'string'
 		},
 		{
-			name: 'company',
-			title: 'Company',
+			name: 'position',
+			title: 'Position',
+			type: 'string'
+		},
+		{
+			name: 'phone',
+			title: 'Phone',
 			type: 'string'
 		},
 		{
