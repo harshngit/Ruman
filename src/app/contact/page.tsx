@@ -9,7 +9,7 @@ import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useState } from "react";
 import { client } from "@/client";
 import { useRouter } from "next/router";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaPhone } from "react-icons/fa";
 import emailjs from "emailjs-com";
@@ -33,25 +33,33 @@ export default function ContactStyleOne() {
       phone: phone
     };
 
-    client.create(doc)
+    client.create(doc);
 
 
     // Email Js
 
-    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-    const userID = process.env.NEXT_PUBLIC_USER_ID;
+    // const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    // const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    // const userID = process.env.NEXT_PUBLIC_USER_ID;
 
-    const emailParams = {
+
+    const emailParams: { [key: string]: string } = {
       from_name: name,
       from_email: email,
       message: message,
       from_phn: phone,
       from_subject: subject,
     };
-    emailjs.send(serviceID, templateID, emailParams, userID)
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
+        emailParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
+      )
+
       .then((res) => {
-        alert("Message Sent")
+        toast.success("Message Sent")
         setTimeout(() => window.location.reload(), 5000); // Add a delay before reload to allow the toast to display
       })
       .catch((error) => {
@@ -60,6 +68,7 @@ export default function ContactStyleOne() {
       });
 
   };
+
 
 
   return (
