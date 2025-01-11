@@ -12,6 +12,8 @@ import { useRouter } from "next/router";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaPhone } from "react-icons/fa";
+import emailjs from "emailjs-com";
+
 export default function ContactStyleOne() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -32,8 +34,24 @@ export default function ContactStyleOne() {
     };
 
     client.create(doc)
+
+
+    // Email Js
+
+    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const userID = process.env.NEXT_PUBLIC_USER_ID;
+
+    const emailParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+      from_phn: phone,
+      from_subject: subject,
+    };
+    emailjs.send(serviceID, templateID, emailParams, userID)
       .then((res) => {
-        alert("MSG SENT")
+        alert("Message Sent")
         setTimeout(() => window.location.reload(), 5000); // Add a delay before reload to allow the toast to display
       })
       .catch((error) => {
@@ -184,8 +202,8 @@ export default function ContactStyleOne() {
                         <input
                           className="w-full bg-surface text-secondary caption1 px-4 py-3 rounded-lg"
                           type="number"
-                          value={name}
-                          onChange={(e) => setName(e.target.value)}
+                          value={phone}
+                          onChange={(e) => setPhone(e.target.value)}
                           placeholder="Phone"
                           name="phone"
                           required

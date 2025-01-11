@@ -19,6 +19,11 @@ export default {
 			type: 'string'
 		},
 		{
+			name: 'phone',
+			title: 'Phone',
+			type: 'string'
+		},
+		{
 			name: 'message',
 			title: 'Message',
 			type: 'string'
