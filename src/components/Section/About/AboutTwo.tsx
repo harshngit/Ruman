@@ -30,10 +30,10 @@ const AboutTwo = () => {
           <div className=" ">
             <div className="heading3 text-[2.2rem]">India&apos;s Fast and Credible Accounting Solutions </div>
             <p className="text-[.8rem] mt-3">
-              Ruman Accounting Services LLP is an Accounting, Tax services & Advisory firm operating in Mumbai & many parts of India and offering outsourced accounting services. Started as a small consultancy by passionate and talented accountants in 1996, the company has a vastly growing network of experienced accountants offering solutions in various regular and unusual domains in accounting and tax for corporates and high-net-worth individuals in Mumbai & many parts of India
+              Ruman Accounting Services LLP is a leading Accounting, Tax Services, and Advisory firm based in Mumbai, with operations extending across India. Established in 1996 as a small consultancy by passionate and talented accountants, the company has grown into a vast network of experienced professionals. We specialize in providing outsourced accounting solutions for corporates and high-net-worth individuals, catering to both common and complex accounting and tax needs.
             </p>
             <p className="text-[.8rem] mt-5">
-              Having 25+ years of cumulative experience working on many assignments and delivering methodical services, our nurtured skills, expertise, and local market knowledge reflects every project outcome. Today, Company is the immediate choice for opting for accounting and financial services in Mumbai for SMEs, Startups, and large enterprises & Small Scale MNCs
+              With over 25 years of cumulative experience, we have honed our skills, expertise, and local market knowledge to deliver methodical and impactful services. Today, the company is the preferred choice for accounting and financial services in Mumbai, serving SMEs, startups, large enterprises, and small-scale MNCs.
             </p>
 
             <div className="button-block flex items-center gap-5 md:mt-5 mt-2 pb-2">

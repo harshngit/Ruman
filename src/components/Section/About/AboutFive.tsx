@@ -11,8 +11,8 @@ const AboutFive = () => {
                         <div className="text-about">
 
                             <div className="heading3 mt-6">Our Service</div>
-                            <div className="body3 text-secondary mt-5">We offer end-to-end solutions from accounting and tax compliances till the finalization of accounts as audit-ready.</div>
-                            <div className="body3 text-secondary mt-5">At Company, we believe a business that periodically monitors its finances and makes informed decisions would grow and sustain despite the market volatility. Our highly qualified professionals with domain cross-functional experience and up-to-date knowledge in multi-industry accounting standards and Indian tax compliance design unique methodologies, delivery framework, and report formats. Hence, our accounting solutions and tax-related services bring merits, scale growth and help the business prosper.</div>
+                            <div className="body3 text-secondary mt-5">We provide end-to-end solutions, from accounting and tax compliance to the finalization of audit-ready accounts.</div>
+                            <div className="body3 text-secondary mt-5">At Company, we believe that businesses that regularly monitor their finances and make informed decisions can thrive despite market volatility. Our highly qualified professionals bring cross-functional expertise and up-to-date knowledge of multi-industry accounting standards and Indian tax compliance. We design tailored methodologies, delivery frameworks, and report formats, ensuring our accounting solutions and tax services drive growth, efficiency, and long-term success</div>
 
                         </div>
                     </div>
@@ -20,7 +20,7 @@ const AboutFive = () => {
                         <div className="bg-img w-full">
                             <Image width={5000} height={5000} className="w-full rounded-md shadow-lg" src="/images/component/Serviceimgabout.png" alt="" />
                         </div>
-                         
+
                     </div>
                 </div>
             </div>
