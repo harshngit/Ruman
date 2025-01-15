@@ -19,7 +19,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
                 <div className="container">
                     <div className="list-brand">
                         <Marquee>
-                            <div className="brand-item relative flex items-center justify-center md:h-[80px] h-[30px] md:mx-14 mx-10">
+                            <div className="brand-item relative flex items-center justify-center md:h-[80px] h-[60px] md:mx-14 mx-10 ">
                                 <Image
                                     src={'/images/clients/1.png'}
                                     width={300}

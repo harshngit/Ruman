@@ -34,7 +34,7 @@ export default function Home() {
           <ProjectFive />
           <PaymentGatewayOneSecond />
           <ServiceTwo />
-          <TestimonialTwo />
+          {/* <TestimonialTwo /> */}
           <PartnerSix classname='bg-blue sm:mt-0 mt-0' />
         </main>
         <footer id="footer">
