@@ -52,7 +52,7 @@ const Benifits = () => {
 							<div className="service-item flex items-start mt-4">
 								<Icon.Check weight="bold" className="bg-[#021a43cf] text-white lg:w-[20px] lg:h-[20px] w-[40px] h-[30px] lg:py-1 py-1 lg:px-1 px-1 rounded-full lg:text-[2rem] text-[2rem]" />
 								<div className="text-button ml-3 ">Increased productivity: <span className='text-[15px] font-medium'>
-									AI can free up accountant's time so they can focus on more strategic work.
+									AI can free up accountant&apos;s time so they can focus on more strategic work.
 								</span> </div>
 							</div>
 							<div className="service-item flex items-start mt-4">
