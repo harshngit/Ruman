@@ -2,6 +2,7 @@ import React from 'react'
 import Link from "next/link"
 import { ServiceType } from "@/type/ServiceType"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import Image from 'next/image';
 
 interface Props {
     data: ServiceType
@@ -140,7 +141,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         href={""}
                         as={``}
                     >
-                        <img className='w-[100px]' src={data.icon} alt={data.icon} />
+                        <Image className='w-[100px]' src={data.icon} alt={data.icon} />
                         <div className="text-[15px] font-semibold text-center duration-300 mt-6">{data.title}</div>
                         <div className="caption1 text-secondary text-center mt-1.5">{data.desc}</div>
                     </Link>
