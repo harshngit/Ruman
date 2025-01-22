@@ -35,14 +35,14 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 <div className="service-item py-7 px-6 bg-white rounded-lg border border-line box-shadow-sm hover-box-shadow">
                     <Link
                         className="service-item-main flex items-center gap-8 h-full"
-                        href={"/service/service-detail/[slug]"}
-                        as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
+                        href={""}
+                        as={``}
                     >
                         <div className="icon">
                             <i className={`${data.icon} text-[#021a43cf] md:text-5xl text-4xl`}></i>
                         </div>
                         <div className="infor">
-                            <div className="heading7 hover:text-blue duration-300">{data.title}</div>
+                            <div className=" heading7 hover:text-blue duration-300">{data.title}</div>
                             <div className="text-secondary mt-2">{data.shortDesc}</div>
                             <div className="read-more flex items-center gap-1 mt-2">
                                 <div className="text-button-sm">Explore Plan</div>
@@ -137,11 +137,11 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                 <div className="service-item px-4 bg-white rounded-lg">
                     <Link
                         className="service-item-main flex flex-col items-center h-full"
-                        href={"/service/service-detail/[slug]"}
-                        as={`/service/service-detail/${data.title.toLowerCase().replace(/ /g, '-')}`}
+                        href={""}
+                        as={``}
                     >
-                        <i className={`${data.icon} text-[#021a43cf] md:text-6xl text-5xl`}></i>
-                        <div className="heading7 text-center hover:text-blue duration-300 mt-6">{data.title}</div>
+                        <img className='w-[100px]' src={data.icon} alt={data.icon} />
+                        <div className="text-[15px] font-semibold text-center duration-300 mt-6">{data.title}</div>
                         <div className="caption1 text-secondary text-center mt-1.5">{data.desc}</div>
                     </Link>
                 </div>

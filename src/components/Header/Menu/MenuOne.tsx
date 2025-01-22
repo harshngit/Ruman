@@ -93,7 +93,7 @@ const MenuOne = () => {
                             </Link>
 
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/pages/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/accountIntelligence') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/accountIntelligence">
                                 <span>Accounting Intelligence</span>
                                 {/* <span><Icon.CaretDown className="text-sm" /></span> */}
                             </Link>
