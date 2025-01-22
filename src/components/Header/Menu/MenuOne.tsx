@@ -167,7 +167,7 @@ const MenuOne = () => {
 
                                     </a>
                                     <ul className={`sub-nav-mobile ${openSubNavMobile === 3 ? 'open' : ''}`}>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service/service-one">Our Service</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service">Our Service</Link></li>
                                         <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-two">Ancillary Service</Link></li>
                                         <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-asscoiate">Asscoiate Service</Link></li>
                                     </ul>
@@ -198,7 +198,7 @@ const MenuOne = () => {
                                 </li>
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer pages ${openSubNavMobile === 5 ? 'active' : ''}`}
                                     onClick={() => handleOpenSubNavMobile(6)}
-                                ><a className="nav-link-mobile flex items-center justify-between" href="/#!">
+                                ><a className="nav-link-mobile flex items-center justify-between" href="/accountIntelligence">
                                         <span className="body2 font-semibold">Accounting Intelligence </span>
 
                                     </a>
