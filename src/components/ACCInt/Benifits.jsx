@@ -10,7 +10,7 @@ const Benifits = () => {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 	return (
-		<section className="  lg:py-8 py-4 px-4 lg:px-12 style-second lg:mt-28" ref={ref}>
+		<section className="  lg:py-8 py-4 px-4 lg:px-12 style-second lg:mt-24" ref={ref}>
 			<div className=" bg-gray-200">
 				<div className="content  grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mb-2">
 
