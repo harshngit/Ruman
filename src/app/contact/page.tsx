@@ -97,7 +97,7 @@ export default function ContactStyleOne() {
                     <div className="body3 text-white mt-2">
                       We will get back to you within 24 hours
                     </div>
-                    <div className="list-social flex flex-wrap items-center gap-3 md:mt-10 mt-6">
+                    {/* <div className="list-social flex flex-wrap items-center gap-3 md:mt-10 mt-6">
                       <a
                         className="item rounded-full w-12 h-12 flex items-center justify-center bg-surface"
                         href="https://www.facebook.com/"
@@ -133,7 +133,7 @@ export default function ContactStyleOne() {
                       >
                         <i className="icon-youtube text-xs text-black"></i>
                       </a>
-                    </div>
+                    </div> */}
                     <div className="list-more-infor md:mt-10 mt-6">
                       <div className="item flex items-center gap-3">
                         <div className="flex items-center justify-center w-8 h-8 bg-white rounded-full flex-shrink-0">
@@ -179,7 +179,7 @@ export default function ContactStyleOne() {
                           />
                         </div>
                         <div className="line-y"> </div>
-                        <div className="text-button normal-case text-white">
+                        <div className="text-button capitalize  text-white">
                           301, Shantadeep CHS LTD.,Tejpal Scheme NO.2, Ville Parle (E), Mumbai-400057
                         </div>
                       </div>
