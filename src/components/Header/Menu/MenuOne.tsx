@@ -76,9 +76,9 @@ const MenuOne = () => {
                                 <span><Icon.CaretDown className="text-sm" /></span>
                             </Link>
                                 <ul className="sub-nav">
-                                    <li className={`sub-nav-item ${pathname === '/service/service-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service">Our Service</Link></li>
+                                    <li className={`sub-nav-item ${pathname === '/service/service-one' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service">Our Services</Link></li>
                                     <li className={`sub-nav-item ${pathname === '/service/service-two' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-two">Ancillary Services.</Link></li>
-                                    <li className={`sub-nav-item ${pathname.includes('/service/service-asscoiate') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-asscoiate">Associate Service</Link></li>
+                                    <li className={`sub-nav-item ${pathname.includes('/service/service-asscoiate') ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/service/service-asscoiate">Associate Services</Link></li>
                                 </ul>
                             </li>
                             <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/contact/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/contact">
@@ -152,7 +152,7 @@ const MenuOne = () => {
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer about ${openSubNavMobile === 2 ? 'active' : ''}`}
                                     onClick={() => handleOpenSubNavMobile(2)}
                                 ><a className="nav-link-mobile flex items-center justify-between" href="/about">
-                                        <span className="body2 font-semibold">About </span>
+                                        <span className="body2 font-semibold">About</span>
 
                                     </a>
                                     {/* <ul className={`sub-nav-mobile ${openSubNavMobile === 2 ? 'open' : ''}`}>
@@ -167,9 +167,9 @@ const MenuOne = () => {
 
                                     </a>
                                     <ul className={`sub-nav-mobile ${openSubNavMobile === 3 ? 'open' : ''}`}>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service">Our Service</Link></li>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-two">Ancillary Service</Link></li>
-                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-asscoiate">Asscoiate Service</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"><Link className="sub-nav-link text-base" href="/service">Our Services</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-two">Ancillary Services</Link></li>
+                                        <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2"> <Link className="sub-nav-link text-base" href="/service/service-asscoiate">Asscoiate Services</Link></li>
                                     </ul>
                                 </li>
                                 <li className={`nav-item-mobile h-full flex-column gap-2 pt-4 pb-2 pl-3 pr-3 pointer case ${openSubNavMobile === 4 ? 'active' : ''}`}

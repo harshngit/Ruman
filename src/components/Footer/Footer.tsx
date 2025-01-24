@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
                         <div className="lg:w-1/4">
                             <div className="footer-company-infor flex flex-col justify-between gap-5">
-                                <Image width={4000} height={3000} className="footer-logo w-[145px]" src="/images/Ruman.png" alt="Logo" />
+                                <Image width={4000} height={3000} className="footer-logo w-[180px]" src="/images/rumanLogochangebg.png" alt="Logo" />
                                 <div className="text caption1 text-white">We are a diversified company specialized in providing comprehensive financial solutions for individuals and businesses.</div>
                                 <div className="list-social flex items-center gap-2.5 style-one">
                                     <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/" target="_blank">
@@ -74,20 +74,14 @@ const Footer = () => {
                                         <path d="M32.9554 27.4955C32.9554 27.9155 32.8804 28.3505 32.7304 28.7705C32.6854 28.8905 32.6404 29.0105 32.5804 29.1305C32.3254 29.6705 31.9954 30.1805 31.5604 30.6605C30.8254 31.4705 30.0154 32.0555 29.1004 32.4305C29.0854 32.4305 29.0704 32.4455 29.0554 32.4455C28.1704 32.8055 27.2104 33.0005 26.1754 33.0005C24.6454 33.0005 23.0104 32.6405 21.2854 31.9055C19.5604 31.1705 17.8354 30.1805 16.1254 28.9355C15.5404 28.5005 14.9554 28.0655 14.4004 27.6005L19.3054 22.6955C19.7254 23.0105 20.1004 23.2505 20.4154 23.4155C20.4904 23.4455 20.5804 23.4905 20.6854 23.5355C20.8054 23.5805 20.9254 23.5955 21.0604 23.5955C21.3154 23.5955 21.5104 23.5055 21.6754 23.3405L22.8154 22.2155C23.1904 21.8405 23.5504 21.5555 23.8954 21.3755C24.2404 21.1655 24.5854 21.0605 24.9604 21.0605C25.2454 21.0605 25.5454 21.1205 25.8754 21.2555C26.2054 21.3905 26.5504 21.5855 26.9254 21.8405L31.8904 25.3655C32.2804 25.6355 32.5504 25.9505 32.7154 26.3255C32.8654 26.7005 32.9554 27.0755 32.9554 27.4955Z" fill="#2868D8"></path>
                                     </svg>
                                     <div className="text ml-16">
-                                        <div className="caption2 text-surface">Need help? 24/7 </div>
                                         <div className="fw-700 text-white mt-1">98216 14306</div>
                                     </div>
                                 </div>
                                 <div className="locate mt-3 flex items-center">
                                     <Icon.MapPin weight="light" className="text-surface text-6xl" />
-                                    <div className="caption1 text-surface ml-2"> 301, SHANTADEEP CHS LTD.,TEJPAL SCHEME NO.2, VILLE PARLE (E), MUMBAI-400057</div>
+                                    <div className="caption1 text-surface ml-2"> 301, Shantadeep CHS LTD.,Tejpal Scheme NO.2, Ville Parle (E), Mumbai-400057</div>
                                 </div>
-                                <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
-                                    <input className="caption1 text-secondary h-full w-full pr-4 pl-3" type="text" placeholder="Your email address" required />
-                                    <button className="flex items-center justify-center w-[46px] h-[46px] bg-blue flex-shrink-0">
-                                        <Icon.PaperPlaneTilt className="text-white" />
-                                    </button>
-                                </form>
+
                             </div>
                         </div>
                     </div>

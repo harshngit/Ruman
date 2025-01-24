@@ -24,7 +24,7 @@ export default function ServiceStyleThree() {
 					<MenuOne />
 				</header>
 				<main className="content">
-					<BreadcrumbItem link="Our Services" img="/images/banner/associateService.png" title="Our Services" desc="Expand your knowledge and skills in cryptocurrency trading through our educational resources." />
+					<BreadcrumbItem link="Associate Services" img="/images/banner/associateService.png" title="Associate Services" desc="Managing accounting and financial reporting can be daunting, especially for businesses or individuals handling a high volume of transactions. Frequent changes in regulations, tax standards, and technological advancements add to the complexity" />
 					<ServiceTwo />
 				</main>
 				<footer id="footer">

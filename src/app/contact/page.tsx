@@ -144,7 +144,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"></div>
                         <div className="text-button normal-case text-white">
-                          8AM - 6PM, Mon - Sun
+                          9AM - 7PM, Mon - Sun
                         </div>
                       </div>
                       <div className="item flex items-center gap-3 mt-5">
@@ -180,7 +180,7 @@ export default function ContactStyleOne() {
                         </div>
                         <div className="line-y"> </div>
                         <div className="text-button normal-case text-white">
-                          301, SHANTADEEP CHS LTD.,TEJPAL SCHEME NO.2, VILLE PARLE (E), MUMBAI-400057
+                          301, Shantadeep CHS LTD.,Tejpal Scheme NO.2, Ville Parle (E), Mumbai-400057
                         </div>
                       </div>
                     </div>
