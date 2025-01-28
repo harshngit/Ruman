@@ -17,7 +17,7 @@ const reasons = [
 	{
 		id: 4,
 		title: "Import Purchase Costing Accounting",
-		description: "In UAE many items are imported from various countries. We do import costing of each & every item purchased factorising all the cost of imports like purchase cost, freight, transport, clearing & forwarding expenses as a net total cost of import inventory wise. ",
+		description: "In India many items are imported from various countries. We do import costing of each & every item purchased factorising all the cost of imports like purchase cost, freight, transport, clearing & forwarding expenses as a net total cost of import inventory wise. ",
 	},
 	{
 		id: 5,
