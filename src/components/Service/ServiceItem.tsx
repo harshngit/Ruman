@@ -141,7 +141,7 @@ const ServiceItem: React.FC<Props> = ({ data, style, number }) => {
                         href={""}
                         as={``}
                     >
-                        <Image className='w-[100px]' src={data.icon} alt={data.icon} />
+                        <Image width={200} height={200} className='w-[100px]' src={data.icon} alt={data.icon} />
                         <div className="text-[15px] font-semibold text-center duration-300 mt-6">{data.title}</div>
                         <div className="caption1 text-secondary text-center mt-1.5">{data.desc}</div>
                     </Link>

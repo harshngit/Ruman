@@ -1,7 +1,7 @@
 const reasons = [
 	{
 		id: 1,
-		title: "Family Office Accounting",
+		title: "priGSTe with REITs & INVITs Accounting",
 		description: "Now a days it’s becoming global scenario that HNI Families engage team of professionals to invest their funds through end number of investment gateways like shares, securities, mutual funds, bonds, priGSTe equity, investment in startups & many more such type of instruments.",
 	},
 	{
