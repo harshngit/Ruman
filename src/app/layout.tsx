@@ -7,10 +7,47 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Ruman",
-  description: "Accounting Intelligence",
-};
+export const metadata = {
+  title: "Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.",
+  description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions. We help individuals and businesses stay ahead with accurate and reliable accounting services.",
+  keywords: ['Accounting Intelligence', 'Family Accounting', 'Ruman Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  // verification: {
+  //   google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
+  // },
+  openGraph: {
+    title: 'Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.',
+    description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions. We help individuals and businesses stay ahead with accurate and reliable accounting services.',
+    url: 'https://www.rumanaccounting.com/',
+    siteName: 'Ruman Accounting Intelligence',
+    images: [
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+        alt: 'Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.',
+      },
+    ],
+
+  },
+  alternates: {
+    canonical: 'https://www.rumanaccounting.com/',
+  },
+
+  icons: {
+    icon: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+    shortcut: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+    apple: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+    },
+  },
+}
 
 export default function RootLayout({
   children,
