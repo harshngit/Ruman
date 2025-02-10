@@ -9,14 +9,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.",
-  description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions. We help individuals and businesses stay ahead with accurate and reliable accounting services.",
+  description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Accounting Intelligence', 'Family Accounting', 'Ruman Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   // verification: {
   //   google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
   // },
   openGraph: {
+    type: "website",
     title: 'Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.',
-    description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions. We help individuals and businesses stay ahead with accurate and reliable accounting services.',
+    description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions.',
     url: 'https://www.rumanaccounting.com/',
     siteName: 'Ruman Accounting Intelligence',
     images: [

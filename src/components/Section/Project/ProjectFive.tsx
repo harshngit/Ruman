@@ -21,6 +21,7 @@ const ProjectFive = () => {
                             </div>
                             <div className="col-span-1">
                                 <div className="text-infor">
+                                    <h1 className='text-surface text-[5px]'>Accounting Intelligence</h1>
                                     <div className="heading4">India’s Certified, Industry-Focused, Custom Accounting Consultation and Tax Services</div>
                                     <div className=" text-secondary mt-4">We provide a wide range of accounting and financial services, including Accounts Payable (AP), Accounts Receivable (AR), payroll processing, tax processing, and corporate services. Our solutions comply with the latest regulations and standards and cater to diverse industries such as automotive, construction, IT, transport, pharmaceuticals, logistics, commercial and supply services, eCommerce, and retail.</div>
                                     <div className="button-block mt-8">
@@ -37,6 +38,7 @@ const ProjectFive = () => {
                         <div className="grid lg:grid-cols-2 lg:gridi-cols-1 items-center my-4 mx-2 lg:mt-12 lg:mx-12 justify-between gap-x-12 gap-y-12">
                             <div className="col-span-1 order-2 lg:order-1">
                                 <div className="text-infor">
+                                    <h1 className='text-surface text-[5px]'>Accounting Intelligence</h1>
                                     <div className="heading4">Accounting Solutions and Services Tailor-made for Client Requirement </div>
                                     <div className=" text-secondary mt-4">The company has hands-on experience in delivering systemized accounting and financial services, tax registration, and return filing for Startups, SMEs, and MNCs in India. Our specialized services include record digitization and employee training for accounting solutions such as Tally, QuickBooks, Zoho, Sage, and more.</div>
                                     <div className="button-block mt-8">

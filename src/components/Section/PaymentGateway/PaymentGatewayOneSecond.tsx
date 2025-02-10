@@ -31,6 +31,7 @@ const PaymentGatewayOneSecond = () => {
                         </div>
                     </div>
                     <div className="">
+
                         <h3 className="heading3 leading-[2.3rem] text-[1.8rem]">Pragmatic Accounting and Bookkeeping Services and Seamless Digital Migration</h3>
                         <div className=" text-secondary text-[.9rem] ">Our consultants are resourceful and experienced in handling both online and on-site (in-Premise) accounting & bookkeeping and other finance and accounting services in the India and our canned approach ensures cost-effective services and on-time work delivery with 100% client satisfaction. </div>
                         <div className="list-service my-6">
