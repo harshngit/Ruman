@@ -8,18 +8,18 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.",
+  title: "Ruman Accounting Intelligence | Expert Family Accounting & Smart Financial Solutions",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Accounting Intelligence', 'Family Accounting', 'Ruman Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-  // verification: {
-  //   google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
-  // },
+  verification: {
+    google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
+  },
   openGraph: {
     type: "website",
-    title: 'Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.',
+    title: 'Ruman Accounting Intelligence | Expert Family Accounting & Smart Financial Solutions',
     description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions.',
-    url: 'https://www.rumanaccounting.com/',
-    siteName: 'Ruman Accounting Intelligence',
+    url: 'https://rumanaccounting.com/',
+    siteName: 'Ruman Accounting Intelligence | Expert Family Accounting & Smart Financial Solutions',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
@@ -36,7 +36,7 @@ export const metadata = {
 
   },
   alternates: {
-    canonical: 'https://www.rumanaccounting.com/',
+    canonical: 'https://rumanaccounting.com/',
   },
 
   icons: {
@@ -59,6 +59,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <GoogleTagManager gtmId="G-CZ1CKKJML1" />
+
         <link rel="icon" href="images/rumanfavicon (1).png" type="image/png" />
         <Script id="HotJarAnalytics" >
           {

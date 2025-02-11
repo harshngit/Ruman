@@ -20,7 +20,7 @@ export default function CaseStudyDetail({ params: { slug } }: { params: { slug: 
     if (foundPost === undefined) {
         foundPost = blogData[0]
     }
-    
+
 
     const handleNextBlogDetail = () => {
         if (foundPost) {

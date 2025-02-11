@@ -95,15 +95,14 @@ const LayoutDetailTwo: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
             </div>
             <div className="blog-more-infor mt-8">
               <div className="infor-above flex items-center justify-between flex-wrap gap-6">
-                <div className="tags-cloud-block flex items-center gap-3 max-sm:flex-wrap">
+                {/* <div className="tags-cloud-block flex items-center gap-3 max-sm:flex-wrap">
                   <div className="body3">Tag(s):</div>
                   <div className="list-nav flex items-center gap-3 max-sm:flex-wrap">
                     <span className="caption2 py-2 px-4 bg-surface rounded-2xl hover:bg-black hover:text-white duration-300 cursor-pointer" onClick={() => handleTag('featured')}>Featured</span>
                     <span className="caption2 py-2 px-4 bg-surface rounded-2xl hover:bg-black hover:text-white duration-300 cursor-pointer" onClick={() => handleTag('interview')}>Interview</span>
                     <span className="caption2 py-2 px-4 bg-surface rounded-2xl hover:bg-black hover:text-white duration-300 cursor-pointer" onClick={() => handleTag('business')}>Business</span></div>
-                </div>
+                </div> */}
                 <div className="share-block flex items-center gap-4 max-sm:flex-wrap">
-                  <div className="caption2 py-2 px-4 rounded-lg border border-line">Copy the link</div>
                   <div className="social-media flex items-center gap-3 max-sm:flex-wrap">
                     <a href="http://facebook.com" target="_blank" className='w-10 h-10 flex items-center justify-center bg-surface rounded-full hover-box-shadow hover:bg-white duration-300'><i className="icon-facebook text-black"></i></a>
                     <a href="http://linkedin.com" target="_blank" className='w-10 h-10 flex items-center justify-center bg-surface rounded-full hover-box-shadow hover:bg-white duration-300'><i className="icon-in text-black"></i></a>

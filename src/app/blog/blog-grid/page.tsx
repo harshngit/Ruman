@@ -11,7 +11,7 @@ export default function BlogListStyleTwo() {
         <>
             <div className="overflow-x-hidden">
                 <header id="header">
-                    <TopNavOne />
+
                     <MenuOne />
                 </header>
                 <main className="content">
@@ -19,7 +19,6 @@ export default function BlogListStyleTwo() {
                     <Suspense>
                         <LayoutGrid />
                     </Suspense>
-                    <CtaOne />
                 </main>
                 <footer id="footer">
                     <Footer />

@@ -16,9 +16,9 @@ export const metadata = {
   title: "Ruman Accounting Intelligence | Expert Family Accounting & Smart Financial Solutions",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Accounting Intelligence', 'Family Accounting', 'Ruman Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-  // verification: {
-  //   google: 'd2t3dmGtRE5YMyQqUbiHFM-lWvnz9mpRbS7Wwmb8uS0',
-  // },
+  verification: {
+    google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
+  },
   openGraph: {
     type: "website",
     title: 'Ruman Accounting Intelligence | Expert Family Accounting & Smart Financial Solutions',
