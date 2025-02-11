@@ -12,9 +12,10 @@ const CareerTable = () => {
 			.then((data) => setCareerEntries(data))
 			.catch(console.error);
 	}, []);
+	console.log(careerEntries)
 	return (
 		<>
-			{careerEntries.length !== 0 && <div className="mt-16">
+			{/* {careerEntries.length !== 0 && <div className="mt-16">
 				<div className="flex justify-center flex-col gap-5 items-center mb-2">
 					<div className="heading3 text-3xl">Explore Career Opportunities</div>
 					<div className="text-xl lg:mr-0 lg:ml-0 text-center mr-5 ml-5">We’re looking for talent that’s ready to make an impact.</div>
@@ -45,7 +46,7 @@ const CareerTable = () => {
 
 					</div>
 				))}
-			</div>}
+			</div>} */}
 		</>
 	)
 }

@@ -72,7 +72,7 @@ export default function ContactStyleTwo() {
             title="Career"
             desc="Join our team at Ruman Accounting Services LLP and be part of a dynamic, innovative environment where experienced professionals and aspiring talent come together to shape the future of accounting and financial services"
           />
-          <CareerTable />
+          {/* <CareerTable /> */}
           <CareerForm />
           {/* <CtaOne /> */}
         </main>
