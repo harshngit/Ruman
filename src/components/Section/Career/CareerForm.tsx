@@ -12,7 +12,7 @@ const CareerForm = () => {
 	const [email, setEmail] = useState("")
 	const [phone, setPhone] = useState("")
 	const [message, setMessage] = useState("")
-	const [resume, setResume] = useState("")
+	const [resume, setResume] = useState<{ asset: { _ref: string } } | null>(null);
 	const [position, setPosition] = useState("")
 	const sendMessage = async () => {
 		console.log(resume)
@@ -23,23 +23,19 @@ const CareerForm = () => {
 			phone: phone,
 			position: position,
 			message: message,
-			resume: {
-				_type: "file",
-				asset: {
-					_type: "reference",
-					_ref: resume?._id,
-				},
-			}
+			resume: resume && typeof resume === "object" && resume.asset?._ref
+				? { _type: "file", asset: { _type: "reference", _ref: resume.asset._ref } }
+				: undefined, // Avoid errors if resume is missing
 		}
 		client.create(doc)
-		// .then((res) => {
-		//   toast.success("Message Sent");
-		//   // setTimeout(() => window.location.reload(), 2000); // Add a delay before reload to allow the toast to display
-		// })
-		// .catch((error) => {
-		//   toast.error("Failed to send message");
-		//   console.error(error);
-		// });
+			.then((res) => {
+				toast.success("Message Sent");
+				// setTimeout(() => window.location.reload(), 2000); // Add a delay before reload to allow the toast to display
+			})
+			.catch((error) => {
+				toast.error("Failed to send message");
+				console.error(error);
+			});
 
 
 		// Email Js 
@@ -69,21 +65,25 @@ const CareerForm = () => {
 
 	};
 
-	const handleupload = (e) => {
+	const handleUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+		if (!e.target.files || e.target.files.length === 0) return;
+
 		const { type, name } = e.target.files[0];
+
 		client.assets
 			.upload("file", e.target.files[0], {
 				contentType: type,
 				filename: name,
 			})
 			.then((document) => {
-				setResume(document);
-
+				console.log("Uploaded document:", document);
+				setResume({ asset: { _ref: document._id } });
 			})
 			.catch((error) => {
 				console.log("Image upload error", error);
 			});
-	}
+	};
+
 	return (
 		<div className="form-contact style-one lg:py-[100px] sm:py-16 py-10">
 			<div className="container flex max-xl:flex-col xl:items-center justify-between gap-y-8">
@@ -153,7 +153,7 @@ const CareerForm = () => {
 								<input type="file"
 									// value={resume}
 									accept=".pdf"
-									onChange={handleupload}
+									onChange={handleUpload}
 									name="resume"
 									className="bg-surface w-full text-secondary caption1 px-4 py-3 rounded-lg"
 									placeholder="Upload Resume"

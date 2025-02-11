@@ -31,7 +31,10 @@ export default {
 		{
 			name: 'resume',
 			title: 'Resume',
-			type: 'file'
+			type: 'file',
+			options: {
+				storeOriginalFilename: true
+			}
 		}
 	]
 }
