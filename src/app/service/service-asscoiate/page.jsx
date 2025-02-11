@@ -9,6 +9,40 @@ import ServiceTwo from "@/components/Section/Service/ServiceTwo"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 
+
+export const metadata = {
+	title: "Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations",
+	description: "Meet our trusted associates and partners who contribute to Ruman Accounting Intelligence’s excellence in financial and business solutions.",
+	keywords: [
+		'Accounting Associates', 'Financial Partners', 'Business Collaborations',
+		'Ruman Accounting Partners', 'Corporate Partnerships', 'Accounting Networks'
+	],
+	verification: {
+		google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
+	},
+	openGraph: {
+		type: "website",
+		title: 'Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations',
+		description: 'Explore the network of trusted partners and associates working with Ruman Accounting Intelligence.',
+		url: 'https://rumanaccounting.com/service/service-asscoiate',
+		siteName: 'Ruman Accounting Intelligence – Our Associates',
+		images: [
+			{
+				url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+				width: 800,
+				height: 600,
+			},
+		],
+	},
+	alternates: {
+		canonical: 'https://rumanaccounting.com/service/service-asscoiate',
+	},
+	icons: {
+		icon: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+	},
+};
+
+
 export default function ServiceStyleThree() {
 	return (
 		<>
