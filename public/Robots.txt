@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rumanaccounting.com/
+
+# Sitemaps
+Sitemap: https://rumanaccounting.com/Sitemap.js
