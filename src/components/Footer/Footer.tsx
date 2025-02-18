@@ -13,23 +13,18 @@ const Footer = () => {
                             <div className="footer-company-infor flex flex-col justify-between gap-5">
                                 <Image width={4000} height={3000} className="footer-logo w-[180px]" src="/images/rumanLogochangebg.png" alt="Logo" />
                                 <div className="text caption1 text-white">We are a diversified company specialized in providing comprehensive financial solutions for individuals and businesses.</div>
-                                {/* <div className="list-social flex items-center gap-2.5 style-one">
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/" target="_blank">
+                                <div className="list-social flex items-center gap-2.5 style-one">
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/share/18HrDpYS4E/" target="_blank">
                                         <i className="icon-facebook text-sm"></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.linkedin.com/" target="_blank">
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.linkedin.com/company/ruman-accounting-intelligence/" target="_blank">
                                         <i className="icon-in text-sm"></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.twitter.com/" target="_blank">
-                                        <i className="icon-twitter text-xs"></i>
-                                    </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.instagram.com/" target="_blank">
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" target="_blank">
                                         <i className="icon-insta text-xs"></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.youtube.com/" target="_blank">
-                                        <i className="icon-youtube text-xs"></i>
-                                    </Link>
-                                </div> */}
+
+                                </div>
                             </div>
                         </div>
                         <div className="lg:w-1/2">
