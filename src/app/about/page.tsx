@@ -34,7 +34,7 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: 'About Us | Ruman Accounting Intelligence – Expert Family Accounting & Smart Financial Solutions',
+    title: 'About Us | Ruman Accounting Intelligence – Expert Family Accounting & Smart Financial Solutions.',
     description: 'Discover the vision, mission, and expertise behind Ruman Accounting Intelligence, your trusted financial partner.',
     url: 'https://rumanaccounting.com/about',
     siteName: 'Ruman Accounting Intelligence – About Us',
