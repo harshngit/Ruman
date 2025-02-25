@@ -1,8 +1,3 @@
-import { getBlogPosts } from "./firebasefunctions";
-
-
-
-
 export default async function sitemap() {
 
 	return [
