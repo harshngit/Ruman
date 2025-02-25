@@ -6,4 +6,4 @@ Allow: /
 Host: https://rumanaccounting.com/
 
 # Sitemaps
-Sitemap: https://rumanaccounting.com/Sitemap.js
+Sitemap: https://rumanaccounting.com/Sitemap.xml
