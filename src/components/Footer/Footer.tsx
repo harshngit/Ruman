@@ -14,14 +14,19 @@ const Footer = () => {
                                 <Image width={4000} height={3000} className="footer-logo w-[180px]" src="/images/rumanLogochangebg.png" alt="Logo" />
                                 <div className="text caption1 text-white">We are a diversified company specialized in providing comprehensive financial solutions for individuals and businesses.</div>
                                 <div className="list-social flex items-center gap-2.5 style-one">
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/share/18HrDpYS4E/" rel="noopener noreferrer" target="_blank">
-                                        <i className="icon-facebook text-sm" ></i>
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.facebook.com/share/18HrDpYS4E/" aria-label="Share on Facebook"
+                                        title="Share on Facebook" target="_blank">
+                                        <i className="icon-facebook text-sm" aria-hidden="true" ></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.linkedin.com/company/ruman-accounting-intelligence/" rel="noopener noreferrer" target="_blank">
-                                        <i className="icon-in text-sm"></i>
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.linkedin.com/company/ruman-accounting-intelligence/" rel="noopener noreferrer"
+                                        aria-label="Visit our LinkedIn"
+                                        title="Visit our LinkedIn" target="_blank">
+                                        <i className="icon-in text-sm" aria-hidden="true" ></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" rel="noopener noreferrer" target="_blank">
-                                        <i className="icon-insta text-xs"></i>
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" rel="noopener noreferrer"
+                                        aria-label="Follow us on Instagram"
+                                        title="Follow us on Instagram" target="_blank">
+                                        <i className="icon-insta text-xs" aria-hidden="true"></i>
                                     </Link>
 
                                 </div>
