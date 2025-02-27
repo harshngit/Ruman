@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
-  title: "Ruman Accounting – Family Experts & Smart Financial Solutions",
+  title: "Ruman Accounting Services – Family Experts & Smart Accounting Solutions",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   verification: {
@@ -22,10 +22,10 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: 'Ruman Accounting – Family Experts & Smart Financial Solutions',
+    title: 'Ruman Accounting Services – Family Experts & Smart Accounting Solutions',
     description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions.',
     url: 'https://rumanaccounting.com/',
-    siteName: 'Ruman Accounting – Family Experts & Smart Financial Solutions',
+    siteName: 'Ruman Accounting Services – Family Experts & Smart Accounting Solutions',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
