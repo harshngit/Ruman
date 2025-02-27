@@ -11,7 +11,7 @@ import { FaPhone } from "react-icons/fa"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata = {
-	title: "Our Associates |Ruman Accounting – Family Experts & Smart Financial Solutions",
+	title: "Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations",
 	description: "Meet our trusted associates and partners who contribute to Ruman Accounting Intelligence’s excellence in financial and business solutions.",
 	keywords: [
 		'Accounting Associates', 'Financial Partners', 'Business Collaborations',

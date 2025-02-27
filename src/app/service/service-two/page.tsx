@@ -8,6 +8,7 @@ import Footer from "@/components/Footer/Footer"
 import ServiceExtra from "@/components/ServiceExtra/ServiceExtra"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata = {
     title: "Ancillary Services | Ruman Accounting Intelligence – Comprehensive Financial Solutions",
@@ -46,6 +47,7 @@ export const metadata = {
 export default function ServiceStyleTwo() {
     return (
         <>
+            <GoogleAnalytics gaId="G-CZ1CKKJML1" />
             <div className="overflow-x-hidden">
                 <header id="header">
                     <Link href="/contact">

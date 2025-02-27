@@ -12,6 +12,7 @@ import Footer from "@/components/Footer/Footer"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import faqData from '@/data/faqs.json'
 import Image from "next/image"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 export default function ServiceStyleOne({ params: { slug } }: { params: { slug: string } }) {
 
@@ -29,6 +30,7 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
     }
     return (
         <>
+            <GoogleAnalytics gaId="G-CZ1CKKJML1" />
             <div className="overflow-x-hidden">
                 <header id="header">
 
