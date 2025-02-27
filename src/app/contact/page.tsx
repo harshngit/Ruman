@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { FaPhone } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import ContactForm from "@/components/Section/Contact/ContactForm";
-
+import { GoogleAnalytics } from "@next/third-parties/google"
 export const metadata = {
   title: "Contact Us | Ruman Accounting Intelligence – Get in Touch for Expert Accounting Solutions",
   description: "Reach out to Ruman Accounting Intelligence for expert financial and accounting solutions. We are here to assist you with all your financial needs.",
@@ -57,6 +57,7 @@ export default function ContactStyleOne() {
     <>
 
       <ToastContainer />
+      <GoogleAnalytics gaId="G-CZ1CKKJML1" />
       <div className="overflow-x-hidden">
         <header id="header">
 

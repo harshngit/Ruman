@@ -8,10 +8,10 @@ import Footer from "@/components/Footer/Footer"
 import ServiceTwo from "@/components/Section/Service/ServiceTwo"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
-
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata = {
-	title: "Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations",
+	title: "Our Associates |Ruman Accounting – Family Experts & Smart Financial Solutions",
 	description: "Meet our trusted associates and partners who contribute to Ruman Accounting Intelligence’s excellence in financial and business solutions.",
 	keywords: [
 		'Accounting Associates', 'Financial Partners', 'Business Collaborations',
@@ -46,6 +46,7 @@ export const metadata = {
 export default function ServiceStyleThree() {
 	return (
 		<>
+			<GoogleAnalytics gaId="G-CZ1CKKJML1" />
 			<div className="overflow-x-hidden">
 				<header id="header">
 					<Link href="/contact">

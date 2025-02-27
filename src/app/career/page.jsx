@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { FaPhone } from "react-icons/fa";
 import Link from "next/link";
-
+import { GoogleAnalytics } from "@next/third-parties/google"
 import CareerForm from "@/components/Section/Career/CareerForm";
 import CareerTable from "@/components/Section/Career/CareerTable";
 export const metadata = {
@@ -52,6 +52,7 @@ export default function ContactStyleTwo() {
 
   return (
     <>
+      <GoogleAnalytics gaId="G-CZ1CKKJML1" />
       <ToastContainer />
       <div className="overflow-x-hidden relative">
         <Link href="/contact">
