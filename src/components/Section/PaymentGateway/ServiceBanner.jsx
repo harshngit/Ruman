@@ -63,7 +63,7 @@ const ServiceBanner = () => {
 							</div>
 						</div>
 						<div className="button-block mt-5">
-							<Link className="button-main inline-flex justify-center items-center hover:bg-black text-white bg-[#021a43cf] rounded-md gap-2" href="/service">
+							<Link className="button-main inline-flex justify-center items-center hover:bg-black text-white bg-[#021a43cf] rounded-md gap-2" aria-label="Learn more about Ruman Accounting Services" href="/service">
 								<Icon.ArrowRight weight='bold' className="text-white text-xl" />
 								Read More
 							</Link>
