@@ -1,5 +1,12 @@
+import { getpostBlogs } from '../app/sanityFunction'
 export default async function sitemap() {
+	// const blog = await getpostBlogs()
 
+	// const blogEntries = blog.map((post) => ({
+	// 	url: `https://rumanaccounting.com/blog/blog-detail-one/${post?.slug}`,
+	// 	changeFrequency: 'weekly',
+	// 	priority: 0.8,
+	// }));
 	return [
 		{
 			url: 'https://rumanaccounting.com/',
@@ -85,5 +92,36 @@ export default async function sitemap() {
 			changeFrequency: 'weekly',
 			priority: 0.5,
 		},
+		{
+			url: 'https://rumanaccounting.com/blog/blog-grid',
+			lastModified: new Date(),
+			changeFrequency: 'weekly',
+			priority: 0.5,
+		},
+		{
+			url: 'https://rumanaccounting.com/blog/blog-grid',
+			lastModified: new Date(),
+			changeFrequency: 'weekly',
+			priority: 0.5,
+		},
+		{
+			url: 'https://rumanaccounting.com/blog/blog-detail-one/accounting-intelligencehow-smart-financial-tools-are-revolutionizing-small-businesses',
+			lastModified: new Date(),
+			changeFrequency: 'weekly',
+			priority: 0.5,
+		},
+		{
+			url: 'https://rumanaccounting.com/blog/blog-detail-one/accounting-intelligencehow-smart-financial-tools-are-revolutionizing-small-businesses',
+			lastModified: new Date(),
+			changeFrequency: 'weekly',
+			priority: 0.5,
+		},
+		{
+			url: 'https://rumanaccounting.com/blog/blog-detail-one/why-small-businesses-need-professional-accounting-services-content',
+			lastModified: new Date(),
+			changeFrequency: 'weekly',
+			priority: 0.5,
+		},
+		// ...blogEntries
 	]
 }
