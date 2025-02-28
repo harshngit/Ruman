@@ -86,25 +86,13 @@ export default async function sitemap() {
 			priority: 0.5,
 		},
 		{
-			url: 'https://rumanaccounting.com/blog/blog-grid',
+			url: 'https://rumanaccounting.com/blog/',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.5,
 		},
 		{
-			url: 'https://rumanaccounting.com/blog/blog-grid',
-			lastModified: new Date(),
-			changeFrequency: 'weekly',
-			priority: 0.5,
-		},
-		{
-			url: 'https://rumanaccounting.com/blog/blog-detail-one/accounting-intelligencehow-smart-financial-tools-are-revolutionizing-small-businesses',
-			lastModified: new Date(),
-			changeFrequency: 'weekly',
-			priority: 0.5,
-		},
-		{
-			url: 'https://rumanaccounting.com/blog/blog-detail-one/accounting-intelligencehow-smart-financial-tools-are-revolutionizing-small-businesses',
+			url: 'https://rumanaccounting.com/blog/blog-detail-one/accounting-intelligencehow-smart-financial-tools-are-revolutionizing-small-businesses/',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.5,

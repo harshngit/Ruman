@@ -103,8 +103,8 @@ const MenuOne = () => {
                                     <li className={`sub-nav-item ${pathname === '/pages/partners' ? 'active' : ''}`}> <Link className="sub-nav-link font-medium" href="/pages/partners">Partners</Link></li>
                                 </ul> */}
                             </li>
-                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/blog/blog-grid') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/blog/blog-grid">
-                                <span>Blog</span>
+                            <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/blog') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="/blog">
+                                <span>Blogs</span>
                             </Link>
                             </li>
                             {/* <li className={`nav-item h-full flex items-center justify-center ${pathname.includes('/blog/') ? 'active' : ''}`}><Link className="nav-link text-title flex items-center gap-1" href="#!">

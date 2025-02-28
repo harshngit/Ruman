@@ -24,7 +24,7 @@ const BlogItem = ({ data }: { data: { name: string; slug?: { current: string }; 
                 </div>
                 <div className="info sm:p-6 p-4">
                     <div className=" heading7 mt-2 hover:text-blue">{data.name}</div>
-                    <div className="date flex items-center gap-4 mt-2">
+                    <div className="date flex items-center gap-5 mt-2">
                         <div className="item-date flex items-center">
                             <Icon.CalendarBlank weight="bold" />
                             <span className="ml-1 caption2">{data.date || "N/A"}</span>
