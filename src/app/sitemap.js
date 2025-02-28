@@ -1,12 +1,5 @@
-import { getpostBlogs } from '../app/sanityFunction'
-export default async function sitemap() {
-	// const blog = await getpostBlogs()
 
-	// const blogEntries = blog.map((post) => ({
-	// 	url: `https://rumanaccounting.com/blog/blog-detail-one/${post?.slug}`,
-	// 	changeFrequency: 'weekly',
-	// 	priority: 0.8,
-	// }));
+export default async function sitemap() {
 	return [
 		{
 			url: 'https://rumanaccounting.com/',
