@@ -72,7 +72,7 @@ export default function CaseStudyDetail() {
                                         <div className="paragraph-content mt-8">
                                             <h1 className="heading7 mt-2">{blog?.name}</h1>
                                             {/* <p>{blog?.details}</p> */}
-                                            <PortableText value={blog?.details} />
+                                            <p className="text-[1.7rem]" ><PortableText value={blog?.details} /></p>
                                         </div>
 
                                     </div>
