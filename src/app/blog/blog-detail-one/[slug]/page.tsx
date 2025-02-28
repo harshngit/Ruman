@@ -69,10 +69,10 @@ export default function CaseStudyDetail() {
                                         <div className="paragraph-heading">
                                             <div className="bg-img"><img width={4000} height={4000} className="w-full rounded-2xl" src={blog?.imageUrl || "/images/blog/930x593.png"} alt="img" /></div>
                                         </div>
-                                        <div className="paragraph-content mt-8">
-                                            <h1 className="heading7 mt-2">{blog?.name}</h1>
+                                        <div className="paragraph-content mt-8 border-[1px] border-[#ccc] p-5 rounded-lg ">
+                                            <h1 className="heading5 mt-2 mb-2">{blog?.name}</h1>
                                             {/* <p>{blog?.details}</p> */}
-                                            <p className="text-[1.7rem]" ><PortableText value={blog?.details} /></p>
+                                            <p className="text-[1rem]" ><PortableText value={blog?.details} /></p>
                                         </div>
 
                                     </div>
