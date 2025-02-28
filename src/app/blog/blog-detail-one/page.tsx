@@ -3,7 +3,6 @@
 import TopNavOne from "@/components/Header/TopNav/TopNavOne"
 import MenuOne from "@/components/Header/Menu/MenuOne"
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
-import LayoutDetailOne from "@/components/Blog/LayoutDetailOne"
 import blogData from '@/data/blog.json'
 import { BlogType } from '@/type/BlogType'
 import CtaOne from "@/components/Section/CTA/CtaOne"
@@ -65,7 +64,7 @@ export default function CaseStudyDetail({ params: { slug } }: { params: { slug: 
                 </header>
                 <main className="content">
                     <BreadcrumbItem link="Case Studies" img="/images/banner/1920x400.png" title="Blog Detail" desc="Discover valuable insights and expert advice on budgeting, investing, and retirement planning in our Financial Blogs section." />
-                    <LayoutDetailOne data={foundPost as BlogType} handleNextBlogDetail={handleNextBlogDetail} handlePrevBlogDetail={handlePrevBlogDetail} />
+                    {/* <LayoutDetailOne data={foundPost as BlogType} handleNextBlogDetail={handleNextBlogDetail} handlePrevBlogDetail={handlePrevBlogDetail} /> */}
                     <CtaOne />
                 </main>
                 <footer id="footer">
