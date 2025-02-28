@@ -15,7 +15,7 @@ export default function BlogListStyleTwo() {
                     <MenuOne />
                 </header>
                 <main className="content">
-                    <BreadcrumbItem link="Blog" img="/images/banner/blog Banner.png" title="Blog" desc="Discover valuable insights and expert advice on budgeting, investing, and retirement planning in our Financial Blogs section." />
+                    <BreadcrumbItem link="Blog" img="/images/banner/blog Banner.png" title="Blog Page" desc="Discover valuable insights and expert advice on budgeting, investing, and retirement planning in our Financial Blogs section." />
                     <Suspense>
                         <LayoutGrid />
                     </Suspense>
