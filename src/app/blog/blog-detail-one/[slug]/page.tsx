@@ -8,60 +8,50 @@ import blogData from '@/data/blog.json'
 import { BlogType } from '@/type/BlogType';
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
-import { useRouter } from "next/navigation"
+import { useParams, useRouter } from "next/navigation"
 import LayoutDetailTwo from "@/components/Blog/LayoutDetailTwo"
 import Image from "next/image"
 import Link from "next/link"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import { client } from "@/client"
+import { useEffect, useState } from "react"
+import { PortableText } from '@portabletext/react';
+export default function CaseStudyDetail() {
+    const { slug } = useParams(); // ✅ Getting slug from URL
+    const [blog, setBlog] = useState<any>(null);
 
-export default function CaseStudyDetail({ params: { slug } }: { params: { slug: string } }) {
-    const router = useRouter();
+    useEffect(() => {
+        const fetchBlog = async () => {
+            const query = `*[_type == "blog" && slug.current == $slug][0] {
+               _id,
+               name,
+               details,
+               date,
+               "imageUrl": image.asset->url,
+               "bannerUrl": bannerimg.asset->url,
+               slug,
+            }`;
 
-    let foundPost = blogData.find(item => {
-        return item.title.toLowerCase().replace(/ /g, '-') === slug
-    })
+            try {
+                const result = await client.fetch(query, { slug });
 
-    if (foundPost === undefined) {
-        foundPost = blogData[0]
-    }
+                if (!result) {
+                    console.error("Blog not found for slug:", slug);
+                }
 
-    const handleNextBlogDetail = () => {
-        if (foundPost) {
-            let nextId: number;
-            const index = blogData.findIndex(post => post.id === foundPost?.id);
-            if (index === blogData.length - 1) {
-                nextId = blogData[0].id;
-            } else {
-                nextId = blogData[index + 1].id;
+                setBlog(result);
+            } catch (error) {
+                console.error("Error fetching blog:", error);
             }
-            const nextBlog = blogData.find(item => item.id === nextId);
-            if (nextBlog) {
-                router.push(`/blog/blog-detail-one/${nextBlog.title.toLowerCase().replace(/ /g, '-')}`);
-            }
-        }
-    };
+        };
 
-    const handlePrevBlogDetail = () => {
-        if (foundPost) {
-            let nextId: number;
-            const index = blogData.findIndex(post => post.id === foundPost?.id);
-            console.log(index);
+        if (slug) fetchBlog();
+    }, [slug]);
 
-            if (index === blogData[0].id - 1) {
-                nextId = blogData.length;
-            } else {
-                nextId = blogData[index - 1].id;
-            }
-            const nextBlog = blogData.find(item => item.id === nextId);
-            if (nextBlog) {
-                router.push(`/blog/blog-detail-one/${nextBlog.title.toLowerCase().replace(/ /g, '-')}`);
-            }
-        }
-    };
+    console.log(blog)
 
-    if (!foundPost) {
-        return <h3>Post not found.</h3>;
-    }
+    // if (!blog) return <div className="text-center mt-10">Loading...</div>;
+
 
     return (
         <>
@@ -70,31 +60,44 @@ export default function CaseStudyDetail({ params: { slug } }: { params: { slug: 
                     <MenuOne />
                 </header>
                 <main className="content">
-                    <div className="breadcrumb-block w-full lg:h-[400px] h-[360px] relative">
-                        <div className="bg-img w-full h-full absolute top-0 left-0 z-[-1]">
-                            <Image src="/images/banner/about1.png" width={4000} height={3000} alt="banner" className="w-full h-full object-cover" />
-                        </div>
-                        <div className="container relative h-full flex items-center justify-center">
-                            <div className="heading-nav flex items-center gap-1 absolute top-8 left-4 py-1.5 px-4 rounded-full bg-line">
-                                <Link className="hover:underline caption1 text-white" href="/">Home</Link>
-                                <Icon.CaretDoubleRight className="text-white" />
-                                <div className="caption1 text-white">Blog Detail</div>
-                            </div>
-                            <div className="text-nav flex flex-col items-center justify-center xl:w-2/3 lg:w-3/4 sm:w-5/6">
-                                <div className="caption2 text-center py-2 px-4 bg-surface rounded-2xl inline-block">{foundPost?.tag || 'Design'}</div>
-                                <div className="heading4 text-center mt-4 text-white">{foundPost?.title || 'Earn good money and make you very successful creative Business'}</div>
-                                <div className="date flex items-center justify-center gap-4 mt-4">
-                                    <div className="author flex items-center gap-4"><Image width={4000} height={4000} className="w-10 h-10 border border-line rounded-full" src={foundPost?.avatar || "/images/member/60x60.png"} alt="" /><span className="text-button text-white">{foundPost?.author || 'Avitex'} </span></div>
-                                    <div className="space text-3xl font-normal text-white">-</div>
-                                    <div className="item-date flex items-center">
-                                        <Icon.CalendarBlank weight="bold" className="text-white" />
-                                        <span className="ml-1 caption2 text-white">{foundPost?.date || '2 days ago'}</span>
+
+                    <div className='list-blog lg:py-[100px] sm:py-16 py-10'>
+                        <div className="container">
+                            <div className="flex items-center justify-center">
+                                <div className="w-full lg:w-2/3">
+                                    <div className="blog-paragraph">
+                                        <div className="paragraph-heading">
+                                            <div className="bg-img"><img width={4000} height={4000} className="w-full rounded-2xl" src={blog?.imageUrl || "/images/blog/930x593.png"} alt="img" /></div>
+                                        </div>
+                                        <div className="paragraph-content mt-8">
+                                            <h1 className="heading7 mt-2">{blog?.name}</h1>
+                                            {/* <p>{blog?.details}</p> */}
+                                            <PortableText value={blog?.details} />
+                                        </div>
+
+                                    </div>
+                                    <div className="blog-more-infor mt-8">
+                                        <div className="infor-above flex items-center justify-between flex-wrap gap-6">
+
+                                            <div className="share-block flex items-center gap-4 max-sm:flex-wrap">
+                                                <div className="social-media flex items-center gap-3 max-sm:flex-wrap">
+                                                    <a href="https://www.facebook.com/share/18HrDpYS4E/" aria-label="Share on Facebook"
+                                                        title="Share on Facebook" className='w-10 h-10 flex items-center justify-center bg-surface rounded-full hover-box-shadow hover:bg-white duration-300'><i className="icon-facebook text-black"></i></a>
+                                                    <a href="https://www.linkedin.com/company/ruman-accounting-intelligence/" rel="noopener noreferrer"
+                                                        aria-label="Visit our LinkedIn"
+                                                        title="Visit our LinkedIn" target="_blank" className='w-10 h-10 flex items-center justify-center bg-surface rounded-full hover-box-shadow hover:bg-white duration-300'><i className="icon-in text-black"></i></a>
+                                                    <a href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" rel="noopener noreferrer"
+                                                        aria-label="Follow us on Instagram"
+                                                        title="Follow us on Instagram" target="_blank" className='w-10 h-10 flex items-center justify-center bg-surface rounded-full hover-box-shadow hover:bg-white duration-300'><i className="icon-insta text-black text-sm"></i></a>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <LayoutDetailTwo data={foundPost as BlogType} handleNextBlogDetail={handleNextBlogDetail} handlePrevBlogDetail={handlePrevBlogDetail} />
                 </main>
                 <footer id="footer">
                     <Footer />

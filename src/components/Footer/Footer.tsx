@@ -19,16 +19,16 @@ const Footer = () => {
                                         <p className="text-[2px]">Facebook</p>
                                         <i className="icon-facebook text-sm" aria-hidden="true" ></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.linkedin.com/company/ruman-accounting-intelligence/" rel="noopener noreferrer"
+                                    <Link className=" item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center flex-col" href="https://www.linkedin.com/company/ruman-accounting-intelligence/" rel="noopener noreferrer"
                                         aria-label="Visit our LinkedIn"
                                         title="Visit our LinkedIn" target="_blank">
-                                        <p className="text-[2px]">Facebook</p>
+                                        <p className="text-[2px]">linkedin</p>
                                         <i className="icon-in text-sm" aria-hidden="true" ></i>
                                     </Link>
-                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center" href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" rel="noopener noreferrer"
+                                    <Link className="item rounded-full w-7 h-7 border-2 border-grey flex items-center justify-center flex-col" href="https://www.instagram.com/ruman.accounting?igsh=OHYwZXVlbmdidG90" rel="noopener noreferrer"
                                         aria-label="Follow us on Instagram"
                                         title="Follow us on Instagram" target="_blank">
-                                        <p className="text-[2px]">Facebook</p>
+                                        <p className="text-[2px]">instagram</p>
                                         <i className="icon-insta text-xs" aria-hidden="true"></i>
                                     </Link>
 
