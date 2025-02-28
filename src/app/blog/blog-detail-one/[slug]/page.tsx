@@ -3,13 +3,13 @@
 import TopNavOne from "@/components/Header/TopNav/TopNavOne"
 import MenuOne from "@/components/Header/Menu/MenuOne"
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
-import LayoutDetailOne from "@/components/Blog/LayoutDetailOne"
+
 import blogData from '@/data/blog.json'
 import { BlogType } from '@/type/BlogType';
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
 import { useParams, useRouter } from "next/navigation"
-import LayoutDetailTwo from "@/components/Blog/LayoutDetailTwo"
+
 import Image from "next/image"
 import Link from "next/link"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
