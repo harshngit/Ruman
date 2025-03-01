@@ -98,7 +98,7 @@ export default async function sitemap() {
 			priority: 0.5,
 		},
 		{
-			url: 'https://rumanaccounting.com/blog/blog-detail-one/why-small-businesses-need-professional-accounting-services-content',
+			url: 'https://rumanaccounting.com/blog/blog-detail/why-small-businesses-need-professional-accounting-services-content',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.5,
