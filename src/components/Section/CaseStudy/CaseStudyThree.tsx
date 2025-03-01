@@ -1,14 +1,10 @@
 'use client'
 
 import { useState } from "react";
-import Link from "next/link"
-import Image from "next/image";
-import * as Icon from "@phosphor-icons/react/dist/ssr";
 import CaseStudyItem from "@/components/CaseStudy/CaseStudyItem";
 import { CaseStudyType } from '@/type/CaseStudyType'
 import { motion } from 'framer-motion'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+
 import 'swiper/css/bundle';
 
 interface Props {

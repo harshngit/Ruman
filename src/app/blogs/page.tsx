@@ -1,8 +1,7 @@
-import TopNavOne from "@/components/Header/TopNav/TopNavOne"
+
 import MenuOne from "@/components/Header/Menu/MenuOne"
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
 import LayoutGrid from "@/components/Blog/LayoutGrid"
-import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
 import { Suspense } from "react"
 

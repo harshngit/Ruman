@@ -1,15 +1,10 @@
-import TopNavOne from "@/components/Header/TopNav/TopNavOne"
+
 import MenuOne from "@/components/Header/Menu/MenuOne"
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
-import ServiceFive from "@/components/Section/Service/ServiceFive"
 import serviceData from '@/data/service.json'
-import Partner from "@/components/Section/Partner/PartnerAbout"
-import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
 import Image from "next/image"
 import ServiceOne from "@/components/Section/Service/ServiceOne"
-import ServiceTwo from "@/components/Section/Service/ServiceTwo"
-import FormRequestTwo from "@/components/Section/FormRequest/FormRequestTwo"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 
@@ -83,7 +78,6 @@ export default function ServiceStyleOne() {
                         </div>
                     </div>
                     <ServiceOne data={serviceData} />
-                    {/* <FormRequestTwo classname="style-two style-about" bgImg="/images/banner/form.png" /> */}
                 </main>
                 <footer id="footer">
                     <Footer />

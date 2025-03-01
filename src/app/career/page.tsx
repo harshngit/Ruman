@@ -1,6 +1,4 @@
 
-
-import TopNavOne from "@/components/Header/TopNav/TopNavOne";
 import MenuOne from "@/components/Header/Menu/MenuOne";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 
@@ -13,7 +11,6 @@ import { FaPhone } from "react-icons/fa";
 import Link from "next/link";
 import { GoogleAnalytics } from "@next/third-parties/google"
 import CareerForm from "@/components/Section/Career/CareerForm";
-import CareerTable from "@/components/Section/Career/CareerTable";
 export const metadata = {
   title: "Careers | Ruman Accounting Intelligence – Join Our Team of Financial Experts",
   description: "Explore career opportunities at Ruman Accounting Intelligence. Join our team and grow your career in finance, accounting, and business solutions.",
@@ -73,9 +70,7 @@ export default function ContactStyleTwo() {
             title="Career"
             desc="Join our team at Ruman Accounting Services LLP and be part of a dynamic, innovative environment where experienced professionals and aspiring talent come together to shape the future of accounting and financial services"
           />
-          {/* <CareerTable /> */}
           <CareerForm />
-          {/* <CtaOne /> */}
         </main>
         <footer id="footer">
           <Footer />

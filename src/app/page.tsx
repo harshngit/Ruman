@@ -1,17 +1,15 @@
 import MenuOne from "@/components/Header/Menu/MenuOne";
 import SliderOne from "@/components/Slider/SliderOne";
-import PaymentGatewayOneSecond from "@/components/Section/PaymentGateway/PaymentGatewayOneSecond";
 import ServiceTwo from "@/components/Section/Service/ServiceTwo";
 import Footer from "@/components/Footer/Footer";
 import ProjectFive from "@/components/Section/Project/ProjectFive";
 import { FaPhone } from "react-icons/fa";
 import Link from "next/link";
-import TestimonialTwo from "@/components/Section/Testimonial/TestimonialTwo";
 import PartnerSix from "@/components/Section/Partner/PartnerSix";
 import ServiceBanner from "@/components/Section/PaymentGateway/ServiceBanner"
 import HomeBanner from "@/components/Home/HomeBanner";
-import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import PaymentGatewayOneSecond from "@/components/Section/PaymentGateway/PaymentGatewayOneSecond";
 
 export const metadata = {
   title: "Ruman Accounting Services – Family Experts & Smart Accounting Solutions",

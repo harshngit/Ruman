@@ -11,7 +11,7 @@ const BlogItem = ({ data }: { data: { name: string; slug?: { current: string }; 
         <div className="blog-item">
             <Link
                 className="blog-item-main h-full block bg-white border border-line overflow-hidden rounded-2xl hover-box-shadow duration-500"
-                href={`/blog/blog-detail-one/${slug}`}
+                href={`/blogs/blog-detail/${slug}`}
             >
                 <div className="bg-img w-full overflow-hidden">
                     <img

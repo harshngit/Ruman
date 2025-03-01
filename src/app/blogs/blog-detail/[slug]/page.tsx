@@ -1,18 +1,9 @@
 'use client'
 
-import TopNavOne from "@/components/Header/TopNav/TopNavOne"
-import MenuOne from "@/components/Header/Menu/MenuOne"
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
 
-import blogData from '@/data/blog.json'
-import { BlogType } from '@/type/BlogType';
-import CtaOne from "@/components/Section/CTA/CtaOne"
+import MenuOne from "@/components/Header/Menu/MenuOne"
 import Footer from "@/components/Footer/Footer"
 import { useParams, useRouter } from "next/navigation"
-
-import Image from "next/image"
-import Link from "next/link"
-import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { client } from "@/client"
 import { useEffect, useState } from "react"
 import { PortableText } from '@portabletext/react';
