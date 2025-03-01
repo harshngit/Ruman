@@ -1,15 +1,11 @@
 'use client'
 
 import { useState } from "react"
-
 import MenuOne from "@/components/Header/Menu/MenuOne"
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem"
-import ServiceFilter from "@/components/Section/Service/ServiceFilter"
 import serviceData from '@/data/service.json'
-
 import Footer from "@/components/Footer/Footer"
 import * as Icon from "@phosphor-icons/react/dist/ssr";
-import faqData from '@/data/faqs.json'
 import Image from "next/image"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
