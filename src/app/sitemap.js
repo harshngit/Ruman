@@ -2,13 +2,13 @@
 export default async function sitemap() {
 	return [
 		{
-			url: 'https://rumanaccounting.com/',
+			url: 'https://rumanaccounting.com',
 			lastModified: new Date(),
 			changeFrequency: 'yearly',
 			priority: 1,
 		},
 		{
-			url: 'https://rumanaccounting.com/about/',
+			url: 'https://rumanaccounting.com/about',
 			lastModified: new Date(),
 			changeFrequency: 'yearly',
 			priority: 1,
