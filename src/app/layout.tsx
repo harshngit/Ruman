@@ -4,9 +4,13 @@ import "@/styles/style.scss";
 import Head from "next/head";
 import { GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
+import Hotjar from '@hotjar/browser';
 
 const inter = Inter({ subsets: ["latin"] });
+const siteId = 5323136;
+const hotjarVersion = 6;
 
+Hotjar.init(siteId, hotjarVersion);
 export const metadata = {
   title: "Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
@@ -60,7 +64,7 @@ export default function RootLayout({
         <GoogleTagManager gtmId="G-CZ1CKKJML1" />
 
         <link rel="icon" href="images/rumanfavicon (1).png" type="image/png" />
-        <Script id="HotJarAnalytics" >
+        {/* <Script id="HotJarAnalytics" >
           {
             `(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -71,7 +75,7 @@ export default function RootLayout({
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')`}
 
-        </Script>
+        </Script> */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
