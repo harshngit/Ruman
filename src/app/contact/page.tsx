@@ -9,22 +9,18 @@ import 'react-toastify/dist/ReactToastify.css';
 import ContactForm from "@/components/Section/Contact/ContactForm";
 import { GoogleAnalytics } from "@next/third-parties/google"
 export const metadata = {
-  title: "Contact Us | Ruman Accounting Intelligence – Get in Touch for Expert Accounting Solutions",
-  description: "Reach out to Ruman Accounting Intelligence for expert financial and accounting solutions. We are here to assist you with all your financial needs.",
-  keywords: [
-    'Contact Ruman Accounting', 'Accounting Support', 'Financial Consultation',
-    'Customer Service', 'Accounting Help', 'Ruman Accounting Contact',
-    'Accounting in Mumbai', 'Accounting in Pune', 'Accounting in Thane'
-  ],
+  title: "Contact Ruman Accounting Service | Your Partner in Financial Excellence",
+  description: "Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!",
+  keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   verification: {
     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
   },
   openGraph: {
     type: "website",
-    title: 'Contact Us | Ruman Accounting Intelligence – Get in Touch for Expert Accounting Solutions',
-    description: 'Need accounting help? Contact Ruman Accounting Intelligence for expert guidance and financial solutions.',
+    title: 'Contact Ruman Accounting Service | Your Partner in Financial Excellence',
+    description: 'Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!',
     url: 'https://rumanaccounting.com/contact',
-    siteName: 'Ruman Accounting Intelligence – Contact Us',
+    siteName: 'Ruman Accounting Intelligence',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',

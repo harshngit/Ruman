@@ -8,37 +8,46 @@ import { FaPhone } from "react-icons/fa"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata = {
-    title: "Ancillary Services | Ruman Accounting Intelligence – Comprehensive Financial Solutions",
-    description: "Get additional financial and business support services from Ruman Accounting Intelligence. We provide holistic solutions beyond accounting.",
-    keywords: [
-        'Ancillary Services Ruman', , 'Financial Planning',
-        'Corporate Solutions', 'Legal Compliance', 'Ruman Accounting Intelligence',
-        'Business Growth Solutions', 'Accounting Intelligence'
-    ],
+    title: "Comprehensive Ancillary Services for Your Financial Needs | Ruman Accounting Services",
+    description: "Streamline your business with Ruman Accounting’s ancillary services. From bookkeeping to compliance, we simplify operations for seamless growth.",
+    keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
     verification: {
         google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
     },
     openGraph: {
         type: "website",
-        title: 'Ancillary Services | Ruman Accounting Intelligence – Comprehensive Financial Solutions',
-        description: 'Discover our ancillary financial services that go beyond accounting to help businesses and individuals grow.',
-        url: 'https://rumanaccounting.com/service/service-two',
-        siteName: 'Ruman Accounting Intelligence – Ancillary Services',
+        title: 'Comprehensive Ancillary Services for Your Financial Needs | Ruman Accounting Services',
+        description: 'Streamline your business with Ruman Accounting’s ancillary services. From bookkeeping to compliance, we simplify operations for seamless growth.',
+        url: 'https://rumanaccounting.com/service/ancillary-services/',
+        siteName: 'Ruman Accounting Services',
         images: [
             {
-                url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+                url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
                 width: 800,
                 height: 600,
+            },
+            {
+                url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742', // Must be an absolute URL
+                width: 1800,
+                height: 1600,
+                alt: 'Ruman Accounting – Your Partner in Family Accounting & Smart Financial Intelligence.',
             },
         ],
     },
     alternates: {
-        canonical: 'https://rumanaccounting.com/ancillary',
+        canonical: 'https://rumanaccounting.com/service/ancillary-services/',
     },
+
     icons: {
         icon: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+        shortcut: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+        apple: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+        other: {
+            rel: 'apple-touch-icon-precomposed',
+            url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
+        },
     },
-};
+}
 
 
 export default function ServiceStyleTwo() {

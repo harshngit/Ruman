@@ -11,22 +11,18 @@ import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 
 export const metadata = {
-  title: "About Us | Ruman Accounting Intelligence – Expert Family Accounting & Smart Financial Solutions",
-  description: "Learn more about Ruman Accounting Intelligence, our expertise in family accounting, and how we provide smart financial solutions.",
-  keywords: [
-    'About Ruman Accounting Intelligence', 'Accounting Intelligence', 'Family Accounting',
-    'Financial Solutions', 'Expert Accountants', 'Accounting in Mumbai',
-    'Accounting in Pune', 'Accounting in Thane', 'Accounting for Startups'
-  ],
+  title: "About Ruman Accounting Service | Your Trusted Financial Partner",
+  description: "Discover Ruman Accounting Service – your trusted partner for expert financial solutions. With a commitment to excellence, we help businesses and individuals achieve their financial goals.",
+  keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   verification: {
     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
   },
   openGraph: {
     type: "website",
-    title: 'About Us | Ruman Accounting Intelligence – Expert Family Accounting & Smart Financial Solutions.',
-    description: 'Discover the vision, mission, and expertise behind Ruman Accounting Intelligence, your trusted financial partner.',
+    title: 'About Ruman Accounting Service | Your Trusted Financial Partner',
+    description: 'Discover Ruman Accounting Service – your trusted partner for expert financial solutions. With a commitment to excellence, we help businesses and individuals achieve their financial goals.',
     url: 'https://rumanaccounting.com/about',
-    siteName: 'Ruman Accounting Intelligence – About Us',
+    siteName: 'Ruman Accounting Intelligence',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',

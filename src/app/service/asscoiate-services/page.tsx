@@ -8,21 +8,18 @@ import { FaPhone } from "react-icons/fa"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata = {
-	title: "Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations",
-	description: "Meet our trusted associates and partners who contribute to Ruman Accounting Intelligence’s excellence in financial and business solutions.",
-	keywords: [
-		'Accounting Associates', 'Financial Partners', 'Business Collaborations',
-		'Ruman Accounting Partners', 'Corporate Partnerships', 'Accounting Networks'
-	],
+	title: "Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service",
+	description: "Unlock your business potential with Ruman Accounting’s associate services. From financial consulting to compliance support, we provide tailored solutions to drive efficiency and growth..",
+	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
 	verification: {
 		google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
 	},
 	openGraph: {
 		type: "website",
-		title: 'Our Associates | Ruman Accounting Intelligence – Trusted Partnerships & Collaborations',
-		description: 'Explore the network of trusted partners and associates working with Ruman Accounting Intelligence.',
+		title: 'Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service',
+		description: 'Unlock your business potential with Ruman Accounting’s associate services. From financial consulting to compliance support, we provide tailored solutions to drive efficiency and growth.',
 		url: 'https://rumanaccounting.com/service/service-asscoiate',
-		siteName: 'Ruman Accounting Intelligence – Our Associates',
+		siteName: 'Ruman Accounting Service ',
 		images: [
 			{
 				url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',

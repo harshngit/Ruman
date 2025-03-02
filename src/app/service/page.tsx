@@ -9,22 +9,18 @@ import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 
 export const metadata = {
-    title: "Our Services | Ruman Accounting Intelligence – Expert Financial & Accounting Solutions",
-    description: "Explore the range of financial and accounting services offered by Ruman Accounting Intelligence. Tailored solutions for businesses, families, and startups.",
-    keywords: [
-        'Accounting Services', 'Financial Solutions', 'Ruman Accounting Intelligence',
-        'Business Accounting', 'Startup Accounting', 'Tax Solutions',
-        'Bookkeeping Services', 'Accounting in Mumbai', 'Accounting in Pune', 'Accounting in Thane'
-    ],
+    title: "Core Accounting Services for Business Success | Ruman Accounting",
+    description: "Discover Ruman Accounting’s core services designed to streamline your finances. From bookkeeping to tax planning, we provide expert solutions to help your business thrive.",
+    keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
     verification: {
         google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
     },
     openGraph: {
         type: "website",
-        title: 'Our Services | Ruman Accounting Intelligence – Expert Financial & Accounting Solutions',
-        description: 'Discover our expert financial and accounting services designed for families, businesses, and startups.',
+        title: 'Core Accounting Services for Business Success | Ruman Accounting',
+        description: 'Discover Ruman Accounting’s core services designed to streamline your finances. From bookkeeping to tax planning, we provide expert solutions to help your business thrive.',
         url: 'https://rumanaccounting.com/service',
-        siteName: 'Ruman Accounting Intelligence – Our Services',
+        siteName: 'Ruman Accounting Intelligence',
         images: [
             {
                 url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
@@ -34,7 +30,7 @@ export const metadata = {
         ],
     },
     alternates: {
-        canonical: 'https://rumanaccounting.com/servicees',
+        canonical: 'https://rumanaccounting.com/service',
     },
     icons: {
         icon: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',

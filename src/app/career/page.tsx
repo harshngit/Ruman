@@ -12,22 +12,18 @@ import Link from "next/link";
 import { GoogleAnalytics } from "@next/third-parties/google"
 import CareerForm from "@/components/Section/Career/CareerForm";
 export const metadata = {
-  title: "Careers | Ruman Accounting Intelligence – Join Our Team of Financial Experts",
-  description: "Explore career opportunities at Ruman Accounting Intelligence. Join our team and grow your career in finance, accounting, and business solutions.",
-  keywords: [
-    'Careers at Ruman Accounting', 'Accounting Jobs', 'Finance Careers',
-    'Job Openings', 'Work in Accounting', 'Financial Jobs',
-    'Hiring Accountants', 'Accounting in Mumbai', 'Accounting in Pune', 'Accounting in Thane'
-  ],
+  title: "Join Our Team | Exciting Career Opportunities at Ruman Accounting Service",
+  description: "Kickstart your career with Ruman Accounting! Join a dynamic team offering growth, innovation, and exciting opportunities in finance and accounting.",
+  keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   verification: {
     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
   },
   openGraph: {
     type: "website",
     title: 'Careers | Ruman Accounting Intelligence – Join Our Team of Financial Experts',
-    description: 'Looking for a career in accounting and finance? Join Ruman Accounting Intelligence and grow with us.',
-    url: 'https://rumanaccounting.com/career',
-    siteName: 'Ruman Accounting Intelligence – Careers',
+    description: 'Kickstart your career with Ruman Accounting! Join a dynamic team offering growth, innovation, and exciting opportunities in finance and accounting.',
+    url: 'https://rumanaccounting.com/career/',
+    siteName: 'Ruman Accounting Services',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
@@ -37,7 +33,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://rumanaccounting.com/career',
+    canonical: 'https://rumanaccounting.com/career/',
   },
   icons: {
     icon: 'https://firebasestorage.googleapis.com/v0/b/grc-logistics.appspot.com/o/log%2Frumanfavicon%20(1).png?alt=media&token=92f2b9d7-e9c1-4d25-ba9b-9d8e88f64742',
