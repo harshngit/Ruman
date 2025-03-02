@@ -44,14 +44,14 @@ export default function ServiceStyleOne({ params: { slug } }: { params: { slug: 
                                             <div className="body2 text-secondary mt-4">{foundPost?.desc}</div>
                                         </div>
                                         <div className=" bg-img mt-8 mb-8 flex justify-center items-center">
-                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="" />
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg}`} alt="service" />
                                         </div>
 
                                     </div>
 
                                     {foundPost?.Description && <div className="lg:my-16 my-6 gap-4 lg:gap-12 px-4 lg:px-16 mt-5 grid grid-cols-1 lg:grid-cols-2 ">
                                         <div className=" bg-img  flex justify-center items-center">
-                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg2}`} alt="" />
+                                            <Image width={5000} height={5000} className="w-full h-full rounded-xl" src={`/images/component/${foundPost?.serviceimg2}`} alt="service" />
                                         </div>
                                         <div className=" ">
                                             {/* <div className="heading3"> Some Key Points</div> */}

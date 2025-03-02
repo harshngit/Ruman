@@ -22,7 +22,7 @@ const AboutTwo = () => {
                 src="/images/component/aboutsec.png"
                 width={4000}
                 height={4000}
-                alt=""
+                alt="About1"
                 className="w-full h-full block"
               />
             </div>

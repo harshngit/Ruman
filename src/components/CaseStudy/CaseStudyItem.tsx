@@ -16,7 +16,7 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                 <div className="">
                     <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-start w-full gap-5 mt-10 ">
                         <div className="">
-                            <Image  className="w-full h-full rounded-xl display-block" src={data.img} alt="" />
+                            <Image className="w-full h-full rounded-xl display-block" src={data.img} alt="about2" />
                         </div>
                         <div className="">
                             <div className="title text-secondary mt-4">
@@ -54,7 +54,7 @@ const CaseStudyItem: React.FC<Props> = ({ data, style }) => {
                 <div className="mt-6">
                     <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full gap-5 mt-10">
                         <div className="">
-                            <Image width={5000} height={5000} className=" w-full rounded-xl display-block shadow-md" src={data.img} alt="" />
+                            <Image width={5000} height={5000} className=" w-full rounded-xl display-block shadow-md" src={data.img} alt="about3" />
                         </div>
                         <div className="">
                             <h3 className="lg:text-[2.5rem] text-[2rem] font-[700]" >{data.category}</h3>

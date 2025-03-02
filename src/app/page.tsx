@@ -13,7 +13,7 @@ import PaymentGatewayOneSecond from "@/components/Section/PaymentGateway/Payment
 import Head from "next/head";
 
 export const metadata = {
-  title: "Professional Accounting Services | Trusted Experts - Ruman Accounting Services",
+  title: "Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Service', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   verification: {
@@ -21,7 +21,7 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: 'Professional Accounting Services | Trusted Experts - Ruman Accounting Services',
+    title: 'Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals',
     description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions.',
     url: 'https://rumanaccounting.com/',
     siteName: 'Ruman Accounting Services',

@@ -16,7 +16,7 @@ const ProjectFive = () => {
 						<div className="grid lg:grid-cols-2 lg:gridi-cols-1 items-center my-4 mx-2 lg:my-12 lg:mx-12 justify-between gap-x-12 gap-y-12">
 							<div className="col-span-1">
 								<div className="bg-img w-full">
-									<Image width={5000} height={5000} className="w-full rounded-lg shadow-md" src="/images/component/aboutHome.png" alt="" />
+									<Image width={5000} height={5000} className="w-full rounded-lg shadow-md" src="/images/component/aboutHome.png" alt="Aboutimg" />
 								</div>
 							</div>
 							<div className="col-span-1">
@@ -50,7 +50,7 @@ const ProjectFive = () => {
 							</div>
 							<div className="col-span-1 order-1 lg:order-2">
 								<div className="bg-img w-full">
-									<Image width={5000} height={5000} className="w-full rounded-lg shadow-md" src="/images/component/aboutHome1.png" alt="" />
+									<Image width={5000} height={5000} className="w-full rounded-lg shadow-md" src="/images/component/aboutHome1.png" alt="Aboutimg2" />
 								</div>
 								{/* <div className="sub-img absolute -bottom-2 right-1 rotate-[10deg]">
                                     <Image width={5000} height={5000} className='w-[110px]' src="/images/component/sub-about5-left.png" alt="" />

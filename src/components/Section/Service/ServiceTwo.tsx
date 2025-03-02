@@ -1,12 +1,6 @@
 'use client'
 
 import React from 'react'
-import ServiceItem from '../../Service/ServiceItem'
-import { ServiceType } from '@/type/ServiceType'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 import { GiReceiveMoney } from "react-icons/gi";
 import { MdOutlineSecurity } from "react-icons/md";
@@ -14,10 +8,7 @@ import { FaTrademark } from "react-icons/fa";
 import { SiAccusoft } from "react-icons/si";
 import { GiTakeMyMoney } from "react-icons/gi";
 import { RiSpeakLine } from "react-icons/ri";
-import { FaShoppingCart } from "react-icons/fa";
-import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { CiShop } from 'react-icons/ci'
-import styled from 'styled-components'
 
 
 const ServiceTwo = () => {
@@ -34,11 +25,7 @@ const ServiceTwo = () => {
             </div>
           </div>
           <div className="col-span-1 lg:col-span-2 lg:p-5 list-service grid grid-flow-row lg:grid-cols-3 grid-cols-1 gap-3 max-xl:mt-8">
-            {/* <div className='border-[2px]  rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-shadow duration-150 hover:shadow-md  border-[#e0e0e0] bg-[#fff]'>
-              <FaShoppingCart className='text-6xl text-[#021a43cf]' />
-              <h4 className='text-[15px] font-semibold mt-2 leading-6 '>E-commerce accounting</h4>
-              <p className='text-secondary text-[10px] mt-1'>E-commerce accounting manages financial transactions, taxes, and inventory for online businesses, ensuring accurate reporting and compliance across digital sales channels.</p>
-            </div> */}
+
 
             <div className='border-[2px] rounded-md cursor-pointer flex justify-start flex-col px-6 py-6 transition-all duration-300 hover:shadow-lg hover:scale-105 border-[#e0e0e0] bg-[#fff] hover:bg-[#f9f9f9]'>
               <GiReceiveMoney className='text-6xl text-[#021a43cf]' />

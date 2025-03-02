@@ -6,10 +6,10 @@ const HomeBanner = () => {
 	return (
 		<>
 			<div className='lg:hidden block'>
-				<Image className='w-full h-full' src={pc} alt="" />
+				<Image className='w-full h-full' src={pc} alt="Account" />
 			</div>
 			<div className='lg:block hidden'>
-				<Image className='w-full h-full' src={pc} alt="" />
+				<Image className='w-full h-full' src={pc} alt="Account" />
 			</div>
 		</>
 	)

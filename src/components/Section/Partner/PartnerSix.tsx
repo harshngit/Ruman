@@ -33,7 +33,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
 									src={'/images/clients/2.png'}
 									width={300}
 									height={300}
-									alt='1'
+									alt='2'
 									className=' w-[150px] duration-500 relative object-cover'
 								/>
 							</div>
@@ -42,7 +42,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
 									src={'/images/clients/3.png'}
 									width={300}
 									height={300}
-									alt='1'
+									alt='3'
 									className=' w-[150px] duration-500 relative object-cover'
 								/>
 							</div>
@@ -51,7 +51,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
 									src={'/images/clients/4.png'}
 									width={300}
 									height={300}
-									alt='1'
+									alt='4'
 									className=' w-[150px] duration-500 relative object-cover'
 								/>
 							</div>
@@ -60,7 +60,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
 									src={'/images/clients/5.png'}
 									width={300}
 									height={300}
-									alt='1'
+									alt='5'
 									className=' w-[150px] duration-500 relative object-cover'
 								/>
 							</div>
@@ -69,7 +69,7 @@ const PartnerSix: React.FC<Props> = ({ classname }) => {
 									src={'/images/clients/6.png'}
 									width={300}
 									height={300}
-									alt='1'
+									alt='6'
 									className=' w-[150px] duration-500 relative object-cover'
 								/>
 							</div>

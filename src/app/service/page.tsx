@@ -67,7 +67,7 @@ export default function ServiceStyleOne() {
                                 </div>
                                 <div className="">
                                     <div className="bg-img w-full overflow-hidden rounded-xl">
-                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/servicecontent.png" alt="" />
+                                        <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/servicecontent.png" alt="servicecore" />
                                     </div>
                                 </div>
                             </div>

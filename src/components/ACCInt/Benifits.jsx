@@ -24,7 +24,7 @@ const Benifits = () => {
 							}}
 						>
 							<div className="bg-img">
-								<Image width={5000} height={5000} className="w-full rounded-[20px]" src="/images/keymetrics/acc_.png" alt="" />
+								<Image width={5000} height={5000} className="w-full rounded-[20px]" src="/images/keymetrics/acc_.png" alt="keymetrics" />
 							</div>
 
 						</div>
@@ -45,10 +45,6 @@ const Benifits = () => {
 									AI can help accounting firms reduce costs by automating tasks and identifying areas for improvement.
 								</span> </div>
 							</div>
-							{/* <div className="service-item flex items-center mt-6">
-                                <Icon.Check weight="bold" className="bg-[#021a43cf] text-white w-[20px] h-[20px] py-1 px-1 rounded-full text-[1.5rem]" />
-                                <div className="text-button ml-3 ">End to End solution from day-to-day accounting to audit ready finalization of accounts with all tax compliances.</div>
-                            </div> */}
 							<div className="service-item flex items-start mt-4">
 								<Icon.Check weight="bold" className="bg-[#021a43cf] text-white lg:w-[20px] lg:h-[20px] w-[40px] h-[30px] lg:py-1 py-1 lg:px-1 px-1 rounded-full lg:text-[2rem] text-[2rem]" />
 								<div className="text-button ml-3 ">Increased productivity: <span className='text-[15px] font-medium'>
