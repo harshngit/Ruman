@@ -20,13 +20,13 @@ export default async function sitemap() {
 			priority: 0.8,
 		},
 		{
-			url: 'https://rumanaccounting.com/service/service-two/',
+			url: 'https://rumanaccounting.com/service/ancillary-services',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.7,
 		},
 		{
-			url: 'https://rumanaccounting.com/service/service-asscoiate/',
+			url: 'https://rumanaccounting.com/service/asscoiate-services',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.8,
@@ -110,7 +110,7 @@ export default async function sitemap() {
 			priority: 0.5,
 		},
 		{
-			url: 'https://rumanaccounting.com/blog/blog-detail/why-small-businesses-need-professional-accounting-services-content',
+			url: 'https://rumanaccounting.com/blogs/blog-detail/how-outsourcing-accounting-services-can-save-you-time-&-money',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.5,
