@@ -61,7 +61,7 @@ export default function Home() {
       <div className=" relative">
         <Head>
           <meta name="robots" content="follow, index" />
-
+          <meta name="googlebot" content="follow, index" />
         </Head>
         <GoogleAnalytics gaId="G-CZ1CKKJML1" />
         <Link href="/contact">
