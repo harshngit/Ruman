@@ -110,7 +110,7 @@ export default async function sitemap() {
 			priority: 0.5,
 		},
 		{
-			url: 'https://rumanaccounting.com/blogs/blog-detail/how-outsourcing-accounting-services-can-save-you-time-&-money',
+			url: 'https://rumanaccounting.com/blogs/blog-detail/how-outsourcing-accounting-services-can-save-you-time-money',
 			lastModified: new Date(),
 			changeFrequency: 'weekly',
 			priority: 0.5,
