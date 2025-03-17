@@ -11,9 +11,9 @@ export const metadata = {
   title: "Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Solution', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-  verification: {
-    google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-  },
+  // verification: {
+  //   google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
+  // },
   openGraph: {
     type: "website",
     title: 'Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services',

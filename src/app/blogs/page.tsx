@@ -9,9 +9,9 @@ export const metadata = {
     title: "Expert Insights: Accounting Tips, Trends & Solutions - Ruman Accounting Blog",
     description: "Discover expert accounting tips, financial trends, and solutions on the Ruman Accounting Blog. Simplify your finances and grow smarter today!",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-    verification: {
-        google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-    },
+    // verification: {
+    //     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
+    // },
     openGraph: {
         type: "website",
         title: 'Expert Insights: Accounting Tips, Trends & Solutions | Ruman Accounting Blog',
