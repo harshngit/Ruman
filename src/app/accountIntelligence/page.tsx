@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 	title: "Account Intelligence | Ruman Accounting Service – Smart Financial & Business Insights",
 	description: "Explore Ruman Accounting Intelligence's smart financial solutions, offering expert insights into financial planning and business accounting.",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+	robots: {
+		index: false,
+		follow: true,
+	},
 	verification: {
 		google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
 	},

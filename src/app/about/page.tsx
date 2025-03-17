@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "About Ruman Accounting Service | Your Trusted Financial Partner",
   description: "Discover Ruman Accounting Service – your trusted partner for expert financial solutions. With a commitment to excellence, we help businesses and individuals achieve their financial goals.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  robots: {
+    index: false,
+    follow: true,
+  },
   verification: {
     google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
   },

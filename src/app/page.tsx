@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: "Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  robots: {
+    index: false,
+    follow: true,
+  },
   verification: {
     google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
   },

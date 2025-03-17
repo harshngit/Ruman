@@ -7,6 +7,10 @@ import { useParams, useRouter } from "next/navigation"
 import { client } from "@/client"
 import { useEffect, useState } from "react"
 import { PortableText } from '@portabletext/react';
+import { Metadata } from "next"
+import Head from "next/head"
+import Image from "next/image"
+
 export default function CaseStudyDetail() {
     const { slug } = useParams(); // ✅ Getting slug from URL
     const [blog, setBlog] = useState<any>(null);
@@ -58,7 +62,9 @@ export default function CaseStudyDetail() {
                                 <div className="w-full lg:w-2/3">
                                     <div className="blog-paragraph">
                                         <div className="paragraph-heading">
-                                            <div className="bg-img"><img width={4000} height={4000} className="w-full rounded-2xl" src={blog?.imageUrl} alt={blog?.imageUrl} /></div>
+                                            <div className="bg-img">
+                                                <Image width={4000} height={4000} className="w-full rounded-2xl" src={blog?.imageUrl} alt={blog?.imageUrl} />
+                                            </div>
                                         </div>
                                         <div className="paragraph-content mt-8 border-[1px] border-[#ccc] p-5 rounded-lg ">
                                             <h1 className="heading5 mt-2 mb-2">{blog?.name}</h1>

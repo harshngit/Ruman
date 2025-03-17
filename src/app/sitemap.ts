@@ -1,5 +1,6 @@
+import { MetadataRoute } from "next";
 
-export default async function sitemap() {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	return [
 		{
 			url: 'https://rumanaccounting.com/',

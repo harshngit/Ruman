@@ -8,15 +8,19 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services",
+  title: "Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  robots: {
+    index: false,
+    follow: true,
+  },
   verification: {
     google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
   },
   openGraph: {
     type: "website",
-    title: 'Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services',
+    title: 'Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals',
     description: 'Trust Ruman Accounting for expert family accounting and financial intelligence solutions.',
     url: 'https://rumanaccounting.com/',
     siteName: 'Ruman Accounting Services',
@@ -48,7 +52,6 @@ export const metadata: Metadata = {
     },
   },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
