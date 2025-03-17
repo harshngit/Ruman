@@ -5,8 +5,9 @@ import LayoutGrid from "@/components/Blog/LayoutGrid"
 import Footer from "@/components/Footer/Footer"
 import { Suspense } from "react"
 import Head from "next/head"
+import { Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Expert Insights: Accounting Tips, Trends & Solutions - Ruman Accounting Blog",
     description: "Discover expert accounting tips, financial trends, and solutions on the Ruman Accounting Blog. Simplify your finances and grow smarter today!",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

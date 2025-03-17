@@ -11,8 +11,9 @@ import HomeBanner from "@/components/Home/HomeBanner";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import PaymentGatewayOneSecond from "@/components/Section/PaymentGateway/PaymentGatewayOneSecond";
 import Head from "next/head";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Ruman Accounting Services | Expert Financial Solutions for Businesses & Individuals",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

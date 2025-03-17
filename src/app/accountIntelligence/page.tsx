@@ -7,8 +7,9 @@ import { FaPhone } from 'react-icons/fa'
 import KeyMetrics from '@/components/ACCInt/KeyMetrics'
 import Benifits from '@/components/ACCInt/Benifits'
 import Head from 'next/head'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Account Intelligence | Ruman Accounting Service – Smart Financial & Business Insights",
 	description: "Explore Ruman Accounting Intelligence's smart financial solutions, offering expert insights into financial planning and business accounting.",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

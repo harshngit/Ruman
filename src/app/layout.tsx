@@ -7,7 +7,7 @@ import Script from "next/script";
 
 
 const inter = Inter({ subsets: ["latin"] });
-export const metadata = {
+export const metadata: Metadata = {
   title: "Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

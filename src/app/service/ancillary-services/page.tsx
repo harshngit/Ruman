@@ -7,8 +7,9 @@ import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import Head from "next/head"
+import { Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Comprehensive Ancillary Services for Your Financial Needs | Ruman Accounting Services",
     description: "Streamline your business with Ruman Accounting’s ancillary services. From bookkeeping to compliance, we simplify operations for seamless growth.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

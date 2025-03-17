@@ -9,7 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import ContactForm from "@/components/Section/Contact/ContactForm";
 import { GoogleAnalytics } from "@next/third-parties/google"
 import Head from "next/head";
-export const metadata = {
+import { Metadata } from "next";
+export const metadata: Metadata = {
   title: "Contact Ruman Accounting Service | Your Partner in Financial Excellence",
   description: "Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

@@ -10,8 +10,9 @@ import AboutFive from "@/components/Section/About/AboutFive"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 import Head from "next/head"
+import { Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "About Ruman Accounting Service | Your Trusted Financial Partner",
   description: "Discover Ruman Accounting Service – your trusted partner for expert financial solutions. With a commitment to excellence, we help businesses and individuals achieve their financial goals.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],

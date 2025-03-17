@@ -8,8 +8,9 @@ import ServiceOne from "@/components/Section/Service/ServiceOne"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 import Head from "next/head"
+import { Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Core Accounting Services for Business Success | Ruman Accounting",
     description: "Discover Ruman Accounting’s core services designed to streamline your finances. From bookkeeping to tax planning, we provide expert solutions to help your business thrive.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
