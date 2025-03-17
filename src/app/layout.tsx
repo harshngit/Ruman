@@ -11,6 +11,9 @@ export const metadata = {
   title: "Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services",
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  verification: {
+    google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+  },
   openGraph: {
     type: "website",
     title: 'Professional Accounting Services | Trusted CA Firm - Ruman Accounting Services',
@@ -54,6 +57,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="follow, index" />
+        <meta name="googlebot" content="follow, index" />
+
         <GoogleTagManager gtmId="G-CZ1CKKJML1" />
 
         <link rel="icon" href="images/rumanfavicon (1).png" type="image/png" />

@@ -9,11 +9,15 @@ import CaseStudyThree from "@/components/Section/CaseStudy/CaseStudyThree"
 import AboutFive from "@/components/Section/About/AboutFive"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
+import Head from "next/head"
 
 export const metadata = {
   title: "About Ruman Accounting Service | Your Trusted Financial Partner",
   description: "Discover Ruman Accounting Service – your trusted partner for expert financial solutions. With a commitment to excellence, we help businesses and individuals achieve their financial goals.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  verification: {
+    google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+  },
   openGraph: {
     type: "website",
     title: 'About Ruman Accounting Service | Your Trusted Financial Partner',
@@ -53,6 +57,10 @@ export default function AboutStyleOne() {
   return (
     <>
       <div className="overflow-x-hidden relative">
+        <Head>
+          <meta name="robots" content="follow, index" />
+          <meta name="googlebot" content="follow, index" />
+        </Head>
         <header id="header">
           <Link href="/contact">
             <div className="relative">

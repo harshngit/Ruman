@@ -8,10 +8,14 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ContactForm from "@/components/Section/Contact/ContactForm";
 import { GoogleAnalytics } from "@next/third-parties/google"
+import Head from "next/head";
 export const metadata = {
   title: "Contact Ruman Accounting Service | Your Partner in Financial Excellence",
   description: "Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+  verification: {
+    google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+  },
   openGraph: {
     type: "website",
     title: 'Contact Ruman Accounting Service | Your Partner in Financial Excellence',
@@ -45,6 +49,10 @@ export default function ContactStyleOne() {
       <ToastContainer />
       <GoogleAnalytics gaId="G-CZ1CKKJML1" />
       <div className="overflow-x-hidden">
+        <Head>
+          <meta name="robots" content="follow, index" />
+          <meta name="googlebot" content="follow, index" />
+        </Head>
         <header id="header">
 
           <MenuOne />

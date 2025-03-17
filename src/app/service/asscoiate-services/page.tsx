@@ -6,11 +6,15 @@ import ServiceTwo from "@/components/Section/Service/ServiceTwo"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
 import { GoogleAnalytics } from "@next/third-parties/google"
+import Head from "next/head"
 
 export const metadata = {
 	title: "Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service",
 	description: "Unlock your business potential with Ruman Accounting’s associate services. From financial consulting to compliance support, we provide tailored solutions to drive efficiency and growth..",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+	verification: {
+		google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+	},
 	openGraph: {
 		type: "website",
 		title: 'Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service',
@@ -39,6 +43,10 @@ export default function ServiceStyleThree() {
 		<>
 			<GoogleAnalytics gaId="G-CZ1CKKJML1" />
 			<div className="overflow-x-hidden">
+				<Head>
+					<meta name="robots" content="follow, index" />
+					<meta name="googlebot" content="follow, index" />
+				</Head>
 				<header id="header">
 					<Link href="/contact">
 						<div className="relative">

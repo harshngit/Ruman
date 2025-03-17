@@ -6,11 +6,15 @@ import React from 'react'
 import { FaPhone } from 'react-icons/fa'
 import KeyMetrics from '@/components/ACCInt/KeyMetrics'
 import Benifits from '@/components/ACCInt/Benifits'
+import Head from 'next/head'
 
 export const metadata = {
 	title: "Account Intelligence | Ruman Accounting Service – Smart Financial & Business Insights",
 	description: "Explore Ruman Accounting Intelligence's smart financial solutions, offering expert insights into financial planning and business accounting.",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+	verification: {
+		google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+	},
 	openGraph: {
 		type: "website",
 		title: 'Account Intelligence | Ruman Accounting – Smart Financial & Business Insights',
@@ -38,6 +42,10 @@ export default function AccountInt() {
 	return (
 		<>
 			<div className=" relative">
+				<Head>
+					<meta name="robots" content="follow, index" />
+					<meta name="googlebot" content="follow, index" />
+				</Head>
 				<Link href="/contact">
 					<div className="relative">
 						<div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">

@@ -7,11 +7,15 @@ import Image from "next/image"
 import ServiceOne from "@/components/Section/Service/ServiceOne"
 import Link from "next/link"
 import { FaPhone } from "react-icons/fa"
+import Head from "next/head"
 
 export const metadata = {
     title: "Core Accounting Services for Business Success | Ruman Accounting",
     description: "Discover Ruman Accounting’s core services designed to streamline your finances. From bookkeeping to tax planning, we provide expert solutions to help your business thrive.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
+    verification: {
+        google: 'BBRC6y8h6TTilDoQ199YKgjB9K9l9r2Mx2prPHFtwMk',
+    },
     openGraph: {
         type: "website",
         title: 'Core Accounting Services for Business Success | Ruman Accounting',
@@ -39,6 +43,10 @@ export default function ServiceStyleOne() {
     return (
         <>
             <div className="overflow-x-hidden relative">
+                <Head>
+                    <meta name="robots" content="follow, index" />
+                    <meta name="googlebot" content="follow, index" />
+                </Head>
                 <Link href="/contact">
                     <div className="relative">
                         <div className="w-[60px] h-[60px] rounded-full fixed bottom-5 right-5  text-center flex justify-center items-center cursor-pointer bg-blue hover:bg-black text-white z-50 ">
