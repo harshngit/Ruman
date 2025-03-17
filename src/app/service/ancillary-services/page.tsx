@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Streamline your business with Ruman Accounting’s ancillary services. From bookkeeping to compliance, we simplify operations for seamless growth.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
     robots: {
-        index: false,
+        index: true,
         follow: true,
     },
     verification: {

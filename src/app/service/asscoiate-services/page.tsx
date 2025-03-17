@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	description: "Unlock your business potential with Ruman Accounting’s associate services. From financial consulting to compliance support, we provide tailored solutions to drive efficiency and growth..",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
 	robots: {
-		index: false,
+		index: true,
 		follow: true,
 	},
 	verification: {

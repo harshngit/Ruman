@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   verification: {

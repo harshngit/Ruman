@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "Trust Ruman Accounting for expert family accounting and financial intelligence solutions.",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   verification: {
@@ -60,8 +60,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="robots" content="follow, index" />
-        <meta name="googlebot" content="follow, index" />
 
         <GoogleTagManager gtmId="G-CZ1CKKJML1" />
 
