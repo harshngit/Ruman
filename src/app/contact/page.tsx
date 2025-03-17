@@ -12,9 +12,6 @@ export const metadata = {
   title: "Contact Ruman Accounting Service | Your Partner in Financial Excellence",
   description: "Connect with Ruman Accounting for expert financial guidance and tailored solutions. Let’s work together to achieve your business goals. Reach out today!",
   keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-  // verification: {
-  //   google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-  // },
   openGraph: {
     type: "website",
     title: 'Contact Ruman Accounting Service | Your Partner in Financial Excellence',

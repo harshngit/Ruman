@@ -12,9 +12,6 @@ export const metadata = {
     title: "Core Accounting Services for Business Success | Ruman Accounting",
     description: "Discover Ruman Accounting’s core services designed to streamline your finances. From bookkeeping to tax planning, we provide expert solutions to help your business thrive.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-    // verification: {
-    //     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-    // },
     openGraph: {
         type: "website",
         title: 'Core Accounting Services for Business Success | Ruman Accounting',

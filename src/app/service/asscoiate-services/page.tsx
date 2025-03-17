@@ -11,9 +11,6 @@ export const metadata = {
 	title: "Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service",
 	description: "Unlock your business potential with Ruman Accounting’s associate services. From financial consulting to compliance support, we provide tailored solutions to drive efficiency and growth..",
 	keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-	// verification: {
-	// 	google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-	// },
 	openGraph: {
 		type: "website",
 		title: 'Expert Associate Services for Smarter Business Solutions - Ruman Accounting Service',

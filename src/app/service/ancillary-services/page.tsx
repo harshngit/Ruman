@@ -11,9 +11,6 @@ export const metadata = {
     title: "Comprehensive Ancillary Services for Your Financial Needs | Ruman Accounting Services",
     description: "Streamline your business with Ruman Accounting’s ancillary services. From bookkeeping to compliance, we simplify operations for seamless growth.",
     keywords: ['Ruman Accounting Services', 'Ruman Accounting Intelligence', 'Family Accounting', 'Accounting Intelligence', 'Accouting Services', 'Accounting', 'Accounting in Mumbai', ' Accounting in Pune', "Accounting in Thane", 'Accounting for startups'],
-    // verification: {
-    //     google: 'GgyyKHIryfr_5yxyEl0so5VwdH3xU0rPUZwKv310XNQ',
-    // },
     openGraph: {
         type: "website",
         title: 'Comprehensive Ancillary Services for Your Financial Needs | Ruman Accounting Services',
