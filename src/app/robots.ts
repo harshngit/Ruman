@@ -10,5 +10,5 @@ export default function robots(): MetadataRoute.Robots {
 			}
 		],
 		sitemap: "https://rumanaccounting.com/sitemap.xml"
-	}
+	};
 }
